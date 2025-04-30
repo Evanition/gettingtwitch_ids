@@ -2,7 +2,7 @@
 // !IMPORTANT: Replace with the ACTUAL RAW URL to your CSV file on GitHub
 const GITHUB_CSV_URL = 'https://raw.githubusercontent.com/Evanition/gettingtwitch_ids/refs/heads/main/mcsr_user_data.csv';
 const UPDATE_ALARM_NAME = 'csvUpdateAlarm';
-const UPDATE_PERIOD_MINUTES = 0.2;
+const UPDATE_PERIOD_MINUTES = 5;
 const STORAGE_KEY = 'mcsrUserDataMap'; // Key for chrome.storage.local
 
 // --- State ---
