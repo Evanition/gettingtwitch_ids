@@ -1,13 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "MCSR Elo Viewer (CSV Data)", 
-  "version": "1.1", 
-  "description": "Displays MCSR Ranked Elo from a local CSV next to usernames in Twitch chat.",
+  "name": "MCSR Elo Viewer (Auto Update)",
+  "version": "2.0", 
+  "description": "Displays MCSR Ranked Elo in Twitch chat, auto-updated from GitHub.",
   "permissions": [
-    "scripting"     
+    "alarms",         
+    "storage",        
+    "scripting"
   ],
   "host_permissions": [
-    "*://*.twitch.tv/*"   
+    "*://*.twitch.tv/*",
+    "https://raw.githubusercontent.com/*"
   ],
   "background": {
     "service_worker": "background.js",
@@ -18,12 +21,6 @@
       "matches": ["*://*.twitch.tv/*"],
       "js": ["content.js"],
       "run_at": "document_idle"
-    }
-  ],
-  "web_accessible_resources": [
-    {
-      "resources": ["mcsr_user_data.csv"], 
-      "matches": ["<all_urls>"]
     }
   ],
   "action": {
