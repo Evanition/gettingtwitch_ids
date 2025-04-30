@@ -27,7 +27,10 @@ all_user_data = []
 user_data_map = {}
 original_headers = []
 update_count_match = 0
+update_count_twitch = 0
 # ... other counters/variables ...
+skipped_recent_count = 0
+processed_match_players = 0
 uuids_to_fetch_full_profile = set()
 file_operation_successful = True
 
