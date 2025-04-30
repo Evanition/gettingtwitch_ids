@@ -28,7 +28,7 @@ jobs:
           pip install requests # Only requests is needed by the script
 
       - name: Run the update script
-        run: python mcsr_updater.py # Replace with your actual script name
+        run: python mongey2.py # Replace with your actual script name
 
       - name: Commit and push changes # Only commit if CSV file actually changed
         run: |
