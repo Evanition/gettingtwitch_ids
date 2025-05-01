@@ -2,10 +2,10 @@ name: Update MCSR Ranked Data
 
 on:
   schedule:
-    # Runs every hour at the 5-minute mark (adjust as needed)
-    # See https://crontab.guru/ for help with cron syntax
-    - cron: '*/16 * * * *'
-  workflow_dispatch: # Allows manual triggering from GitHub Actions tab
+    # Ensure this line is indented correctly under schedule:
+    - cron: '*/5 * * * *' # Check quotes, syntax, no typos
+  workflow_dispatch: # This trigger is clearly working
+    # ... any inputs ...
 
 jobs:
   update-data:
