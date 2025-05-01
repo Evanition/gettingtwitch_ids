@@ -2,10 +2,8 @@ name: Update MCSR Ranked Data
 
 on:
   schedule:
-    # Ensure this line is indented correctly under schedule:
-    - cron: '15 * * * *' # Check quotes, syntax, no typos
-  workflow_dispatch: # This trigger is clearly working
-    # ... any inputs ...
+    - cron: '15 * * * *'
+  workflow_dispatch: 
 
 jobs:
   update-data:
