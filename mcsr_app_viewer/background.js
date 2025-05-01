@@ -4,7 +4,7 @@
 const GITHUB_CSV_URL = 'https://raw.githubusercontent.com/Evanition/gettingtwitch_ids/refs/heads/main/mcsr_user_data.csv'; // <-- MUST REPLACE
 
 const UPDATE_ALARM_NAME = 'mcsrCsvUpdateAlarm';
-const UPDATE_PERIOD_MINUTES = 30; // Check GitHub every 30 minutes (adjust as needed)
+const UPDATE_PERIOD_MINUTES = 60; // Check GitHub every 30 minutes (adjust as needed)
 const STORAGE_KEY = 'mcsrUserDataMap'; // Key for chrome.storage.local
 
 // --- State ---

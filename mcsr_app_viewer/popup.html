@@ -2,17 +2,17 @@
 <html>
 <head>
   <title>MCSR Elo Viewer</title>
-  <style>
-    body { width: 180px; font-family: sans-serif; padding: 10px; font-size: 14px; }
-    button { margin-top: 10px; padding: 5px 10px; cursor: pointer; }
-    #status { font-style: italic; font-size: 12px; margin-top: 5px; }
-  </style>
+  <link rel="stylesheet" href="popup.css"> <!-- Link the CSS file -->
 </head>
 <body>
   <h4>MCSR Elo Viewer</h4>
-  <p>Data updates periodically from GitHub.</p>
-  <button id="refreshButton">Refresh Data Now</button>
+  <!-- More user-friendly description -->
+  <p>Shows MCSR Elo ranks right next to usernames in Twitch chat.</p>
+  <p>Data is updated automatically every hour.</p>
+
+  <button id="refreshButton">Check for Updates Now</button>
   <div id="status"></div>
+
   <script src="popup.js"></script>
 </body>
 </html>
