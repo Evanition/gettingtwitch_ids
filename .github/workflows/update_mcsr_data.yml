@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs every hour at the 5-minute mark (adjust as needed)
     # See https://crontab.guru/ for help with cron syntax
-    - cron: '5 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch: # Allows manual triggering from GitHub Actions tab
 
 jobs:
