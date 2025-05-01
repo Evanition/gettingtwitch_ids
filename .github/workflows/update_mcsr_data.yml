@@ -1,75 +1,47 @@
-# A descriptive name for your workflow, shown in the GitHub Actions tab
 name: Update MCSR Ranked Data
 
-# Controls when the workflow runs
 on:
   schedule:
-    # Runs automatically based on a cron schedule.
-    # This example runs every hour at the 15-minute mark (e.g., 1:15, 2:15).
-    # Adjust the cron schedule as needed. '*/5 * * * *' for every 5 mins is possible
-    # but less reliable than less frequent schedules like hourly or every 15/30 mins.
-    # See https://crontab.guru/ for help.
-    - cron: '15 * * * *'
+    # Ensure this line is indented correctly under schedule:
+    - cron: '15 * * * *' # Check quotes, syntax, no typos
+  workflow_dispatch: # This trigger is clearly working
+    # ... any inputs ...
 
-  # Allows you to manually trigger the workflow from the Actions tab in GitHub.
-  workflow_dispatch:
-
-# Defines the jobs to be executed
 jobs:
-  # You can name the job anything (e.g., build, update, process)
   update-data:
-    # Specifies the type of virtual machine to run the job on
-    runs-on: ubuntu-latest
-
-    # IMPORTANT: Grants permissions for the job to write back to your repository
+    runs-on: ubuntu-latest # Use a standard Linux runner
     permissions:
-      contents: write
+      contents: write # Allow the job to push changes back to the repo
 
-    # Contains the sequence of tasks (steps) to perform
     steps:
-      # Step 1: Check out your repository code so the workflow can access it
-      - name: Checkout repository
-        uses: actions/checkout@v4 # Uses a pre-built action
+      - name: Checkout repository # Get the code and current CSV
+        uses: actions/checkout@v4
 
-      # Step 2: Set up the Python environment
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10' # Specify your desired Python version
+          python-version: '3.10' # Or your desired Python version
 
-      # Step 3: Install necessary Python packages
-      # Add any other packages your specific script needs (e.g., pandas if you used it)
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests # Install the 'requests' library needed by the script
+          pip install requests # Only requests is needed by the script
 
-      # Step 4: Execute your Python update script
-      # !!! REPLACE 'update_elo_inplace.py' with the ACTUAL filename of YOUR script !!!
       - name: Run the update script
-        run: python update_elo_inplace.py
+        run: python mcsr_updater.py # Replace with your actual script name
 
-      # Step 5: Commit and push the changes back to the repository IF the CSV changed
-      # !!! REPLACE 'mcsr_user_data.csv' with the ACTUAL filename of YOUR CSV file !!!
-      - name: Commit and push changes
+      - name: Commit and push changes # Only commit if CSV file actually changed
         run: |
-          # Configure git user for the commit
-          git config --global user.name 'github-actions[bot]'
+          git config --global user.name 'github-actions[bot]' # Commit as the actions bot
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
-          # Stage the specific CSV file that might have been updated
-          git add mcsr_user_data.csv
-
-          # Check if there are changes staged specifically for the CSV file
-          # If 'git diff' finds differences, it exits with 0. If no differences, it exits with 1.
-          # The '!' inverts this, so the 'if' block runs if there ARE changes.
+          # Check if the specific CSV file has changes staged
+          # Use 'git diff --quiet -- path/to/your.csv' if you haven't added it yet
+          git add mcsr_user_data.csv # Stage the potentially updated CSV (replace with actual name)
+          # Check if there are staged changes specifically for the CSV
           if ! git diff --staged --quiet mcsr_user_data.csv; then
-            # Commit the changes with a timestamp
             git commit -m "Automated MCSR data update ($(date +'%Y-%m-%d %H:%M:%S'))"
-            # Push the changes back to the default branch (usually 'main' or 'master')
             git push
-            echo "Changes detected in mcsr_user_data.csv and pushed."
+            echo "Changes detected and pushed."
           else
-            # If no changes were detected in the CSV
             echo "No changes detected in mcsr_user_data.csv."
           fi
