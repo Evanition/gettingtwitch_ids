@@ -134,14 +134,27 @@ function processNewChatMessages(mutations) {
         });
     });
 }
-
 // --- Observer Setup ---
 function initializeObserver() {
+    // --- ADD THIS CHECK ---
+    // Check if the extension context is still valid before doing anything
+    // chrome.runtime?.id checks if chrome.runtime exists and then accesses id
+    if (!chrome.runtime?.id) {
+        console.log("MCSR Elo Viewer: Context invalidated, skipping observer initialization.");
+        return; // Exit early, context is gone
+    }
+    // --- END ADDED CHECK ---
+
+
     console.log("MCSR Elo Viewer: Attempting to initialize observer...");
     // Disconnect previous observer if it exists
     if (chatObserver) {
         console.log("MCSR Elo Viewer: Disconnecting previous chat observer.");
-        chatObserver.disconnect();
+        try { // Add try...catch around disconnect as it might also fail in invalid context
+           chatObserver.disconnect();
+        } catch (e) {
+           console.warn("MCSR Elo Viewer: Error disconnecting old observer:", e.message);
+        }
         chatObserver = null;
     }
     // Clear the reference to the old container
@@ -153,11 +166,13 @@ function initializeObserver() {
     if (chatContainer) {
         console.log("MCSR Elo Viewer: Chat container found, starting new observer.");
         // Create and start the observer for chat messages
-        chatObserver = new MutationObserver(processNewChatMessages);
-        chatObserver.observe(chatContainer, { childList: true, subtree: true });
-
-        // Optional: Process existing messages on initial connection
-         // processExistingMessages(chatContainer);
+        try { // Also wrap observer creation in try...catch for safety
+            chatObserver = new MutationObserver(processNewChatMessages);
+            chatObserver.observe(chatContainer, { childList: true, subtree: true });
+        } catch (e) {
+             console.error("MCSR Elo Viewer: Error creating or starting observer:", e);
+             chatContainer = null; // Reset container if observing failed
+        }
 
     } else {
         // If chat container not found, retry after a delay
@@ -168,61 +183,59 @@ function initializeObserver() {
 }
 
 // --- Initial Kick-off ---
-// We need a way to detect SPA navigation. A simple but potentially less robust way
-// is to observe the document body for major changes that might indicate the chat
-// container was replaced. A more robust way involves listening for URL changes.
-// Let's start with observing the body for *removal* of the chat container,
-// or adding nodes that *match* the chat container selector.
-
+// The bodyObserver setup remains the same...
 const bodyObserver = new MutationObserver((mutations) => {
-    let chatMayHaveChanged = false;
-    for (const mutation of mutations) {
-        // Check if the specific chat container element we were watching was removed
+    // ...(previous bodyObserver logic remains the same)...
+     let chatMayHaveChanged = false;
+     for (const mutation of mutations) {
          if (chatContainer && mutation.removedNodes) {
-            for (const removedNode of mutation.removedNodes) {
-                // Check if the removed node *is* or *contains* our chatContainer
-                if (removedNode === chatContainer || (removedNode.contains && removedNode.contains(chatContainer))) {
-                     console.log("MCSR Elo Viewer: Detected removal of observed chat container.");
-                     chatMayHaveChanged = true;
-                     break; // No need to check other mutations
-                }
-            }
-         }
-         if (chatMayHaveChanged) break;
-
-         // Check if a *new* chat container was added
-         if (mutation.addedNodes) {
-              for (const addedNode of mutation.addedNodes) {
-                  if (addedNode.nodeType === Node.ELEMENT_NODE) {
-                       if (addedNode.matches && addedNode.matches(chatContainerSelector)) {
-                            console.log("MCSR Elo Viewer: Detected addition of a new chat container element.");
-                            chatMayHaveChanged = true;
-                            break;
-                       }
-                       // Also check if the added node *contains* the chat container
-                       if (addedNode.querySelector && addedNode.querySelector(chatContainerSelector)) {
-                            console.log("MCSR Elo Viewer: Detected addition of node containing a chat container.");
-                            chatMayHaveChanged = true;
-                            break;
-                       }
-                  }
-              }
-         }
+             for (const removedNode of mutation.removedNodes) {
+                 if (removedNode === chatContainer || (removedNode.contains && removedNode.contains(chatContainer))) {
+                      console.log("MCSR Elo Viewer: Detected removal of observed chat container.");
+                      chatMayHaveChanged = true;
+                      break;
+                 }
+             }
+          }
           if (chatMayHaveChanged) break;
-    }
-
-    // If we detected a potential change, try re-initializing the chat observer
-    if (chatMayHaveChanged) {
-         console.log("MCSR Elo Viewer: Re-initializing chat observer due to potential container change.");
-         clearTimeout(observerReconnectTimer); // Debounce
-         observerReconnectTimer = setTimeout(initializeObserver, 500); // Wait 0.5s for DOM to settle
-    }
+          if (mutation.addedNodes) {
+               for (const addedNode of mutation.addedNodes) {
+                   if (addedNode.nodeType === Node.ELEMENT_NODE) {
+                        if (addedNode.matches && addedNode.matches(chatContainerSelector)) {
+                             console.log("MCSR Elo Viewer: Detected addition of a new chat container element.");
+                             chatMayHaveChanged = true;
+                             break;
+                        }
+                        if (addedNode.querySelector && addedNode.querySelector(chatContainerSelector)) {
+                             console.log("MCSR Elo Viewer: Detected addition of node containing a chat container.");
+                             chatMayHaveChanged = true;
+                             break;
+                        }
+                   }
+               }
+          }
+           if (chatMayHaveChanged) break;
+     }
+     if (chatMayHaveChanged) {
+          console.log("MCSR Elo Viewer: Re-initializing chat observer due to potential container change.");
+          clearTimeout(observerReconnectTimer);
+          observerReconnectTimer = setTimeout(initializeObserver, 500);
+     }
 });
-
-// Start observing the body for major structure changes
-// Observe attributes as well, sometimes class changes indicate redraws
-bodyObserver.observe(document.body, { childList: true, subtree: true });
+// Ensure body exists before observing
+if (document.body) {
+    bodyObserver.observe(document.body, { childList: true, subtree: true });
+} else {
+    // If body isn't ready yet (less common with document_idle), wait
+    window.addEventListener('DOMContentLoaded', () => {
+         if (document.body) { // Double check body exists after DOMContentLoaded
+              bodyObserver.observe(document.body, { childList: true, subtree: true });
+         }
+    });
+}
 
 
 // Initial attempt to set up the observer when the script first loads
 initializeObserver();
+
+// (Keep the rest of your content.js functions like getRankInfo, addEloDisplay, processNewChatMessages)
