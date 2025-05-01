@@ -1,9 +1,10 @@
-console.log("MCSR Elo Viewer (Elo Only): Content script loaded.");
+console.log("MCSR Elo Viewer (Hide N/A): Content script loaded.");
 
 // --- Configuration ---
-const ELO_DISPLAY_STYLE = 'badge'; // Keep as badge for visual display
+const ELO_DISPLAY_STYLE = 'badge'; // Needs to be badge style
 
 // --- Rank Color Logic ---
+// (Keep the getRankInfo function exactly as it was in the previous version)
 /**
  * Determines rank information based on Elo.
  * @param {number|null} elo The player's Elo rating.
@@ -14,10 +15,10 @@ function getRankInfo(elo) {
     const defaultRank = { rank: 'Unrated', division: null, bgColor: '#AAAAAA', textColor: '#000000' };
 
     if (elo === null || typeof elo !== 'number') {
+        // Although we won't display for null, keep this for potential future use/debugging
         return defaultRank;
     }
-
-    // Determine Rank and Division based on the image provided
+    // (Rank calculation logic remains the same...)
     if (elo >= 2000) {
         return { rank: 'Netherite', division: null, bgColor: '#602A2A', textColor: '#FFFFFF' };
     } else if (elo >= 1800) {
@@ -56,18 +57,31 @@ function getRankInfo(elo) {
 
 // --- DOM Interaction ---
 function addEloDisplay(usernameElement, eloData) {
+    const elo = eloData.elo;
+
+    // --- NEW: Check if elo is null ---
+    if (elo === null) {
+        // Don't add a badge or mark as processed if Elo is null (N/A)
+        // console.log(`MCSR Elo Viewer: Skipping badge for ${usernameElement.textContent} (Elo is null).`);
+        return; // Exit the function early
+    }
+    // --- End New Check ---
+
+    // Proceed only if elo is not null and element not already processed
     if (!usernameElement || usernameElement.classList.contains('mcsr-elo-processed')) {
         return;
     }
+    // Add processed class ONLY when we are actually adding the badge
     usernameElement.classList.add('mcsr-elo-processed');
 
-    const elo = eloData.elo;
-    const nickname = eloData.nickname; // Still need nickname for the link title/functionality
+    const nickname = eloData.nickname;
+    // We already know elo is not null here, so getRankInfo will return a valid rank
     const { rank, division, bgColor, textColor } = getRankInfo(elo);
 
-    let displayElo = elo !== null ? elo : 'N/A'; // Show N/A if Elo is null
+    // Elo is guaranteed to be a number here
+    let displayElo = elo;
 
-    // Prevent adding multiple badges
+    // Prevent adding multiple badges (safety check)
     if (usernameElement.querySelector('.mcsr-elo-badge')) {
         return;
     }
@@ -88,15 +102,12 @@ function addEloDisplay(usernameElement, eloData) {
     badge.style.backgroundColor = bgColor;
     badge.style.color = textColor;
 
-    // --- CHANGED: Only display Elo ---
-    let badgeText = `${displayElo}`;
-    badge.textContent = badgeText;
-    // --- End Change ---
+    // Display only Elo number
+    badge.textContent = `${displayElo}`;
 
-    // Add click functionality IF nickname exists (link still uses nickname)
+    // Add click functionality IF nickname exists
     if (nickname) {
         badge.style.cursor = 'pointer';
-        // --- CHANGED: Updated tooltip, removed explicit nickname mention ---
         badge.title = `Rank: ${rank}${division ? ' ' + ['?','I','II','III'][division] : ''} | Click to view ${nickname}'s Stats`;
 
         badge.addEventListener('click', (event) => {
@@ -107,28 +118,23 @@ function addEloDisplay(usernameElement, eloData) {
         });
 
          // Optional hover effect
-         badge.addEventListener('mouseenter', () => {
-             badge.style.filter = 'brightness(1.2)';
-         });
-         badge.addEventListener('mouseleave', () => {
-             badge.style.filter = 'brightness(1)';
-         });
-
+         badge.addEventListener('mouseenter', () => { badge.style.filter = 'brightness(1.2)'; });
+         badge.addEventListener('mouseleave', () => { badge.style.filter = 'brightness(1)'; });
     } else {
-         // Tooltip when not clickable (nickname missing from data)
-         // --- CHANGED: Updated tooltip ---
+         // Tooltip when not clickable
          badge.title = `Rank: ${rank}${division ? ' ' + ['?','I','II','III'][division] : ''} | Elo: ${displayElo}`;
     }
 
     // Insert badge
-     if(usernameElement.parentNode) {
-         usernameElement.parentNode.insertBefore(badge, usernameElement.nextSibling);
-     } else {
-         console.warn("MCSR Elo Viewer: Could not find parent node to insert badge for", usernameElement);
-     }
+    if (usernameElement.parentNode) {
+        usernameElement.parentNode.insertBefore(badge, usernameElement.nextSibling);
+    } else {
+        console.warn("MCSR Elo Viewer: Could not find parent node to insert badge for", usernameElement);
+    }
 }
 
-// --- Message Handling & Username Detection (Keep the same) ---
+// --- Message Handling & Username Detection ---
+// Use the version from the previous example which handles the 'processing' flag correctly
 function processNewChatMessages(mutations) {
     mutations.forEach(mutation => {
         mutation.addedNodes.forEach(node => {
@@ -139,28 +145,39 @@ function processNewChatMessages(mutations) {
 
             potentialMessageNodes.forEach(messageNode => {
                  if (messageNode.nodeType !== Node.ELEMENT_NODE) return;
-                 const usernameElements = messageNode.querySelectorAll('[data-test-selector="chat-line-username"], .chat-author__display-name');
+                 const usernameElements = messageNode.querySelectorAll('[data-test-selector="chat-line-username"], .chat-author__display-name'); // Adjust selector if needed
 
                  usernameElements.forEach(usernameElement => {
+                     // Check it's not already processed or currently being processed
                      if (usernameElement && !usernameElement.classList.contains('mcsr-elo-processed') && !usernameElement.classList.contains('mcsr-elo-processing')) {
                         const username = usernameElement.textContent?.trim();
                         if (username) {
-                             usernameElement.classList.add('mcsr-elo-processing');
+                             usernameElement.classList.add('mcsr-elo-processing'); // Mark as attempting to process
                              chrome.runtime.sendMessage({ action: "getElo", username: username }, (response) => {
                                  const targetElement = usernameElement;
+                                 let processedSuccessfully = false; // Track if badge was actually added
+
                                  if (chrome.runtime.lastError) {
-                                     console.error("MCSR Elo Viewer (Elo Only):", chrome.runtime.lastError.message);
-                                      targetElement.classList.remove('mcsr-elo-processing');
-                                     return;
-                                 }
-                                 if (response && response.status !== 'not_found_in_map' && response.status !== 'data_not_loaded' && response.status !== 'invalid_username') {
+                                     console.error("MCSR Elo Viewer (Hide N/A):", chrome.runtime.lastError.message);
+                                     // Keep processedSuccessfully false
+                                 } else if (response && response.status !== 'not_found_in_local_data' && response.status !== 'data_not_loaded' && response.status !== 'invalid_username') {
+                                     // addEloDisplay will now return early if elo is null
                                      addEloDisplay(targetElement, response);
+                                     // Check if the 'processed' class was added (meaning elo was NOT null)
+                                     if (targetElement.classList.contains('mcsr-elo-processed')) {
+                                         processedSuccessfully = true;
+                                     }
                                  } else {
-                                     targetElement.classList.remove('mcsr-elo-processing');
+                                     // Not found in data or other issue
+                                     // Keep processedSuccessfully false
                                  }
-                                 if (!targetElement.classList.contains('mcsr-elo-processed')) {
+
+                                 // Clean up: Remove the temporary processing flag ONLY if the element wasn't fully processed and badge added
+                                 if (!processedSuccessfully) {
                                       targetElement.classList.remove('mcsr-elo-processing');
                                  }
+                                 // If processedSuccessfully is true, the 'mcsr-elo-processed' class remains,
+                                 // and the 'mcsr-elo-processing' flag effectively becomes irrelevant.
                              });
                         }
                      }
@@ -179,7 +196,7 @@ const observer = new MutationObserver(processNewChatMessages);
 function startObserver() {
     chatContainer = document.querySelector(chatContainerSelector);
     if (chatContainer) {
-        console.log("MCSR Elo Viewer (Elo Only): Chat container found, starting observer.");
+        console.log("MCSR Elo Viewer (Hide N/A): Chat container found, starting observer.");
         observer.observe(chatContainer, { childList: true, subtree: true });
     } else {
         setTimeout(startObserver, 1500);

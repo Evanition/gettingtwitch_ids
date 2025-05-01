@@ -1,11 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "MCSR Elo Viewer (Auto Update)",
-  "version": "2.0",
-  "description": "Displays MCSR Ranked Elo in Twitch chat, auto-updated from GitHub.",
+  "name": "MCSR Elo Viewer (Local w/ Manual Update)",
+  "version": "2.1",
+  "description": "Displays MCSR Ranked Elo from local data, with manual updates from GitHub.",
   "permissions": [
-    "alarms",   
-    "storage",  
+    "storage",        
     "scripting"
   ],
   "host_permissions": [
