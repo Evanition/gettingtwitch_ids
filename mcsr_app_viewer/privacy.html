@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - MCSR Elo Viewer</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            line-height: 1.6;
+            margin: 0 auto; /* Center content */
+            max-width: 800px; /* Readable width */
+            padding: 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #5a3e8a; /* Theme color */
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h2 {
+            color: #444;
+            margin-top: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        p, li {
+            color: #555;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        strong {
+            font-weight: 600;
+            color: #333;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 0.9em;
+        }
+        a {
+            color: #5a3e8a; /* Theme color */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+        /* Basic responsive adjustments */
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+            h2 {
+                font-size: 1.4em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy - MCSR Elo Viewer</h1>
+
+    <p><strong>Last Updated:</strong> May 1, 2025</p> <!-- Update date if needed -->
+
+    <p>Thank you for using MCSR Elo Viewer (the "Extension"). This Privacy Policy describes how information is handled by the Extension. Your privacy is important to us, Evanition.</p>
+
+    <h2>1. Information Handled by the Extension</h2>
+
+    <p>The Extension handles the following types of information solely for the purpose of displaying MCSR Ranked data within Twitch chat:</p>
+    <ul>
+        <li>
+            <strong>Twitch Chat Usernames:</strong> The Extension's content script reads usernames directly from the public Twitch chat Document Object Model (DOM) as they appear on the webpage (<code>twitch.tv</code>). It does not read private messages or interact with any non-public chat data.
+        </li>
+        <li>
+            <strong>MCSR Player Data (Fetched Externally & Stored Locally):</strong> Upon explicit user request (clicking the "Check for Updates Now" button in the extension popup), the Extension fetches a publicly available CSV data file from a specific URL on <code>raw.githubusercontent.com</code> (<!-- IMPORTANT: Replace this link --> <a href="https://raw.githubusercontent.com/Evanition/gettingtwitch_ids/refs/heads/main/mcsr_user_data.csv" target="_blank" rel="noopener noreferrer">[Link to the RAW GitHub CSV File]</a>). This file contains data related to Minecraft Speedrun Ranked (MCSR) players, typically including:
+            <ul>
+                <li>UUID (User Universal Identifier)</li>
+                <li>MCSR Nickname</li>
+                <li>Twitch Username (if included in the source data)</li>
+                <li>Elo Rating</li>
+            </ul>
+            This fetched data is then parsed and stored locally within your browser's extension storage (<code>chrome.storage.local</code>). This data is <em>not</em> collected directly from you or your browsing activity, but from the external public data source.
+        </li>
+        <li>
+            <strong>No Personal Data Collected Directly:</strong> The Extension does not require you to provide any personal information (like name, email, address) to function. It does not collect authentication details, financial information, health information, location data, web history (other than accessing <code>twitch.tv</code> for its core function), or track your general user activity across websites.
+        </li>
+    </ul>
+
+    <h2>2. How Information is Used</h2>
+
+    <p>The information handled by the Extension is used exclusively for the following purposes:</p>
+    <ul>
+        <li>To identify Twitch usernames displayed in chat.</li>
+        <li>To look up these Twitch usernames in the locally stored MCSR Player Data map.</li>
+        <li>To display the corresponding MCSR Elo rating and a rank-based color badge next to the relevant username within the Twitch chat interface.</li>
+        <li>To provide a clickable link on the Elo badge that directs the user to the player's public statistics page on <code>mcsrranked.com</code> using the stored MCSR Nickname.</li>
+        <li>To fetch updated MCSR Player Data from the specified GitHub URL <em>only</em> when manually initiated by the user via the extension's popup.</li>
+    </ul>
+
+    <h2>3. Data Storage</h2>
+
+    <p>The processed MCSR Player Data fetched from GitHub is stored locally on your device using the <code>chrome.storage.local</code> API provided by the browser. This data is specific to your browser profile and is not transmitted elsewhere by the Extension. The stored data is overwritten when you manually trigger an update and new data is successfully fetched and parsed.</p>
+
+    <h2>4. Data Fetching</h2>
+
+    <p>The Extension only initiates an external network request to fetch data under the following condition:</p>
+    <ul>
+        <li>When the user clicks the "Check for Updates Now" button in the extension popup. This request is made to the specific, pre-defined URL on <code>raw.githubusercontent.com</code> (<!-- IMPORTANT: Replace this link --> <a href="https://raw.githubusercontent.com/Evanition/gettingtwitch_ids/refs/heads/main/mcsr_user_data.csv" target="_blank" rel="noopener noreferrer">Link to Raw Github csv</a>) to download the CSV data file.</li>
+    </ul>
+    <p>No other network requests are made to send or receive data related to user activity or personal information.</p>
+
+    <h2>5. Data Sharing</h2>
+
+    <p>The Extension <strong>does not sell, trade, rent, or share</strong> any handled information (Twitch usernames read from chat, or fetched/stored MCSR Player Data) with any third parties, except as strictly necessary for the core functionality described above (i.e., fetching the public data file <em>from</em> GitHub upon user request). The Extension does not use handled data for purposes unrelated to its single purpose of displaying MCSR data in Twitch chat, nor for determining creditworthiness or for lending purposes.</p>
+
+    <h2>6. Security</h2>
+
+    <p>We take reasonable precautions to protect the integrity of the locally stored data by relying on the security mechanisms provided by the Chrome browser and its extension storage system. However, no method of electronic storage is 100% secure.</p>
+
+    <h2>7. Changes to This Privacy Policy</h2>
+
+    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy at this location. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+
+    <h2>8. Contact Us</h2>
+
+    <p>If you have any questions about this Privacy Policy, please contact us:</p>
+    <ul>
+        <!-- IMPORTANT: Replace this link -->
+        <li>Via GitHub Issues: <a href="https://github.com/Evanition/gettingtwitch_ids/issues" target="_blank" rel="noopener noreferrer">https://github.com/Evanition/gettingtwitch_ids/issues</a></li>
+        <!-- Optional: Replace or remove email -->
+        <li>Or via Email: <a href="mailto:dewaynebarnes123@gmail.com">dewaynebarnes123@gmail.com</a></li>
+    </ul>
+
+    <div class="footer">
+        <p>MCSR Elo Viewer Extension</p>
+    </div>
+
+</body>
+</html>
