@@ -79,54 +79,82 @@ function addEloDisplay(usernameElement, eloData) {
      }
 }
 
-// --- Message Processing (Handles new chat messages) ---
+// --- Message Handling & Username Detection ---
 function processNewChatMessages(mutations) {
-    // Check if the container we are observing is still connected to the main document body
-    // If not, the stream likely changed, and we need to find the new container
+    // Check if the container we are observing is still connected
     if (!chatContainer || !chatContainer.isConnected) {
+        // ... (keep the reconnect logic from the previous version) ...
         console.log("MCSR Elo Viewer: Chat container disconnected, attempting to reconnect observer...");
-        // Debounce reconnection attempts
         clearTimeout(observerReconnectTimer);
-        observerReconnectTimer = setTimeout(initializeObserver, 1000); // Wait 1 sec before trying
-        return; // Stop processing mutations for the disconnected container
+        observerReconnectTimer = setTimeout(initializeObserver, 1000);
+        return;
     }
 
     mutations.forEach(mutation => {
         mutation.addedNodes.forEach(node => {
-            // Process added nodes as before... find username elements etc.
-            // (Keep the logic from the previous 'Hide N/A' version here)
-             const potentialMessageNodes = [node];
+            const potentialMessageNodes = [node];
             if (node.nodeType === Node.ELEMENT_NODE) {
                  potentialMessageNodes.push(...node.querySelectorAll('.chat-line__message, .chat-line__username-container, .text-fragment'));
             }
 
             potentialMessageNodes.forEach(messageNode => {
                  if (messageNode.nodeType !== Node.ELEMENT_NODE) return;
-                 const usernameElements = messageNode.querySelectorAll('[data-test-selector="chat-line-username"], .chat-author__display-name'); // Adjust selector if needed
+                 const usernameElements = messageNode.querySelectorAll('[data-test-selector="chat-line-username"], .chat-author__display-name');
 
                  usernameElements.forEach(usernameElement => {
                      if (usernameElement && !usernameElement.classList.contains('mcsr-elo-processed') && !usernameElement.classList.contains('mcsr-elo-processing')) {
                         const username = usernameElement.textContent?.trim();
                         if (username) {
                              usernameElement.classList.add('mcsr-elo-processing');
-                             chrome.runtime.sendMessage({ action: "getElo", username: username }, (response) => {
-                                 const targetElement = usernameElement;
-                                 let processedSuccessfully = false;
 
-                                 if (chrome.runtime.lastError) {
-                                     console.error("MCSR Elo Viewer (SPA Ready):", chrome.runtime.lastError.message);
-                                 } else if (response && response.status !== 'not_found_in_local_data' && response.status !== 'data_not_loaded' && response.status !== 'invalid_username') {
-                                     addEloDisplay(targetElement, response); // Will only add badge if elo is not null
-                                     if (targetElement.classList.contains('mcsr-elo-processed')) {
-                                         processedSuccessfully = true;
+                             // --- ADD THIS CHECK ---
+                             // Check context validity *before* sending the message
+                             if (!chrome.runtime?.id) {
+                                 console.warn("MCSR Elo Viewer: Context invalidated before sending message for", username);
+                                 // Clean up the processing flag as we are aborting
+                                 usernameElement.classList.remove('mcsr-elo-processing');
+                                 return; // Stop processing this specific username element
+                             }
+                             // --- END ADDED CHECK ---
+
+                             // --- Wrap sendMessage in try...catch for extra safety ---
+                             try {
+                                 chrome.runtime.sendMessage({ action: "getElo", username: username }, (response) => {
+                                     // Check context *again* inside the async callback
+                                     if (!chrome.runtime?.id) {
+                                          console.warn("MCSR Elo Viewer: Context invalidated before processing response for", username);
+                                          // Attempt to clean up flag if element still exists somehow
+                                          if(usernameElement) usernameElement.classList.remove('mcsr-elo-processing');
+                                          return;
                                      }
-                                 }
 
-                                 // Clean up processing flag if badge wasn't added
-                                 if (!processedSuccessfully && targetElement) {
-                                     targetElement.classList.remove('mcsr-elo-processing');
-                                 }
-                             });
+                                     const targetElement = usernameElement; // Use original reference
+                                     let processedSuccessfully = false;
+
+                                     // Check lastError *first* in the callback
+                                     if (chrome.runtime.lastError) {
+                                         // Don't log the common "Receiving end does not exist" if background is just waking up
+                                         if (chrome.runtime.lastError.message !== "Could not establish connection. Receiving end does not exist.") {
+                                              console.error("MCSR Elo Viewer (Msg Handler):", chrome.runtime.lastError.message);
+                                         }
+                                     } else if (response && response.status !== 'not_found_in_local_data' && response.status !== 'data_not_loaded' && response.status !== 'invalid_username') {
+                                         addEloDisplay(targetElement, response);
+                                         if (targetElement.classList.contains('mcsr-elo-processed')) {
+                                             processedSuccessfully = true;
+                                         }
+                                     }
+
+                                     // Clean up processing flag if badge wasn't added
+                                     if (!processedSuccessfully && targetElement) {
+                                         targetElement.classList.remove('mcsr-elo-processing');
+                                     }
+                                 });
+                             } catch (error) {
+                                  console.error("MCSR Elo Viewer: Error sending message:", error);
+                                  // Clean up flag if send message itself failed
+                                  usernameElement.classList.remove('mcsr-elo-processing');
+                             }
+                             // --- End try...catch ---
                         }
                      }
                 });
@@ -134,6 +162,8 @@ function processNewChatMessages(mutations) {
         });
     });
 }
+
+// (Keep the rest of your content.js: initializeObserver, getRankInfo, addEloDisplay, observer setup etc.)
 // --- Observer Setup ---
 function initializeObserver() {
     // --- ADD THIS CHECK ---
