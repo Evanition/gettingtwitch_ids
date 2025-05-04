@@ -4,8 +4,7 @@
   "version": "1.0",
   "description": "Displays MCSR Ranked Elo from local data, with manual updates from GitHub.",
   "permissions": [
-    "storage",        
-    "scripting"
+    "storage"        
   ],
   "host_permissions": [
     "*://*.twitch.tv/*",
