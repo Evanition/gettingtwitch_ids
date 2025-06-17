@@ -43,7 +43,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 00e389d936a0469e8d6f4cfe5d3f83d6,Olo3,,,OK (No Change),
 00e60717fd4a4ec4b4b1975fb58460b8,DarkerPaniel,,,OK (No Change),
 00f62671d596460d8f86cc54847f559d,Beezing,,,OK (No Change),
-00f996cd910f479ba0903d85c2bdb1e0,Bloonskiller,Bloonskiller,2005,OK Updated (Match),2025-06-17T03:57:04.307955+00:00
+00f996cd910f479ba0903d85c2bdb1e0,Bloonskiller,Bloonskiller,2005,OK Scraped (Match),2025-06-17T04:42:42.899638+00:00
 00fcb3ffd92c4d8c8c485f285545072d,Remaxos,,,OK Scraped (Match),2025-05-02T12:55:18.923555+00:00
 00fdc31007f64184826304b8dc49166e,Andreator,,,OK (No Change),
 010874078604486cb4a61162727e3918,erterbebek11,,,OK (No Change),
@@ -106,7 +106,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 0241642e9af446ec9f305602b951683a,woffs,,,OK (No Change),
 02427782f86d4046855f4147c31c1c0c,Gliche_118,,,OK (No Change),
 02444f2a09e74ab68767d43e5e5afc17,sjauwn,beijing7777,1283,OK Scraped (Match),2025-06-16T20:38:18.185134+00:00
-024860325e6f48c89a6afa5849811c9f,SuperCZLord,,1165,OK Scraped (Match),2025-06-17T03:54:52.613756+00:00
+024860325e6f48c89a6afa5849811c9f,SuperCZLord,,1165,OK Scraped (Match),2025-06-17T04:41:27.601763+00:00
 02535dc872b745a3a879c99162cbd7e5,IwNz,,,OK (No Change),
 02551b95604441e8b6429ccf16348e42,CrocodileKingg,,,OK Scraped (Match),2025-05-25T02:29:50.235596+00:00
 02607e676a794d679c4c71b75f4d0e68,BrunoGHG1451,,481,OK Scraped (Match),2025-05-26T17:35:33.005752+00:00
@@ -203,7 +203,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 0423f488eec34ac79814c8315dd96fa1,vahiva,,380,OK Scraped (Match),2025-06-02T19:25:33.505151+00:00
 042bb51e346243be92e97ba0da053cc2,fennniqq,,1156,OK Scraped (Match),2025-06-16T11:30:21.574576+00:00
 0436987d69624781a8454243ecb3aeff,1tzVoid,,1293,OK Scraped (Match),2025-06-09T18:39:13.157035+00:00
-043ef55407594d059168eb4d8e233372,SwisRmyKnife,,1526,OK Scraped (Match),2025-06-17T03:57:10.494525+00:00
+043ef55407594d059168eb4d8e233372,SwisRmyKnife,,1526,OK Scraped (Match),2025-06-17T04:44:35.034734+00:00
 04419524b6404a24bfedb0eb8bd0ddb7,ChingLing223,,,OK (No Change),
 04449b0a51394e61a6267fbcfc7c48de,noobyskins1,,,OK (No Change),
 044593918bd34baab0359bcf15abc902,Googy2011,,,OK (No Change),
@@ -221,7 +221,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 04826277f517410883b9ce267028ad26,srymb,,,OK (No Change),
 0488d59a0ba54bad854d1b65dba3676b,Messier3131,,878,OK Scraped (Match),2025-06-12T20:35:11.607989+00:00
 048c1e72190d4580a55c4fe9c3fed168,Egoly_,,,OK (No Change),
-048de51800794a208de7f01652513c32,L9_FOXGIRLPAWJOB,,1630,OK Scraped (Match),2025-06-17T04:01:26.793572+00:00
+048de51800794a208de7f01652513c32,L9_FOXGIRLPAWJOB,,1630,OK Scraped (Match),2025-06-17T04:41:06.576215+00:00
 048ee305bbce4d6d92ae3d466f69689f,Nonate,,,OK (No Change),
 0495c32d2ff443b28c1d1f342797d15d,ZoomQG,,888,OK Scraped (Match),2025-05-02T23:28:51.372614+00:00
 049c5c3ed3744aa19145d098c346e809,Juanpa25,,1057,OK Scraped (Match),2025-05-17T13:40:54.359786+00:00
@@ -254,10 +254,10 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 050d24eda5f14df5bc0801b9251d067d,b4f_,,,OK (No Change),
 0513ba4798b44351bacb84cf1d4c5f04,rambuncnoises,,,OK Scraped (Match),2025-05-03T16:41:30.456759+00:00
 0518f142c42a4499ad29458cce5eb070,rienjepromene,,,OK (No Change),
-051d5049b8df4870a74c80da19f681a4,Jayden32805,,1449,OK Scraped (Match),2025-06-17T03:59:30.019406+00:00
+051d5049b8df4870a74c80da19f681a4,Jayden32805,,1449,OK Scraped (Match),2025-06-17T04:39:39.010389+00:00
 051f7c4889124eb2bb82b9069985a341,AKAMISO1240,,,OK (No Change),
 05226ae4b7a143849749ce080fa5de73,Elefoe,,,OK (No Change),
-0534f8e9e8cd4b6599a8a41e03df8b0b,cakeygirl3,,815,OK Scraped (Match),2025-06-17T03:59:31.568741+00:00
+0534f8e9e8cd4b6599a8a41e03df8b0b,cakeygirl3,,815,OK Scraped (Match),2025-06-17T04:45:59.072721+00:00
 053a1450b7ec4cb89a6e075d494dfa5e,ArdaBurak28,,,OK (No Change),
 053afda1a4574d8a8984ab2c9ca94e06,SummerLate123,,,OK (No Change),
 053d79778f9542a88f461c5d60b09250,Disne,,978,OK Scraped (Match),2025-05-21T07:30:09.047838+00:00
@@ -315,7 +315,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 062f1cf72d924a1fa12ec5ddfa90a247,tepelux,,,OK (No Change),
 062f7c3e08514caa977510566d4bc223,NoahTheZy,noahthezy,1249,OK Scraped (Match),2025-06-11T15:38:51.700330+00:00
 0630603deea642dbad339cfb38867445,J_Angry,,,OK Scraped (Match),2025-05-10T05:37:05.629301+00:00
-06357d6fdd464f87bcf2c612b5a46e94,CraftyBenjamin,,861,OK Scraped (Match),2025-06-17T03:59:20.669983+00:00
+06357d6fdd464f87bcf2c612b5a46e94,CraftyBenjamin,,861,OK Scraped (Match),2025-06-17T04:42:34.150106+00:00
 0636f9d8b2b94943be8b04d957b71162,Sj_oo,,1511,OK Scraped (Match),2025-06-14T21:33:05.181057+00:00
 063fe1ecfa324f45a74682043d1d74a8,_triks_,,,OK (No Change),
 064063ea547c4a40a60e0f35e042d269,wingsw,,,OK (No Change),
@@ -344,9 +344,9 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 06aa1727c0b64c33b76267562f70dc7f,SAN_SANCHOUS,,,OK (No Change),
 06afc53e0b8646729c49910b985dd6ef,ZenitsuCS,,947,OK Scraped (Match),2025-06-14T02:10:51.138680+00:00
 06b011b549ab49258395d4a422b4d70a,R_N_Gesus,,,OK (No Change),
-06b2b3835f96401abcaca4ec28108585,LiuJiangggggg123,,1075,OK Scraped (Match),2025-06-17T03:56:44.143852+00:00
+06b2b3835f96401abcaca4ec28108585,LiuJiangggggg123,,1075,OK Scraped (Match),2025-06-17T04:45:08.313670+00:00
 06b3ab926bd24d6b988e6311d23f7284,Adaik,,952,OK (No Change),
-06b45657a5964f009a6c08bdef9e4f47,dansta,,1143,OK Updated (Match),2025-06-17T03:58:23.207605+00:00
+06b45657a5964f009a6c08bdef9e4f47,dansta,,1142,OK Updated (Match),2025-06-17T04:41:01.317298+00:00
 06b55286a21941498b924230bd033990,Snowfsi,,1000,OK Scraped (Match),2025-05-23T07:30:06.563269+00:00
 06bb380a69144919a8701c41baa20306,SAMS300FOXES,,,OK (No Change),
 06c2624423b447c986f40233f81e6453,raphdlmn_,,,OK (No Change),
@@ -373,7 +373,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 0726f77333f54245aa76fcc69a722082,towdan,,,OK (No Change),
 07287bf95b664133b50f21d3b9844f72,Jayjeev_dab,,,OK (No Change),
 072e502aac48463b9609240666571fa8,AURA_PHARMING,,1169,OK Scraped (Match),2025-05-27T03:16:56.263736+00:00
-072fcc42cc074168bad088f6aa44d8be,Wirdymgar,,1129,OK Scraped (Match),2025-06-17T03:56:25.531954+00:00
+072fcc42cc074168bad088f6aa44d8be,Wirdymgar,,1129,OK Scraped (Match),2025-06-17T04:39:12.706411+00:00
 0739eb7b0c6f479ca50ba59db61cbc9e,zelario12,,1029,OK Scraped (Match),2025-05-31T10:37:06.403500+00:00
 074aeeb713524d78a69697de7b563338,Heptomino,,1112,OK Scraped (Match),2025-06-14T17:30:41.368753+00:00
 074b14cef56e4b12af1862172caf540c,EBRH_,,,OK (No Change),
@@ -399,7 +399,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 07c05669bb204b87808e285acffe64f4,Gerrrid,,,OK (No Change),
 07c61f22e00648ec88b48001c477bc33,Milikileows,,979,OK Scraped (Match),2025-06-16T13:47:19.179801+00:00
 07cc69b550334fb2a9d0d2e609d77950,nxvl,,,OK (No Change),
-07cce518e5b2475881a09963f36775d8,superman_J,,1411,OK Scraped (Match),2025-06-17T04:00:15.231537+00:00
+07cce518e5b2475881a09963f36775d8,superman_J,,1411,OK Scraped (Match),2025-06-17T04:40:28.050752+00:00
 07d0819ae3d74c2bafff672eca3417c4,Cher1337candy,,,OK Scraped (Match),2025-05-01T10:39:50.496060+00:00
 07d67e261f7045c28ac16cfad5c816c7,KeyNG1014,,,OK (No Change),
 07dfb9eccce74d10ad4f5e58a03abf36,zaurah,,,OK Scraped (Match),2025-06-04T23:32:03.076939+00:00
@@ -419,7 +419,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 0823deab391b442e97671f60d7cc79c7,hola_nate,,,OK (No Change),
 0838080f1cae4eea9fb1f2c34d2c8e15,hinner11111,,,OK (No Change),
 083e1a755e4347d880b382e20f4ad67b,SharedGuitar361,,,OK (No Change),
-083f99056a5c4503af326c23bcf8dafe,benemies,,1438,OK Scraped (Match),2025-06-17T02:24:10.319657+00:00
+083f99056a5c4503af326c23bcf8dafe,benemies,,1438,OK Scraped (Match),2025-06-17T04:45:43.326392+00:00
 0842cf54e6dc4abc9186aa677397d507,Luccraft2010,,1011,OK Scraped (Match),2025-06-08T16:35:58.476599+00:00
 08476f5847fc4daeba74a2544fc9d65b,Zylenox,,,OK Scraped (Match),2025-06-08T06:43:21.817261+00:00
 084b148c356844e68f45591c4afa9ea4,Vintex0,,1502,OK Scraped (Match),2025-06-16T13:46:52.926558+00:00
@@ -435,12 +435,12 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 088cfc0f39c44554a1d861676e0377d1,LavSan2523,,,OK (No Change),
 088ebddd279d4933aecb69d06a4beee3,qoUEOq,,,OK (No Change),
 08907cc1d9e74f53955803f386b026c7,GrongGrong,,,OK (No Change),
-0892b273df3340c6b85ecb6c72f713ee,LPK110,,1219,OK Updated (Match),2025-06-17T03:55:32.938925+00:00
+0892b273df3340c6b85ecb6c72f713ee,LPK110,,1219,OK Scraped (Match),2025-06-17T04:40:56.066303+00:00
 089365bb0dd7477a8ab3b165042038a6,maxthechillbot,,,OK (No Change),
 08952951569c442b8877c81430b7f7ae,dexfit_,,,OK (No Change),
 0899af6cc46a4c75bba9354db2597905,MyHardBlazeRod,spiritedseal,1223,OK Scraped (Match),2025-06-16T16:45:05.742477+00:00
 089ea5ab85424aea95bd49cb8c338cb3,dacvucatre,,1298,OK Scraped (Match),2025-06-16T21:35:25.051605+00:00
-089ed0b08e874ae1a2531634740bd541,Dibedyy,,1269,OK Scraped (Match),2025-06-17T03:56:56.576115+00:00
+089ed0b08e874ae1a2531634740bd541,Dibedyy,,1269,OK Scraped (Match),2025-06-17T04:46:28.836122+00:00
 08a8bae44410431797b875b1c497c780,EREZKMC,,815,OK Scraped (Match),2025-05-27T14:37:18.112582+00:00
 08b0cccd779c47ccbfeab0214facdf9d,Polkanut,,,OK (No Change),
 08b600024b2f47e2bf6df7a9a9055e29,oltt,,1128,OK Scraped (Match),2025-06-13T07:29:25.635197+00:00
@@ -509,7 +509,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 0a298742a1e34b81baa2f6eb7a4c252e,yang_18,,,OK (No Change),
 0a2c93fcc80a4481ab91423d71b3fbad,SpeedyKarfik1912,,,OK Scraped (Match),2025-05-03T15:27:12.719216+00:00
 0a3a64da2d3c4eab90f3dcea0e04cd3c,ShadowCat9999,,,OK (No Change),
-0a3f23c3344447288247cd83b4f474b6,Ryucine,,1328,OK Scraped (Match),2025-06-17T03:59:43.972862+00:00
+0a3f23c3344447288247cd83b4f474b6,Ryucine,,1328,OK Scraped (Match),2025-06-17T04:46:04.323043+00:00
 0a404370e2584b4f88e45f30c47c2d7e,ilbcrk,,,OK (No Change),
 0a414498b4a64607a4c2548db120be57,EKMEEEK,,,OK (No Change),
 0a4222d2fa4f4c65b4e2d7138c316031,TimundStruppi54,,,OK Scraped (Match),2025-05-16T16:39:15.105339+00:00
@@ -691,18 +691,18 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 0db514e3b74947e5b5a05e623773d6ff,CDDGamerBoy,,,OK (No Change),
 0db78937bcb441eda9bc1723ce331938,CongolenioZumbon,,,OK (No Change),
 0dbce483e9e64e44bb068dce9d532db0,Hunterx50,,,OK (No Change),
-0dbdcfe761ef482793b0abc6088d668b,lBarton,,,OK Scraped (Match),2025-06-17T03:58:01.567521+00:00
+0dbdcfe761ef482793b0abc6088d668b,lBarton,,,OK Scraped (Match),2025-06-17T04:39:58.267243+00:00
 0dc13c20c8e44629ad5c10df74821ee6,BallingFinger,,,OK (No Change),
 0dca83f4604f46fab1d45da515b149f0,Caleb777_,,,OK (No Change),
 0dcbdd641e5d4d7d879562491054e306,Deng_zhan,,,OK (No Change),
 0ddbc683962e4bd09ba52c09921e4e31,Kingktykat,,1171,OK (No Change),
 0ddd8edb123d47069d6f8f5aa594b2a3,Jakekub,,1210,OK Scraped (Match),2025-06-10T09:40:26.758818+00:00
-0de29c9e86a848dc8edbfe06490f03ad,horizounds,horisono_7,942,OK Updated (Match),2025-06-17T03:54:27.557973+00:00
+0de29c9e86a848dc8edbfe06490f03ad,horizounds,horisono_7,942,OK Scraped (Match),2025-06-17T04:42:20.135142+00:00
 0dea0ec468354c4c9b8ae77dd3785d71,Bubbleo0_,,,OK (No Change),
 0debdc275a1445ebadde83dd8c0c8c5d,bgDarko,,1186,OK Scraped (Match),2025-06-16T16:45:21.413184+00:00
 0dfbc1c66ab444d0a5037e700d76572f,StarsFighter,,728,OK Scraped (Match),2025-05-20T20:38:16.369676+00:00
 0dfbe730bf254e028e9351fb518b953c,Toeddchenn,Toeddchen,1019,OK Scraped (Match),2025-06-15T14:37:53.821326+00:00
-0dfe0d1fe1e44e3e971261b69bf8cc3c,Malatutou_Reine,,1267,OK Scraped (Match),2025-05-23T11:27:40.773627+00:00
+0dfe0d1fe1e44e3e971261b69bf8cc3c,Malatutou_Reine,,1267,OK Scraped (Match),2025-06-17T04:42:02.631591+00:00
 0e06cea4f4754ba0a3e181c16024f04f,FracFil,,,OK (No Change),
 0e0b1b3421504bd3b8f432053a1dd78d,really_efe,,,OK (No Change),
 0e0c543a52eb42a7909f25975fe9148d,kangpeng,,,OK (No Change),
@@ -735,7 +735,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 0e879842b9ca4ef0a2c9dedb4c6207bb,BaddyBiz,,,OK (No Change),
 0e8da304d1604cf48d88a7fe2240e774,RushErPazzo,,876,OK Scraped (Match),2025-06-10T14:34:47.191773+00:00
 0e8fbe561428434abebd8d43e5547291,__Alexus__,,,OK (No Change),
-0e9b1f6eb0274bf5a2d3f27b1a596cc7,cl0neddeathh,,926,OK Scraped (Match),2025-06-17T03:57:35.232135+00:00
+0e9b1f6eb0274bf5a2d3f27b1a596cc7,cl0neddeathh,,926,OK Scraped (Match),2025-06-17T04:45:38.078688+00:00
 0ea2a776831b4beba29e0855204472c9,TheFallingBear,,,OK (No Change),
 0eb7e6024224411ab30ada0c6a88ec2f,sarellia,,826,OK Scraped (Match),2025-05-27T14:35:33.652002+00:00
 0eb7f9825a0e4e1c88d54d9e0777a27f,Etikaz,,1100,OK Scraped (Match),2025-06-16T02:27:33.461257+00:00
@@ -744,7 +744,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 0ed3dd0aafb44fc1b6c0efd7ecc2fd46,Thebestkitty,,1274,OK Scraped (Match),2025-06-07T18:46:15.870746+00:00
 0ed4d99452a54fe1a5677ca7ba50dca5,iamtacogoat,,,OK (No Change),
 0ee70a3e83714acba5bce692b14d83af,Trayarder,,,OK (No Change),
-0ef1fd79c90346c7b7a7abe43e8446bb,Sam1022,,1041,OK Updated (Match),2025-06-17T04:00:02.711979+00:00
+0ef1fd79c90346c7b7a7abe43e8446bb,Sam1022,,1038,OK Updated (Match),2025-06-17T04:44:01.752701+00:00
 0f02099a5edd47bfa33574100d0aa3e0,Archstorm,,919,OK Scraped (Match),2025-05-13T02:23:21.595425+00:00
 0f02fdb91d3141feabf5cd37a5a23007,PatolopzMC_VN,,697,OK Scraped (Match),2025-05-17T17:36:57.268414+00:00
 0f0da69c3dc84a9b98e13d042742f647,ttvsledgy,,,OK (No Change),
@@ -771,7 +771,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 0fb5e184f151449793cb6074e7738aae,Laskiplaski,,,OK (No Change),
 0fba6ef6aaeb425d8aa25fd41363711d,SomeBagel,,,OK (No Change),
 0fc46f10c9094ae49e5f40ddcab83a8c,un_kown,,,OK Scraped (Match),2025-06-12T23:32:41.770259+00:00
-0fc643a027a340b6a5f38c0b9bc82017,WillBarnes,,1090,OK Scraped (Match),2025-06-17T03:57:46.047480+00:00
+0fc643a027a340b6a5f38c0b9bc82017,WillBarnes,,1090,OK Scraped (Match),2025-06-17T04:39:19.757142+00:00
 0fd25b71b4f147038daa6dd4dccfec5b,P0LSKININJA,,,OK (No Change),
 0fd702facc204e4d81f8261f95f680a2,1nstrumentality,,,OK (No Change),
 0fdf162a545647f5a993ddc72afe64e2,SEN_Bugha1,,,OK Scraped (Match),2025-06-16T20:37:17.356092+00:00
@@ -870,7 +870,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 12585b2b1faf4ebe92502593f95cefca,Turmaaz,,,OK (No Change),
 125940e328a748c9a7204b7b8007ac5a,Sova_727,Owl_727,,OK (No Change),
 125c787f3215426486bc9424acc3b81d,FaNim21,FaNimLIVE,1355,OK Scraped (Match),2025-06-11T20:33:14.008131+00:00
-125fd441c9bf4251b4103b9ca7bdee65,2hnoah,,606,OK Scraped (Match),2025-06-17T03:55:45.295054+00:00
+125fd441c9bf4251b4103b9ca7bdee65,2hnoah,,606,OK Scraped (Match),2025-06-17T04:39:21.507212+00:00
 1262b93627c6400c859bedf7caca88fb,Flo_Pizza,,,OK (No Change),
 12654fd823834da1aeda311b03cd94db,ludo8000,,,OK (No Change),
 12711ded0cc947edad671a87be0ad88c,Morphsy_,,,OK (No Change),
@@ -897,7 +897,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 12d3dfad63b94d418dedcf82181db5fe,Uras_Kee,,,OK (No Change),
 12d6be5309d745fc8290f144fc577ef3,NurullahK37,,,OK (No Change),
 12d756d27aaf43f0b4da540ad990a45d,TheWorstPVPer,,,OK Scraped (Match),2025-05-06T15:37:28.017302+00:00
-12d914e5ff264b0594640e6eea5a230a,GoldenDin0,,1151,OK Updated (Match),2025-06-17T04:01:01.935531+00:00
+12d914e5ff264b0594640e6eea5a230a,GoldenDin0,,1151,OK Scraped (Match),2025-06-17T04:42:55.169555+00:00
 12db587a463a4564a0ce980250a872d0,lordlizard999,,,OK (No Change),
 12e27314244a45f89bddd496323502d3,yuyu_awa,,,OK Scraped (Match),2025-06-16T19:28:44.662384+00:00
 12e3de15a2934beda35e444e3e04e58f,Bizarctic,Bizarctic,1193,OK Scraped (Match),2025-06-16T11:29:08.837602+00:00
@@ -958,7 +958,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 14026145cf8d41389127c71b26f53e08,yqmi7,,,OK (No Change),
 1403ae75f577463ab209eb4501c49925,DarkCreeper2013_,,,OK (No Change),
 14210a3e356d4c7483ef8d54d5d19dd1,FredeVad1,,,OK Scraped (Match),2025-05-10T19:23:18.957420+00:00
-1422d386922441b9bc278a2d15873be4,schmutzey,,998,OK Scraped (Match),2025-06-17T03:59:23.766415+00:00
+1422d386922441b9bc278a2d15873be4,schmutzey,,998,OK Scraped (Match),2025-06-17T04:39:37.256314+00:00
 142c37e9980348e7b2e371a9baa70cd2,Melon122,,,OK (No Change),
 142cb82310304a14a8f027f2764f1f0d,evrkey,,882,OK Scraped (Match),2025-06-14T09:32:56.623078+00:00
 14340d6c2d894ad695291ebb68f73f3b,OrangeTaurus,,,OK Scraped (Match),2025-05-04T22:36:34.144675+00:00
@@ -1001,7 +1001,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 150860aa4c4741c68aa1bde3c9f7044a,eoinodonnell,,,OK (No Change),
 1508c793dbf9404d837ce815266b269a,solaralts_WLsqD3,,,OK (No Change),
 1522945053ae4b48b7bce6b2e5f5701e,Mew_Tea,,1109,OK Scraped (Match),2025-06-07T23:35:14.813225+00:00
-1529c1fa776b4d4aaeed694d7f14a6d1,TheSpyPotato,,585,OK Updated (Match),2025-06-17T03:58:12.386754+00:00
+1529c1fa776b4d4aaeed694d7f14a6d1,TheSpyPotato,,609,OK Updated (Match),2025-06-17T04:44:29.779512+00:00
 1536f6169b5545ab8e1a0fe1a9dd3a98,SlowNintendo,,,OK Scraped (Match),2025-05-30T18:43:47.766204+00:00
 153a4ae7907642bbab004bbaa6e3409a,Endarru,,,OK (No Change),
 153c5c527c0647f49a3aa8ac9afd39c0,Narake45,,,OK (No Change),
@@ -1026,7 +1026,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 15dabacb33ae4374a86b2477e8dc1968,IrreGirre,,,OK (No Change),
 15f2500f5e97419cb8008be9690110e5,Terra8290,,,OK (No Change),
 160212ccd780411fb880723666ff158c,Cyclo29,,,OK (No Change),
-1602c609165843e8af3a62c0f8cedb6e,Luisyun,Luisyun,1666,OK Scraped (Match),2025-06-17T03:58:20.115099+00:00
+1602c609165843e8af3a62c0f8cedb6e,Luisyun,Luisyun,1666,OK Scraped (Match),2025-06-17T04:44:21.025087+00:00
 1604b10d11404cf3b7932f352ebc450f,Swrld,,,OK (No Change),
 16077af44e7a4f659cf6ff103fa03f59,Trishakis,,981,OK Scraped (Match),2025-06-07T20:32:48.831509+00:00
 1614faed2f1345a29c97b24955e2a31b,TheStormbringer_,,,OK (No Change),
@@ -1140,7 +1140,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 185107e13ca545a28e02d22fcaf621e6,VoltPlayer10,,,OK (No Change),
 1853b4165fb74e39a1f6e2544247447b,Granat,,1182,OK Scraped (Match),2025-05-26T17:31:04.836803+00:00
 185744566dce4c1ab189344963388e6f,Laskolaf,,,OK (No Change),
-185b039b70284aa9a98850db4ba88e0d,ElegantRobin,,1357,OK Updated (Match),2025-06-17T04:01:09.678454+00:00
+185b039b70284aa9a98850db4ba88e0d,ElegantRobin,,1357,OK Scraped (Match),2025-06-17T04:45:52.076495+00:00
 185dd8ef78234b4aa8946bf8f86205dc,GodJr,,1259,OK Scraped (Match),2025-05-29T11:26:49.893507+00:00
 185fe9f6f134442097b2b15138c88c54,Dr4zz,,,OK (No Change),
 1860f1cfb6b045b0958760cfc4ae59e5,twiglol,,,OK Scraped (Match),2025-05-28T22:38:17.204096+00:00
@@ -1160,7 +1160,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 18a1c670511841e6bea4e00680111971,_Technix_,,,OK (No Change),
 18a6dfb9b04e4ffabac2df6307a53f25,Stephen_306,,,OK (No Change),
 18a725e078eb41b6bef216daef51e3cb,ItzBrayd3n,,,OK Scraped (Match),2025-05-03T03:48:47.744068+00:00
-18bf232f98954470a4ad763c5327aec9,uselessleaf,,617,OK Scraped (Match),2025-06-17T03:56:28.689722+00:00
+18bf232f98954470a4ad763c5327aec9,uselessleaf,,617,OK Scraped (Match),2025-06-17T04:40:22.796848+00:00
 18d12347090c47e9aff58e18d325c7ae,Dim_Bananox,,,OK Scraped (Match),2025-06-04T18:40:51.781566+00:00
 18d6671995e84828ba46eeef5b627dec,orilevi2308,,915,OK Scraped (Match),2025-06-13T11:32:29.547838+00:00
 18d86ce292604f8db000cf644077ee4e,leftqlick,leftql1ck,1362,OK Scraped (Match),2025-06-08T20:35:35.427246+00:00
@@ -1182,7 +1182,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 1923d9639cde4d68b68f4df7b4134a18,SoccerDude93,,,OK (No Change),
 1924febdf8c445988a7e535b36cdf92d,Jk1701,,,OK Scraped (Match),2025-06-16T15:39:38.003411+00:00
 1926cdb996174b00b90f2eb96e6c7125,favoured_,,699,OK Scraped (Match),2025-06-11T11:28:55.323804+00:00
-192891c718d54725b5df36e64b737cc8,OverflowinPooHol,PaperClipOnTheSun,907,OK Scraped (Match),2025-06-17T04:00:30.816155+00:00
+192891c718d54725b5df36e64b737cc8,OverflowinPooHol,PaperClipOnTheSun,907,OK Scraped (Match),2025-06-17T04:40:12.271037+00:00
 192e2ce7fbcc4d90b23ec82de8923fcd,autophobiac__,,750,OK Scraped (Match),2025-06-15T09:34:57.187131+00:00
 193551358e8a469ca149b1277fbb620c,Gaumt,,,OK (No Change),
 1941477a1d844ffba164be67e72ae806,Nundeeh,,,OK (No Change),
@@ -1240,7 +1240,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 1a64aa23cca54fc9923af88f50f8c381,SAINtJhn724,,,OK (No Change),
 1a6f46375b42482cb35be1f21fdb6050,CJTV23,,,OK (No Change),
 1a709bc2947b4e3f8b4d590b95b7b0bc,le4ves,,1497,OK Scraped (Match),2025-06-15T18:43:23.659966+00:00
-1a71528dc0274145a5d111f57ab6c270,Starchomper,,1454,OK Updated (Match),2025-06-17T03:58:29.388817+00:00
+1a71528dc0274145a5d111f57ab6c270,Starchomper,,1454,OK Scraped (Match),2025-06-17T04:45:10.063643+00:00
 1a72dcbe9cd14f5c98daae27b80cb3f2,haha_u_wish,,642,OK (No Change),
 1a7c586763694927b5a9ffec53258fae,Ugibug1,,889,OK Scraped (Match),2025-06-16T16:45:54.508656+00:00
 1a860222a3b245308950a9fff79bb825,DeepOP6,,,OK Scraped (Match),2025-06-15T20:35:19.381799+00:00
@@ -1252,13 +1252,13 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 1aa98b5cfcd14565b29f502fc330f6e7,andi1517,,,OK (No Change),
 1ab15ea2f121432b895f6dbbc9843bd1,The_Frostedd,,,OK (No Change),
 1ab1c889482d4349a8087ef248d11f9f,QuocTruong07,,,OK (No Change),
-1aba3b775e224fe090ee2b4a32d9afb5,TwinklySquid943,,1304,OK Scraped (Match),2025-06-17T04:00:18.393065+00:00
+1aba3b775e224fe090ee2b4a32d9afb5,TwinklySquid943,,1304,OK Scraped (Match),2025-06-17T04:44:17.524514+00:00
 1abadc7142b4429da495d7494bc998a5,Everythingfor31,,,OK (No Change),
 1abf43d62ac046fba64424e1365ecebe,Miravista34,,,OK (No Change),
 1ac419c1eb8c4bc1a94f248bce0e32e6,knighted1730,,833,OK Scraped (Match),2025-06-16T05:39:35.585857+00:00
 1acd265f69a44a4ab72ee8b13efb4405,Bokiiiito,,,OK (No Change),
 1acf823452954e7397994ad1a695f7e0,ethancrystal_4,,,OK (No Change),
-1ad3ce1d756144e2b967299789c28030,ILuvCobblestone,,1202,OK Scraped (Match),2025-06-17T03:57:13.597958+00:00
+1ad3ce1d756144e2b967299789c28030,ILuvCobblestone,,1202,OK Scraped (Match),2025-06-17T04:39:26.752900+00:00
 1adbdbdf531746068d006c067e02a05b,TaraaA2,,,OK (No Change),
 1ae0bf3caf034862aae6cf554e6ad54d,Ender_n_Lovey,,,OK (No Change),
 1ae14cb96a2f4357a71efac6f7012b59,Cube1337x,Cube1337x,,OK Scraped (Match),2025-06-08T06:41:29.610853+00:00
@@ -1296,7 +1296,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 1b96bd37a6d1408fbcc058c1a77d4176,_lmin_,,,OK (No Change),
 1b9b0f56979f408dbaa9f7a7c3005aaf,razesky,,,OK (No Change),
 1b9c0fa1fa02487181b938c53642e7f1,ZtellarMan,,,OK (No Change),
-1b9cd6cd630b43fa99f302033959f6ae,gapalian,,1101,OK Scraped (Match),2025-06-17T03:55:43.747594+00:00
+1b9cd6cd630b43fa99f302033959f6ae,gapalian,,1101,OK Scraped (Match),2025-06-17T04:39:51.266924+00:00
 1b9e89f41b2949ffa84a7e175551e4bc,Pickledude18,,,OK (No Change),
 1bc273d847804d958f62533bdae75b7f,blazerod9911,blazerod9911,,OK (No Change),
 1bc39ec41f834bfe80c9f738a003856e,Manna_Gaming,,,OK (No Change),
@@ -1329,7 +1329,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 1c642b9a041f4cc7aa63a274a16d0f2d,bnMelon,,,OK (No Change),
 1c6d39ddba0e4d20ad509a9c93fafc19,parrot_and_OWL,,,OK (No Change),
 1c70cc0988da49b79f9e33e453a524ff,lodovoy,,1261,OK Scraped (Match),2025-06-09T23:37:13.201416+00:00
-1c7154248ef84da6984099b9d77d5d83,MiracleVN,,735,OK Updated (Match),2025-06-17T03:55:53.037294+00:00
+1c7154248ef84da6984099b9d77d5d83,MiracleVN,,753,OK Updated (Match),2025-06-17T04:45:06.566589+00:00
 1c7940376d234e099dd75191a19e62e3,dasMonsta,,,OK (No Change),
 1c7a5c2d98064be09b4e718ade5834a0,5xcl,,,OK (No Change),
 1c7b7b6395ec4b47aa41d8ccf5cd734c,weakx,,1024,OK Scraped (Match),2025-05-19T19:28:48.047401+00:00
@@ -1368,7 +1368,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 1d18c24bf6a74b06b5ccdec0f47144a1,GamerBlaze7639,,,OK (No Change),
 1d1e127622ba455ea442a730c0e6c411,1187EM_LIAMSKULL,,,OK (No Change),
 1d1ee7e16cad41619e83b4195df97bf3,Twobot,,,OK (No Change),
-1d1f59df17c14456b02ab5affb570f5d,fawkes_phonix,,752,OK Updated (Match),2025-06-17T03:54:39.944859+00:00
+1d1f59df17c14456b02ab5affb570f5d,fawkes_phonix,,752,OK Scraped (Match),2025-06-17T04:44:07.024474+00:00
 1d2113c44ddb454587664508505d3d33,GBenj1,,1022,OK Scraped (Match),2025-05-29T23:30:07.011947+00:00
 1d25aafbe6f4441c9936a0d380a27de5,NhatLMAO,,,OK (No Change),
 1d267b4c044346c09be5219b3aa6d4a7,PickleKing69,,808,OK Scraped (Match),2025-06-15T05:37:29.963834+00:00
@@ -1406,12 +1406,12 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 1dfa22012fa34b7e9a8d0c1f6a4c90ba,samkyunn,,574,OK Scraped (Match),2025-05-09T07:29:04.717284+00:00
 1dff94c3829a440880c326b4466830cb,Bubbalicious08,,,OK (No Change),
 1e0a5fc9de984efdb592ba9279683f8c,Duck_104,,,OK (No Change),
-1e0c8ca21bd24a9ba430bdbecfa00034,Boreism,,920,OK Scraped (Match),2025-06-16T23:34:27.696948+00:00
+1e0c8ca21bd24a9ba430bdbecfa00034,Boreism,,920,OK Scraped (Match),2025-06-17T04:40:17.544790+00:00
 1e17e12545924d0c8670c29cfe271578,kepler229,,,OK Scraped (Match),2025-05-09T13:00:36.329477+00:00
 1e1a388382d947d8aab2be88c9309b4b,starfem,,,OK (No Change),
 1e1bdde9eccd4c0f8698e9273aa76afd,DudePlaysGames,,,OK (No Change),
 1e218a62b4204e4d92d8f9347cae9c7f,CatBoWizard,,,OK (No Change),
-1e21a10465384af8967a8c75b700407a,nxpd,,1242,OK Updated (Match),2025-06-17T03:59:19.129827+00:00
+1e21a10465384af8967a8c75b700407a,nxpd,,1242,OK Scraped (Match),2025-06-17T04:43:17.939889+00:00
 1e24fef019fc4ff6adb0da933a34188e,yourach,,,OK (No Change),
 1e27cf689d5945ba8190e4b55fabaf57,Webhead1104,,,OK (No Change),
 1e2aad7d28fe4f4aaec6037a5e44ed0c,ThinhMauMuc,,1104,OK Scraped (Match),2025-06-13T15:33:27.275814+00:00
@@ -1439,8 +1439,8 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 1e9e0b3ff1604c3083ed4174714e2b27,I09610I,,,OK Scraped (Match),2025-06-08T11:24:54.333317+00:00
 1ea2ec7c18d34f87a360199ed846d3fb,___omar___,,,OK (No Change),
 1ea350ec20314d08969deedfa9c7a494,fnfn678,,,OK (No Change),
-1ea64efeb76a4e25b3af23902dfae132,adnl,,1119,OK Scraped (Match),2025-06-17T04:00:16.772583+00:00
-1eab090de91e4f1483f668ea8f867e3e,Elio203,,1039,OK Scraped (Match),2025-06-17T03:58:09.298232+00:00
+1ea64efeb76a4e25b3af23902dfae132,adnl,,1119,OK Scraped (Match),2025-06-17T04:43:45.970685+00:00
+1eab090de91e4f1483f668ea8f867e3e,Elio203,,1039,OK Scraped (Match),2025-06-17T04:46:44.601184+00:00
 1eab21dc0c66492d983c8d509056e3fd,Toutsch,,,OK Scraped (Match),2025-06-07T22:37:03.261709+00:00
 1eadb512fbcd4107a9ba2265ccb8b424,LittleLukieGeee,,,OK (No Change),
 1eafcac210474785b300de454393957c,Futkot23,,762,OK Scraped (Match),2025-05-10T11:30:05.584820+00:00
@@ -1458,7 +1458,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 1ee1a6f33e684fb58b2e9bb7c96604d2,Doma1269,,,OK (No Change),
 1ee2b1f01e50489490f044a67040a943,VorsalX,,,OK (No Change),
 1eec497b90954825a593c0b9af791b84,Mr_Scope_,,774,OK Scraped (Match),2025-06-16T16:42:49.804162+00:00
-1eefbee70e5b419f8079b16e21ed348e,tamt4m_,,1570,OK Updated (Match),2025-06-17T03:54:57.249747+00:00
+1eefbee70e5b419f8079b16e21ed348e,tamt4m_,,1570,OK Scraped (Match),2025-06-17T04:46:48.104291+00:00
 1ef6fc177182415a88e092337fc8b906,loloed,,,OK (No Change),
 1efc160d21214bdc91f840e9a8b9a185,Yeetlife35,,,OK (No Change),
 1f13e2e2787348c4b7cb2c51424fa712,Mr_Duck_YT,OfficalMrDuck,,OK Scraped (Match),2025-05-12T22:35:32.457420+00:00
@@ -1472,7 +1472,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 1f330f01d5ef46ca9aea9493c00d8791,Nutty5000,,,OK (No Change),
 1f35584bf4b64751984e847194d6dc31,SunRa_1,,,OK (No Change),
 1f35ffbecdc245ee88f4056adf6e76c8,EmirMar16,,,OK (No Change),
-1f470a329e0447b3929e64f9ea8a5caa,Malatutou_yang,,,OK Scraped (Match),2025-06-16T15:36:44.302856+00:00
+1f470a329e0447b3929e64f9ea8a5caa,Malatutou_yang,,,OK Scraped (Match),2025-06-17T04:43:51.236407+00:00
 1f53680507034c1ab40c95cab9b8528b,Mastermason734,,,OK (No Change),
 1f57410674ec40229afe8d1699bef76d,drewdrewthetwo2,,,OK (No Change),
 1f58f4876df345629e9e09fe088a2e0c,Sharp_Tiger12YT,,,OK (No Change),
@@ -1530,7 +1530,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 2063dac7db1740ef84f8732332c897cd,minecraftmenace4,,976,OK Scraped (Match),2025-05-25T20:34:47.486202+00:00
 206756b6fa9e41a5b14621a6ec7c2de3,NineBlood,,582,OK Scraped (Match),2025-06-15T09:31:40.468402+00:00
 2067c5f7683b43e990eb270429390e1a,AuSY0201,,,OK (No Change),
-20780ab9bf7c476b882c8e16e53f8a23,tetobo,,1103,OK Updated (Match),2025-06-17T03:58:21.658256+00:00
+20780ab9bf7c476b882c8e16e53f8a23,tetobo,,1103,OK Scraped (Match),2025-06-17T04:40:15.795084+00:00
 207c7f40ec674078ac24cac5e41cad29,Nipuzkiii,,,OK (No Change),
 207cd6deaf954b72ba0fca8b0ea1257d,FreddyFoosebear,,,OK Scraped (Match),2025-05-09T20:36:27.967260+00:00
 207d869574ab497496479920141bbf12,Dafnal,,,OK Scraped (Match),2025-05-10T13:36:49.189577+00:00
@@ -1674,7 +1674,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 237acd377bdf4dedbf63c8b9874ff269,HRTKM,,1090,OK Scraped (Match),2025-06-10T11:27:24.345065+00:00
 2381ea29bd7445f4b65b95b4d4d0606c,turu_mcsr,,,OK (No Change),
 239541d847f445549f175303460b3f92,CloudGuest_,,1042,OK Scraped (Match),2025-06-11T05:40:06.721958+00:00
-2397a52a72b44920b046bc17dd1fee02,mysticfv,mysticxlul,1007,OK Updated (Match),2025-06-17T03:54:44.755361+00:00
+2397a52a72b44920b046bc17dd1fee02,mysticfv,mysticxlul,1007,OK Scraped (Match),2025-06-17T04:43:40.714702+00:00
 239800bc9a95483baa2a3210dc6ae4b3,Skeppys_Stitch,,,OK (No Change),
 239f874a6dd84f1ebbd0ca754d1fda12,ArthurMan09,,,OK (No Change),
 23a29f8892054e31889b7842ba75984f,BisonBeast,,,OK (No Change),
@@ -1761,7 +1761,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 25358b7970c740bca715ea6f6b40e7b4,SkajMutantZombe,,1213,OK Scraped (Match),2025-06-12T23:31:50.498708+00:00
 253b53d832ab4bafb5ee0308d5164ccf,Aquacorde,AquacordeMC,1979,OK Scraped (Match),2025-06-14T07:26:57.964063+00:00
 25403547bde44ccdb696688bc7f9401e,rot_eke,,,OK (No Change),
-254084cfcba045438257721bc55453b6,Backrooms_,,1231,OK Updated (Match),2025-06-17T03:58:52.578520+00:00
+254084cfcba045438257721bc55453b6,Backrooms_,,1231,OK Scraped (Match),2025-06-17T04:41:45.125242+00:00
 2549857b8bbf48ad8659ad6c410209a9,temp_gd,템프1,1422,OK Scraped (Match),2025-05-01T13:36:43.337864+00:00
 254a74cd64c4445ab9df94070aee89d1,EmBoThuocChua,,1061,OK Scraped (Match),2025-06-11T17:31:05.088210+00:00
 254fad03bfff4a42856c5f484f98a22d,TadeLn,TadeLn,,OK (No Change),
@@ -1774,7 +1774,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 255f2b8a19e2493e88e3cecb03ff4ef9,DemonBoyisEvil,,,OK (No Change),
 2562d8ee6f254c0f9e4a17fdaecc23ae,63grak63,,,OK (No Change),
 25764a5254bd4b8a8ceb5afbbec9ab56,Summerlemoon,,,OK (No Change),
-258669c710054fac8582f0c97750acda,wassim010,,1266,OK Scraped (Match),2025-06-17T03:54:16.445572+00:00
+258669c710054fac8582f0c97750acda,wassim010,,1250,OK Updated (Match),2025-06-17T04:43:07.432389+00:00
 258bad423d84429ea2c6b07398dfb45b,verymischievous,,,OK (No Change),
 258ddb51e1184a289d158b646ab9aec7,SmockeyClaws,,,OK (No Change),
 258fe0a881534b71a18b827e0c37d437,DragonB425,,,OK (No Change),
@@ -1791,7 +1791,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 25cd2837d190426abdd032246b6f330a,YGBB_007,,,OK (No Change),
 25cda34448664861bff917c585c2676f,Marlo005,,,OK (No Change),
 25cfaaf677ae4e19beba057db4bb610f,Mudryk_Prime2012,,935,OK Scraped (Match),2025-06-15T13:01:45.911066+00:00
-25d37109706140dcabe8b10a6d513fec,SuiYuanXingYun,,,OK Scraped (Match),2025-06-17T04:00:49.456145+00:00
+25d37109706140dcabe8b10a6d513fec,SuiYuanXingYun,,,OK Scraped (Match),2025-06-17T04:42:39.401371+00:00
 25d3d6e2190b47509969525b3d31ad59,Agnostos13,,,OK (No Change),
 25d4de4fe37248f0bba16b43ca1994bb,Hinart,hinart_,1636,OK Scraped (Match),2025-06-01T18:38:16.386342+00:00
 25d5a09855904ebb946f77405b284363,Tsebilon15,,,OK (No Change),
@@ -1828,7 +1828,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 268a5f058e174eb2967dcaf062f2cd9f,MikePinetree,,,OK (No Change),
 268b0488906849f78b67e8f33bbada5e,Specrius,,761,OK Updated (Match),2025-05-03T23:29:30.330781+00:00
 268f588b72104e8b89634cac4a2fe078,Dysaniacc,,,OK Scraped (Match),2025-06-11T09:32:42.462659+00:00
-2690c248fb2c4a26b638800816ec8b6d,SH1MCEN,,1332,OK Updated (Match),2025-06-17T04:01:25.245665+00:00
+2690c248fb2c4a26b638800816ec8b6d,SH1MCEN,,1332,OK Scraped (Match),2025-06-17T04:39:25.003852+00:00
 2696ad08adf54f0d9db9c4c2d81c087a,ThePurplePiggies,,,OK (No Change),
 2697a8b5938a41e29a245f6be10c0213,Pvpluver,Pvpluver,1074,OK Scraped (Match),2025-05-02T20:38:11.387880+00:00
 26983d05de7a4c969d817ec4ba0563a6,xKoxtokox,,,OK (No Change),
@@ -2057,7 +2057,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 2aea945fad7340a9880c5cce47a12663,Sprayyzbtw,,1144,OK Scraped (Match),2025-05-26T23:27:12.162709+00:00
 2aeb7a5d57944900a83741a5968573c5,MrBaklava,,,OK (No Change),
 2aefb8e134484263a259e961ec7b1fb0,ALBIN_XD,,465,OK Scraped (Match),2025-06-12T02:22:17.322302+00:00
-2af894c7f78148e492b186515ae4eaec,Seenver,,666,OK Scraped (Match),2025-06-17T03:55:37.570264+00:00
+2af894c7f78148e492b186515ae4eaec,Seenver,,666,OK Scraped (Match),2025-06-17T04:41:08.326481+00:00
 2afdf0f092e3412ba7558567e5161c0b,Alastor1337_,,1203,OK Scraped (Match),2025-06-14T21:29:03.889237+00:00
 2b045f595f494d0e846e4a94249a5d79,qhmad,,749,OK Scraped (Match),2025-05-04T02:23:05.004876+00:00
 2b08c96fa51e4c8eb846bc4f9d59b489,MamoMinecraft,,,OK (No Change),
@@ -2085,14 +2085,14 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 2b7045181a25497b962c59ea742a3b23,creativeplay8,,,OK (No Change),
 2b76e7c606fe4bca9b6b8af227e313e1,OldSixTW,,,OK Scraped (Match),2025-06-12T17:32:59.730104+00:00
 2b779c8362484e7c97f6d6d9f6ca2ef9,Dorukishere,,,OK (No Change),
-2b83a2c886e543ba9291f790712e2fb2,lavidda,,662,OK Updated (Match),2025-06-17T03:56:48.775207+00:00
+2b83a2c886e543ba9291f790712e2fb2,lavidda,,662,OK Scraped (Match),2025-06-17T04:42:07.885124+00:00
 2b89bcd56f714d03a5f35cda6cfbef65,OKKYLE24,,,OK (No Change),
-2b8d9e9903164e8c9d5eec3bcab379ab,_steamedbun,,1165,OK Updated (Match),2025-06-17T03:54:13.363650+00:00
+2b8d9e9903164e8c9d5eec3bcab379ab,_steamedbun,,1165,OK Scraped (Match),2025-06-17T04:43:21.441809+00:00
 2b90fcd6377845acac5f2f56ba59e5a1,fraudberg,,,OK (No Change),
 2b970bf86b4540d1a1e2561f43965b1d,MtaHy,,,OK (No Change),
 2ba06adacf4d480f9c9dcdf5203c0ea9,vviero,,,OK (No Change),
 2bb0e3f7d14e4eafb8ea198eee758c3e,Dahrez,,,OK (No Change),
-2bb177fa5cfc4daeac445f672aaa0b96,GreenFire31,,465,OK Scraped (Match),2025-06-17T03:55:48.398779+00:00
+2bb177fa5cfc4daeac445f672aaa0b96,GreenFire31,,465,OK Scraped (Match),2025-06-17T04:46:16.582654+00:00
 2bb7eb90ce2c455889e7414829bdf3e0,EDG_LI_ZHI,,,OK (No Change),
 2bbc1e55e1224aabb41edc3c1b2c8b23,genhczhi1,,,OK Scraped (Match),2025-06-13T16:43:37.617125+00:00
 2bc60bdd277948bc8778653e33fda1e4,DogNinja54,,500,OK Scraped (Match),2025-05-29T02:23:28.135648+00:00
@@ -2104,7 +2104,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 2bea05d391fa4049afe70d51be234fed,H4x5678,,,OK Scraped (Match),2025-06-16T15:40:03.477052+00:00
 2beddb5776d347b8b1f5ab0a71023f38,Poomy1234,Poomy12345,1607,OK Scraped (Match),2025-06-16T21:31:46.239075+00:00
 2bfb9181d3f9406ebd56eca9f42716ed,QABARIQ,,,OK (No Change),
-2bfff73da4524bb38c201fbb6c17bcae,Feybug,feybug,1013,OK Scraped (Match),2025-06-17T03:56:06.971528+00:00
+2bfff73da4524bb38c201fbb6c17bcae,Feybug,feybug,1013,OK Scraped (Match),2025-06-17T04:38:51.608065+00:00
 2c0bf9804ec54e248f855efc0ea21fbf,eagles304,,,OK (No Change),
 2c17cf4e77dd4da6a4ce8a328d966bc7,Poodurt,,1058,OK Scraped (Match),2025-06-16T09:35:33.346168+00:00
 2c22df01bfdb45cf8e16c6204d9515f0,giabugs,,,OK (No Change),
@@ -2189,7 +2189,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 2e07fc3081124e83aae40969c5c85f23,krasavcik,,,OK (No Change),
 2e10246e5ce042d28ab19ccb9b53bd08,dikiy_opezdal69,,,OK (No Change),
 2e1184aea50241c596a9d0ac19881895,Peanut896,,,OK Scraped (Match),2025-05-14T22:37:03.028115+00:00
-2e12870c08ec4337bc2e8fbf54e79853,TapL,,1571,OK Updated (Match),2025-06-17T03:57:12.041681+00:00
+2e12870c08ec4337bc2e8fbf54e79853,TapL,,1571,OK Scraped (Match),2025-06-17T04:41:41.628383+00:00
 2e14baf987ce49b583b4835949316b40,Raven_coin,,1070,OK Scraped (Match),2025-05-29T16:39:14.672169+00:00
 2e19b3b173e040328db686cfbb5693a4,3Shadow,,1171,OK Scraped (Match),2025-06-12T22:39:21.538505+00:00
 2e1e5e9374b64c4399f83daa7637dd72,_Halcyonic,,,OK (No Change),
@@ -2226,7 +2226,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 2ee2d79665494db7af4fccda01702421,WilledPaper,,,OK (No Change),
 2ef0d09f11584f5a841ac97d8da999d3,Zeecore,,816,OK Scraped (Match),2025-05-09T23:29:23.583832+00:00
 2ef1860283a245e48d62e4565a7bfb6e,IanisStarYT,,,OK Scraped (Match),2025-05-13T18:38:39.468958+00:00
-2ef2bfed3d084649b56290328970ace9,nahhann,,1972,OK Updated (Match),2025-06-17T03:57:39.870009+00:00
+2ef2bfed3d084649b56290328970ace9,nahhann,,1972,OK Scraped (Match),2025-06-17T04:42:53.422234+00:00
 2ef8aa5ed286405ab1364cf96706102e,Dingus1807,,512,OK Scraped (Match),2025-06-16T07:37:22.676432+00:00
 2efe601b66f349598952884fa6ff5be1,Mingo1,,,OK (No Change),
 2f0345e55ae54a13b1248f30234df3d6,coldpillow,,,OK (No Change),
@@ -2242,7 +2242,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 2f49f0f604894993a6f8a71938397815,Feydoxx,,,OK (No Change),
 2f4debd0d0024feabf98b2fb0194e5ce,EmporerSprigan,,,OK (No Change),
 2f4ef07c38724894ad5ef1983e7dfcf1,Bicrosoft,,819,OK Scraped (Match),2025-05-23T20:31:59.868857+00:00
-2f59967f6a7841ab840e2cb032589a04,Dylqn,Dylqnnnn,1643,OK Updated (Match),2025-06-17T03:56:08.511553+00:00
+2f59967f6a7841ab840e2cb032589a04,Dylqn,Dylqnnnn,1643,OK Scraped (Match),2025-06-17T04:42:06.135753+00:00
 2f5aeadfa96e409b97f1aa6247153067,LavaLucky,,,OK (No Change),
 2f60e2644e7541168408aae83ba4a2b8,limefrog,,1543,OK Scraped (Match),2025-06-14T18:46:02.889478+00:00
 2f65cb387d2842809fef241c3c29dd99,Bedders5283,,,OK (No Change),
@@ -2267,7 +2267,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 2fde3590c6ef4eafa64deaf7c3464da8,mellanbrorsan,,,OK Scraped (Match),2025-06-11T16:42:42.553900+00:00
 2fdfe0056fa34aadb00c7723efbe1ffe,leqidaxs,,,OK,
 2fe2bbf2dc1041af8d80fde587545ea3,tup444,,,OK,
-2fe70934e7be458dba747c4ac830391c,nhb_,nothumanbuilt,1605,OK Updated (Match),2025-06-17T03:56:23.982816+00:00
+2fe70934e7be458dba747c4ac830391c,nhb_,nothumanbuilt,1689,OK Updated (Match),2025-06-17T04:40:49.063998+00:00
 2fe715bb4a5448e9b6a394b1f43658a2,wherewhyhow,,1078,OK Scraped (Match),2025-06-07T08:40:05.154993+00:00
 2fe8c686aecf4333b4900d3bf86daaba,Zieloniasty100,,,OK,
 2fea620afd514b63ac6fea99809251a5,Ankovi,,858,OK,
@@ -2332,7 +2332,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 31224cfa521e425e82f99e6d8a0b1fb5,MandyOP,,,OK Scraped (Match),2025-06-13T21:32:04.422493+00:00
 3127537ba22e4534bbcbde414f41b6c1,NeyShen_n,,,OK,
 312d3c59a3d8415ab091aea01b28d88c,Dragon20O0,,,OK,
-31303be17d3240a19f2734087d9e3314,ThuKhoaChuyenTin,,797,OK Updated (Match),2025-06-17T03:55:12.768909+00:00
+31303be17d3240a19f2734087d9e3314,ThuKhoaChuyenTin,,797,OK Scraped (Match),2025-06-17T04:41:53.876551+00:00
 31362ff31e7a4547be08d4c5b364534e,HackerCat23,,,OK Scraped (Match),2025-05-15T03:15:50.505855+00:00
 313b8c32c826480ebebd41b0adf8c236,Ja_Morant12345,,,OK,
 313c975b331f482eb0519dd462ba8784,Qibloon,,972,OK Scraped (Match),2025-06-14T21:32:38.878985+00:00
@@ -2362,13 +2362,13 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 31c72922edf9484b8cf3e5b73a3f5cfd,DystopianDonut,,,OK,
 31ca1eb8061a418f93a06387ad69aee7,ItzManuu,,,OK,
 31cd6067127846fc8fdb0dd494f4cbc0,Zts44,,,OK,
-31dc8bb3c030403e9564ae76390f79ef,ZirconCC,,,OK Scraped (Match),2025-06-16T16:46:34.607440+00:00
+31dc8bb3c030403e9564ae76390f79ef,ZirconCC,,,OK Scraped (Match),2025-06-17T04:43:14.441460+00:00
 31e7cf67f0cc48f9b2d6b8fc62a77f7a,SteveStiw,,891,OK Scraped (Match),2025-06-05T17:32:45.243336+00:00
 31ea596289634b5dbfbbe308101af624,justLTU_,justLTU_,790,OK Scraped (Match),2025-05-13T18:46:17.304280+00:00
 31f27c77ef974d2a8493d9c1a020174a,Hykia,,,OK Scraped (Match),2025-05-13T06:46:19.432448+00:00
 31fe2ee276da4dd6819dcc6bad481b84,ToxicTiger,,,OK Scraped (Match),2025-06-09T07:35:21.265294+00:00
 32020279009b4abcaa63b043d36a9cd9,maplechild1,,,OK,
-3208c006f52841ed91177d7266874e9a,finixss_,,804,OK Updated (Match),2025-06-17T03:54:33.766685+00:00
+3208c006f52841ed91177d7266874e9a,finixss_,,824,OK Updated (Match),2025-06-17T04:42:14.883990+00:00
 320d145b59ec446a8f7ead91def6ef6f,longris,,,OK,
 320daff66a4d4e4e9756a3ed2e12c255,Justinisgaming,,702,OK Scraped (Match),2025-06-14T18:38:21.281862+00:00
 320dd61b68b444b2897eb4d11511ba86,boyboymerd,,,OK Scraped (Match),2025-05-17T12:51:46.710494+00:00
@@ -2388,7 +2388,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 325766fd900e44be8123d9c073dc28f5,kagi06,,,OK,
 3257e92330cc4f5db659c767ce62c66e,EnespwE,,915,OK Scraped (Match),2025-06-13T13:41:54.935901+00:00
 3263ace41c874adfab0c13eb88925ba6,RngHatesMeOng,,,OK Scraped (Match),2025-05-11T14:30:38.567645+00:00
-326b7893a845487ba0279caf8c499d55,PatrickTN_,patricktn_,1209,OK Scraped (Match),2025-06-17T03:56:41.052738+00:00
+326b7893a845487ba0279caf8c499d55,PatrickTN_,patricktn_,1209,OK Scraped (Match),2025-06-17T04:46:06.072280+00:00
 32702b421bf04ac39eec1171161753e6,kitobah,,,OK,
 32728dd71c124518b5b2e1a4e6938331,lemmn,,,OK,
 3272b8441e6e46cca8857bce5823be06,zaquin,,,OK,
@@ -2502,7 +2502,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 3470272de7d246eb9a8cf3e5d65e8e07,ImKazz,,,OK,
 347e3991a24a41f39ec7c58408d954a9,lineeew,,1120,OK Scraped (Match),2025-05-28T18:44:50.900101+00:00
 3489fb8f73e74cdc8a27c63274e96d4c,KevinTheStickman,,,OK,
-348a9d56b40c4269afa6326d9a52e0c6,mak0226,,1357,OK Scraped (Match),2025-06-17T03:56:55.027527+00:00
+348a9d56b40c4269afa6326d9a52e0c6,mak0226,,1357,OK Scraped (Match),2025-06-17T04:43:37.215953+00:00
 3498468cd6cf40109f6ac993f26f4079,Acepteni,,,OK,
 349a49876236480a892c4ea00430a9c8,ShadyRouge_62628,,,OK,
 349eb5e1861e4ae1ab9a42835d62c20c,lzr12330,,,OK,
@@ -2517,7 +2517,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 34be6aaba3f44d7e9dda9a66038a96e6,Str4ffed_,,,OK,
 34c05e4411564d6abbb3ae79f47b176e,sigmagoon15,mrpogger213,1232,OK Scraped (Match),2025-06-14T11:24:29.410144+00:00
 34c0c76c89254b45834965b1dcc2f15e,iamudayo,,,OK,
-34c876e4a23a4fe5a1fbf76a41db0e78,LazarBim,,1565,OK Updated (Match),2025-06-17T03:56:36.411972+00:00
+34c876e4a23a4fe5a1fbf76a41db0e78,LazarBim,,1565,OK Scraped (Match),2025-06-17T04:44:03.517998+00:00
 34cb56957f084d4a92be054c170b1db4,RianGomita,,,OK,
 34d071a15f824a018b2d60a02d0d243c,dvwe2,,,OK,
 34d0abdd62724a6e82f5920701cc8baf,drivingshep69,,,OK,
@@ -2529,7 +2529,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 34e378a804054051b12a1a0c3e964664,PabloGamer09,,897,OK,
 34ec1cd3c8bc46c5ad4a6fc3ffe97db7,PrimePot,,,OK Scraped (Match),2025-05-09T17:33:15.973066+00:00
 34fc1065610b4eeb9863111290a42771,LizhakD,,,OK,
-350579d3e06341a0997ac47a91f2ac98,xFray_,,1570,OK Scraped (Match),2025-06-17T03:56:14.714892+00:00
+350579d3e06341a0997ac47a91f2ac98,xFray_,,1570,OK Scraped (Match),2025-06-17T04:40:31.565063+00:00
 350970ca05cf432eb9ff5d6131a4a0e3,Nakkivenes,,1138,OK Scraped (Match),2025-06-14T23:35:53.566801+00:00
 35115de04a6849daa8375b6bbd35ba4c,SvsBe,,,OK,
 35120cdfaba04246b5ec161fe759e8f1,TTV_buhsen,buhsen,,OK,
@@ -2564,10 +2564,10 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 358b52bab1bb4dd5a37c1548a5967aa4,Rustiktam,,,OK,
 3592077de2524a6097ea0266215a8d32,Elovvek,Elovvek,,OK,
 3598caec44b14d0db5da837083f20633,Cnat2265,,,OK,
-359da0f53f574971acdaa4aa23de991d,_pizu,PIZU_,1746,OK Updated (Match),2025-06-17T03:58:49.488423+00:00
+359da0f53f574971acdaa4aa23de991d,_pizu,PIZU_,1696,OK Updated (Match),2025-06-17T04:44:57.808202+00:00
 35a39acd384f421485fd736dea9d0746,Justatowliab,,,OK,
 35b09fc0b4b84064b39aa671bc841c59,BuzzabooSucks,,,OK Scraped (Match),2025-05-30T04:40:22.034247+00:00
-35b6ea852fb44be491881b481273a73f,voyager63,,1432,OK Updated (Match),2025-06-17T04:01:23.705216+00:00
+35b6ea852fb44be491881b481273a73f,voyager63,,1502,OK Updated (Match),2025-06-17T04:41:36.372963+00:00
 35b8b97c9b674760894f2cce478b6196,DoctorRato,,,OK,
 35ef59b1173d45cd87f381959d36c06c,merryway12yt,,,OK Scraped (Match),2025-06-13T21:32:44.670009+00:00
 35f47e211d434718819ae3238736dc64,sanderling_,,1091,OK Scraped (Match),2025-05-03T20:38:41.557499+00:00
@@ -2593,7 +2593,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 365a3343763b496fb7be7c9b7e6246c6,Trlgain,,,OK,
 365d072375de4c9db842e09bfe7ea7ac,AHDGI,,,OK,
 36600c56295747ae854f351ff968a857,OPBlitz,,,OK,
-36623f170ad841b1b921c1e73ea970fb,ThreatTiny,,437,OK Scraped (Match),2025-06-17T03:59:01.959342+00:00
+36623f170ad841b1b921c1e73ea970fb,ThreatTiny,,437,OK Scraped (Match),2025-06-17T04:43:24.941021+00:00
 3662e3f586f142a19ed7349fa74317b4,jniy,,1011,OK Scraped (Match),2025-06-16T18:48:56.887414+00:00
 3666a63719fd44ecaea931c0dcd9c0d9,dillrice,dillrice,1350,OK Scraped (Match),2025-05-24T23:28:49.026221+00:00
 366bbd8b326d49e5b83735fa8e2f4ceb,acebadge,,,OK Scraped (Match),2025-06-02T13:41:35.905237+00:00
@@ -2606,7 +2606,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 367f347d5c6a48d199d3a18049c2b866,piggod1763,,,OK,
 3680a372f69a4ce4a0fa573092418f97,JimmySR_,,787,OK Scraped (Match),2025-06-16T23:28:12.273411+00:00
 368735a183224ab4834504e71a6a3498,deathsinger66,,,OK,
-368d819dc3f148ccbed4c7a0ec4f9552,Fluorine_125,,949,OK Updated (Match),2025-06-17T03:57:22.874082+00:00
+368d819dc3f148ccbed4c7a0ec4f9552,Fluorine_125,,949,OK Scraped (Match),2025-06-17T04:44:42.038549+00:00
 368d92fd5ffa403799ce9728aa49cab6,QFeliksir,,,OK Scraped (Match),2025-06-16T19:30:17.937384+00:00
 368df9d4a09a4d3eaf69e04a3fbe79d3,Lumiric,,,OK,
 36a232f5901f48d1b6300e025a9a8ca3,atOwOmyque,,,OK,
@@ -2644,7 +2644,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 374c854adb5f48e984bdb61f2507d50d,CaptainColin121,,,OK,
 3751fc3281014c4eacd0f7fce8e35f06,MagicGlitter827,,,OK,
 3752ade7c53b413e9e371409be953f71,Excallbur,,1183,OK Scraped (Match),2025-06-13T07:29:36.652014+00:00
-3763bba2e26541ec8f3b505e9d257d3b,Spacedude225,,1260,OK Scraped (Match),2025-06-17T03:58:26.295042+00:00
+3763bba2e26541ec8f3b505e9d257d3b,Spacedude225,,1260,OK Scraped (Match),2025-06-17T04:40:24.546317+00:00
 376b07bd92594449bd9bdaa19b37e23f,ckloo,,1113,OK Scraped (Match),2025-06-11T17:31:44.465542+00:00
 376c32f4124c487da77ad5eb234248c7,realAnzai,,,OK,
 37703e197e654d3aa1ed7bce94ad2dd7,jhilio,,,OK,
@@ -2656,7 +2656,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 3785d854621548dbb0027449b4941f16,pwosined,pwosined,,OK,
 378772b85d2c4244a75bfa68fbf8963e,nowaf_,,,OK,
 378eced4ce8747edb3636a3aaad2a54e,AZ707Y,,912,OK Scraped (Match),2025-05-28T15:37:00.685524+00:00
-3796387d9d5f41a8b9fbc01e636cf2c7,PZio,,1258,OK Updated (Match),2025-06-17T03:59:12.853487+00:00
+3796387d9d5f41a8b9fbc01e636cf2c7,PZio,,1259,OK Updated (Match),2025-06-17T04:38:58.630806+00:00
 3797bc0861b84f75b33251078ca90373,omochipiyu,,,OK,
 37ab63d2e22d41af9f9f4797124ea2dc,NyxieVT,LeafyGoingCrazy,,OK Scraped (Match),2025-06-06T18:46:26.545915+00:00
 37ad6a6d21ff4d638743621685085a9d,Squishygrub,,,OK,
@@ -2702,7 +2702,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 3872200498374b34bf6840501eb2f9b8,_Baka_Desu_,,,OK,
 38726e3f8f974728bff165a2947809ce,CrystalNucleus,,,OK,
 38815fac8d0345f79d70c95134e63642,InspecteurFire,,,OK,
-388533d5a2ad4b349a31db4738670a4b,v_strid,vstridLive,2075,OK Scraped (Match),2025-06-17T03:58:54.139094+00:00
+388533d5a2ad4b349a31db4738670a4b,v_strid,vstridLive,2075,OK Scraped (Match),2025-06-17T04:42:46.408544+00:00
 388ab8fded574edba94213bdd9cc7e99,ProRGxPritam,,,OK,
 388ccd3a855f48cbac82aa8950bad60a,ChaosKiwiAU,,,OK,
 388d62e768fd4e20a184aedeb43e33c2,SeedQueue,,,OK,
@@ -2716,7 +2716,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 38c3d1bd594d426c9b974c56bc405b12,Corrupted0511,,,OK,
 38c71b11f7bc4bb381a34eca45649a4d,EndrPulse,,,OK,
 38c997d5d75443e3a75cc926254ff204,Muuaxi,,,OK,
-38dceed1dc92416c8c1eb451c28d498f,seblaredo,Seblaredo,944,OK Scraped (Match),2025-06-17T03:57:47.589794+00:00
+38dceed1dc92416c8c1eb451c28d498f,seblaredo,Seblaredo,944,OK Scraped (Match),2025-06-17T04:44:12.271965+00:00
 38e1dc32667b42cab66149565ccf4569,Herobrine26655,,,OK,
 38ebe7399b6d40dcbf8f1b6cb35a3008,aleph_314,,,OK,
 38ede7f40ab84401a7eacab6acda3f3f,Sakurastormm9,,,OK,
@@ -2762,7 +2762,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 398997ac59c34e86a71fec61b4594275,Luukiboi,,,OK Scraped (Match),2025-05-18T16:42:36.243466+00:00
 398faaa9e1d44eae82a90bf51253a619,mwm_qwq,,,OK,
 39a07813c13c4b04860c9bc5923be5d5,FurballPower,,,OK,
-39a20be56bfb403bbba44a2a0201aed8,Rlkk3,,1106,OK Scraped (Match),2025-06-15T09:30:03.695178+00:00
+39a20be56bfb403bbba44a2a0201aed8,Rlkk3,,1087,OK Updated (Match),2025-06-17T04:43:49.485777+00:00
 39a4086e911344fdb87bbd97433b3fa3,4x6x,,,OK,
 39a436e0e3ae43bfa30bcbc843a7e241,BopBopLittle,,,OK,
 39b4bc9ec50a44bfac042f3dc7836e67,Aspassssssss,,970,OK Scraped (Match),2025-06-14T11:30:59.657780+00:00
@@ -2780,7 +2780,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 39f63512065349e6bc30df7ab2750851,Haste_C,,,OK,
 39fff2d8ddeb4b6588c7c3a3a9ca435d,IamDimoon,,,OK,
 3a03f82c2e824eb2baa384cc1d3e6760,juanskrtz,,878,OK Scraped (Match),2025-06-05T09:31:34.891201+00:00
-3a07fee4ce5a4f22b5f2bf207d075e0f,21mustard,21_mustard,1557,OK Updated (Match),2025-06-17T03:56:11.600403+00:00
+3a07fee4ce5a4f22b5f2bf207d075e0f,21mustard,21_mustard,1513,OK Updated (Match),2025-06-17T04:39:14.509464+00:00
 3a0d7f6ff18940f5854092f1ebf77f65,jiachen77,,887,OK Scraped (Match),2025-06-16T17:39:33.947387+00:00
 3a1861dd860f478fafc54107391debb8,GlitchedThru,,,OK,
 3a287d68bd48414a811a4cafe46a3e9a,ARandomGay,,,OK,
@@ -2830,7 +2830,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 3b6cac0782594a108e67333ce1c082b7,therkkio,,,OK,
 3b771091c484452b8288c10053dc38e5,Aywin_,,,OK Scraped (Match),2025-06-03T19:24:56.530782+00:00
 3b7786d224d84449b87090187e8cae94,LightCreeper2010,,,OK,
-3b7c89c57e0d483ea7b96b1bfec1b2b6,michaelawsome,,1422,OK Scraped (Match),2025-06-17T04:01:22.156313+00:00
+3b7c89c57e0d483ea7b96b1bfec1b2b6,michaelawsome,,1422,OK Scraped (Match),2025-06-17T04:41:31.101367+00:00
 3b7dac60dea74d87a22037a8b14b884b,Nicobalta,,,OK,
 3b8a3b3300d748a2940eefd06edc09cc,aariee,,,OK,
 3b8ccad666ba4f178d93018c24b5cd99,IsAh09,,,OK Scraped (Match),2025-05-19T21:29:21.437172+00:00
@@ -2883,7 +2883,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 3c78d7f87c064b12a5f897ab6e5c5d56,azur3dream,,,OK,
 3c816b5e044b427497ee39124a047a91,hCreamyy_,,,OK Scraped (Match),2025-06-09T16:42:12.108400+00:00
 3c860767e1dd423f81e72651ea1611d0,koolboi70003,,,OK,
-3c8757790ab0400b8b9e3936e0dd535b,doogile,doogile,2169,OK Scraped (Match),2025-06-17T04:00:46.294789+00:00
+3c8757790ab0400b8b9e3936e0dd535b,doogile,doogile,2169,OK Scraped (Match),2025-06-17T04:43:58.247254+00:00
 3c8820e44bb645f8868311ecf92616a8,sixnineforlive,,,OK,
 3c8bfde8dcc84f94b12518066238c9ef,SoiBean,,,OK,
 3c8d724284854394b66c5b8a9f6a227d,JediMaster102,,994,OK Scraped (Match),2025-06-09T02:25:16.752332+00:00
@@ -2952,7 +2952,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 3dd60f87847144ac981b023b8fe42463,DinoBanana96,,,OK,
 3ddc2f3147dc4582af9e93b843890b56,Proboter,,,OK,
 3de0c70beb054aadb7a3b78c6dcb9e2e,raiieado,,1008,OK Scraped (Match),2025-06-12T07:30:23.345729+00:00
-3de13946f3104a73a71a8b7a735a6df2,hashbrowniscool,theehashbrown18,1163,OK Scraped (Match),2025-06-17T04:00:29.268389+00:00
+3de13946f3104a73a71a8b7a735a6df2,hashbrowniscool,theehashbrown18,1163,OK Scraped (Match),2025-06-17T04:44:15.771658+00:00
 3de265a4ffab449e8a7fb24edf44dacc,Zwda,,,OK,
 3de4836a6c7f47a6986d042fd2a92e3b,dragonfly123_,,684,OK Scraped (Match),2025-05-27T23:30:25.281022+00:00
 3dee730115664cd88997c952463ae3fa,pigeon54,,870,OK Scraped (Match),2025-06-15T20:33:54.911606+00:00
@@ -2985,7 +2985,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 3e5c1644abab49a0963833f1c3ae1e6c,RiceFIsH385,,,OK,
 3e5c6f01c4824637aeee8e7da224479e,SpoingusPace,MadoBrick,1218,OK Scraped (Match),2025-06-15T18:44:51.270675+00:00
 3e6355b438fe4b69a2d4e37e7f52108a,Chrysalium,,,OK,
-3e6579a00f324e0cb9f6e9676ced43b1,Cubxfy,,1368,OK Updated (Match),2025-06-17T03:56:31.781663+00:00
+3e6579a00f324e0cb9f6e9676ced43b1,Cubxfy,,1368,OK Scraped (Match),2025-06-17T04:43:30.194962+00:00
 3e66d33976724c4facf1d86518d5e469,8bat,,,OK,
 3e66f2d4aa774ee08ad8b073681b02b5,Gd925,,,OK,
 3e6c26f294664bfbb0f6d15a7f1b71b8,Caduk,,1251,OK Scraped (Match),2025-06-17T02:26:32.868452+00:00
@@ -3245,7 +3245,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 43e24c5c49744217ac38fbca51afb67c,Pinkril,,1050,OK Scraped (Match),2025-06-14T08:36:58.353989+00:00
 43e284dea564497080d99b4cb480e2aa,Tailbonecrusher,,,OK,
 43e8a1d104b14cb988bba968624478d2,DeepSeeker20,,,OK,
-43eb01665fad4a1ba9d47c3a00ed519e,PTLT,Petalight,1180,OK Updated (Match),2025-06-17T03:55:06.577561+00:00
+43eb01665fad4a1ba9d47c3a00ed519e,PTLT,Petalight,1176,OK Updated (Match),2025-06-17T04:45:39.828455+00:00
 43ec7d8a3893406882fe8486c9671750,stickyit,,,OK,
 43ef89d11ec542d1a5b0e58079629059,yosimH,,,OK Scraped (Match),2025-05-28T15:37:38.369978+00:00
 43f3c70d0b5a4313841f72477ee030c0,wonendie2333333,,,OK Scraped (Match),2025-06-10T16:43:58.248403+00:00
@@ -3307,13 +3307,13 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 4503f781b7364003a80850f63a43fba0,dineriu,,,OK,
 45052e2f07d84affb23eb79317352dc9,Jumprr64,,,OK,
 450e110c6e04478db9d72e6d8ab684b3,wieNNN,,,OK,
-451011b2fc2142ad93d6aa9521451229,pikaw,,887,OK Updated (Match),2025-06-17T03:57:49.135605+00:00
+451011b2fc2142ad93d6aa9521451229,pikaw,,887,OK Scraped (Match),2025-06-17T04:46:27.081106+00:00
 451e92e06b534850976a636ba8a55493,Noobn10,,623,OK Scraped (Match),2025-05-31T20:31:39.605033+00:00
-4521430bf7c748aab08f38c8fc25db75,auggiethecat,,1020,OK Updated (Match),2025-06-17T03:56:53.412078+00:00
-4521cc42f4de47168923dfe3cc1a667b,ItzUser,itzuser0,1686,OK Scraped (Match),2025-06-17T03:58:13.933493+00:00
+4521430bf7c748aab08f38c8fc25db75,auggiethecat,,1020,OK Scraped (Match),2025-06-17T04:40:10.519879+00:00
+4521cc42f4de47168923dfe3cc1a667b,ItzUser,itzuser0,1686,OK Scraped (Match),2025-06-17T04:41:15.337150+00:00
 45227a0b9867435995dc1dcc6f1721c2,LyrikRehkitz,,,OK,
 4524d7d644ff4ddc91843b89e448df90,_fdr,,,OK,
-4525d86dfeec4ec1b387f7751a532e46,FlaxyB,flaxyb07,1327,OK Scraped (Match),2025-06-17T03:59:34.656221+00:00
+4525d86dfeec4ec1b387f7751a532e46,FlaxyB,flaxyb07,1327,OK Scraped (Match),2025-06-17T04:45:04.816133+00:00
 452bf5283227435aa3ce192eadc86599,Glitched_best,,,OK,
 45356178b67b4a3683afbe61d3e09c46,COVlD19,,,OK Scraped (Match),2025-06-06T13:39:52.871318+00:00
 4538d1158ed9466a9a78b8346b11ef83,Mobmonsters,,,OK Scraped (Match),2025-05-31T23:29:20.654648+00:00
@@ -3334,7 +3334,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 456bbd97624648e1ada18c2a581871ba,sirorrrrrrrrrr,,,OK,
 45728e5ec87545f28c369fdbe1e2956d,Kaymakaldo,,,OK,
 457ff3f3b8e342678b48f4a370576f81,JamTheMan09,,676,OK Scraped (Match),2025-06-02T23:34:54.288800+00:00
-4592f96cab064e47acdbd5959e885422,vineyardjb,,1130,OK Scraped (Match),2025-06-17T03:58:38.673233+00:00
+4592f96cab064e47acdbd5959e885422,vineyardjb,,1130,OK Scraped (Match),2025-06-17T04:43:56.490890+00:00
 45946eac8cde4569bd28b2ca03f6ed97,ambr140,,823,OK Scraped (Match),2025-05-31T14:33:01.100342+00:00
 4596a5d565d445aa9086f52d90e49fe1,panchofacil_54,,,OK,
 45a05dced5bf454480071ee7e875d0df,Budyn_Chan,,,OK,
@@ -3347,10 +3347,10 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 45c7a2108e9a47b1a1ed94b423e1cdd2,gato_the_gay,,,OK,
 45d28b1b11e74d5eb286d88817280b72,borankuscu,,,OK,
 45d36e99f6d64ddd8df077e72f986ac5,Shcdows,,786,OK Scraped (Match),2025-06-16T16:43:49.072491+00:00
-45d3cb7f934547e0ac9b4433dea16d39,PEDRAOIMENSO,,1586,OK Updated (Match),2025-06-17T03:57:53.769330+00:00
+45d3cb7f934547e0ac9b4433dea16d39,PEDRAOIMENSO,,1547,OK Updated (Match),2025-06-17T04:40:43.816760+00:00
 45da181e362d4489abbd41489b6baa69,Flashdenn,FlashdennB,,OK Scraped (Match),2025-05-18T02:26:45.393632+00:00
 45db3b4d321c4d33a0bc7979ede10707,eihcoll,,,OK,
-45dbfb35e4df46878fca7137bcec4440,hktmhkman,AndrewTheSpeedrunner,1292,OK Scraped (Match),2025-06-17T03:58:37.126719+00:00
+45dbfb35e4df46878fca7137bcec4440,hktmhkman,AndrewTheSpeedrunner,1292,OK Scraped (Match),2025-06-17T04:46:55.100993+00:00
 45de6abf9d554b89be5179df72d94fe3,SharikFrBall,,1354,OK Scraped (Match),2025-05-17T12:52:01.637457+00:00
 45df5261342c44b2901be1a6ad0a1566,Funcoolcat46,,,OK,
 45e89623c52b4bf89a892bf1bac9f118,saicalaF,FalaciasLIVE,1395,OK Scraped (Match),2025-06-16T11:28:14.717585+00:00
@@ -3377,7 +3377,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 4650870510a2471fb85281690331b18d,Tal_Tal,,,OK,
 466f60d4ca8a4f51b403075b67c8149d,shawson,shawsonn,,OK Scraped (Match),2025-06-13T03:54:19.875252+00:00
 46827fc397f84e13a5f1278a8a8dec11,quackmann,,1335,OK Scraped (Match),2025-06-15T20:34:58.911639+00:00
-468751148f2f4763a45763541a44b166,Starton330,,998,OK Scraped (Match),2025-06-17T03:57:18.234187+00:00
+468751148f2f4763a45763541a44b166,Starton330,,998,OK Scraped (Match),2025-06-17T04:45:32.823792+00:00
 46879066b68f473ca068e260a84837c1,BurntBrandy_,BurntBrandy,1026,OK Scraped (Match),2025-06-15T05:37:39.232282+00:00
 468ae1fb516f4db89d2919a87d3dae7f,Gunlyoung,,,OK,
 469bb16b74f64beeab366ffe0f82eb62,NAOHUA123,,,OK,
@@ -3425,7 +3425,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 479273dc20114a66a9c95d1de898a2e8,Yrahcazthegreat,,,OK,
 479f15afefed49f28e1050ed23812ab0,FortuneMC,,,OK,
 479ffeb915804c2b8eb4e0bea3f04017,DonosoBros,,,OK,
-47b34ef35d654e358aad20e403dfd1c3,bladeefan4,,943,OK Scraped (Match),2025-06-16T23:31:19.062223+00:00
+47b34ef35d654e358aad20e403dfd1c3,bladeefan4,,944,OK Updated (Match),2025-06-17T04:40:07.019176+00:00
 47b82bebe3d045eb9370ffd1dd7881f4,In_Qing,,1143,OK Scraped (Match),2025-06-16T08:43:57.017381+00:00
 47bee22ad05343d0af7bd49d3117d442,myNameKK,,,OK Scraped (Match),2025-05-03T17:31:13.398761+00:00
 47bf874db8ec4bea9bf80755574288c5,StojkovicNikola,,,OK Scraped (Match),2025-06-15T23:30:35.722095+00:00
@@ -3508,7 +3508,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 491d678159ab49b68317dc31eb21a3d9,WhipJ1,,,OK,
 491fba8773d8482b92141647d4a775bc,grmmit,,1034,OK,
 492249a499a44d748cb40079de282009,king132gg,,1165,OK Scraped (Match),2025-06-06T16:46:35.952372+00:00
-492267f797cf494c9c4afc84b5a042b7,Liang_Yang,,1168,OK Scraped (Match),2025-06-16T18:44:39.477311+00:00
+492267f797cf494c9c4afc84b5a042b7,Liang_Yang,,1190,OK Updated (Match),2025-06-17T04:44:40.289186+00:00
 4926dad915954cb5b50f46f3d80cd14d,frEric,,,OK Scraped (Match),2025-05-12T15:35:16.640779+00:00
 49280b5f1d8e44bf9d0d85f34a0b0893,ergnk,,743,OK Scraped (Match),2025-06-14T22:36:13.764718+00:00
 4928f219df2644bf9e12d34c27c3528d,EarlessCelery53,,522,OK Scraped (Match),2025-06-10T19:29:53.967656+00:00
@@ -3526,7 +3526,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 4961563fd6e04f9c84593d5660c2294f,DarqLite_,,,OK Scraped (Match),2025-06-16T22:36:54.372246+00:00
 49646941e6c9442ebe1496dcf6f43a62,tkd_256,,,OK Scraped (Match),2025-05-21T08:37:40.987243+00:00
 496755f3c8df4344bbdcc5d61a2523ac,MagikWitchGirl,,,OK,
-49678ba3bc76439e9670a66383c87d63,Ketch1p,,1126,OK Scraped (Match),2025-06-17T03:59:03.506185+00:00
+49678ba3bc76439e9670a66383c87d63,Ketch1p,,1126,OK Scraped (Match),2025-06-17T04:39:02.129852+00:00
 496a98d237d54eebad16911341c97dea,swornyquantum,,,OK,
 496c2a0a138649efb3293d87b06ea114,kdslimecrew,,1070,OK Scraped (Match),2025-06-13T23:36:18.235704+00:00
 49772cd63b2a40a59b7beedc1056c47a,matejPOG,,,OK,
@@ -3557,7 +3557,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 4a34695348304c47ae6eef62db92ff7c,SirDrDoof,,,OK Scraped (Match),2025-05-29T07:34:28.315229+00:00
 4a42c5172a7342da94611c3abe34b4db,loggiebear4444,,,OK,
 4a471c60e6bf477aa33dd3b52d992ea4,CloudySkies___,,,OK,
-4a4f5bec945f4a6586c6057efdbf4443,Asna9921,,1017,OK Updated (Match),2025-06-17T03:56:33.321486+00:00
+4a4f5bec945f4a6586c6057efdbf4443,Asna9921,,994,OK Updated (Match),2025-06-17T04:38:55.130444+00:00
 4a50655ea17445afa2da1ca54ca420ae,N0tBaguette,,,OK,
 4a590ca47d4f4113a1544af218a8e567,Itz_Delier,,,OK,
 4a6588dc181e45b485882a6ce7a36749,AddictoFeet,,,OK,
@@ -3579,7 +3579,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 4acf0fa61b3a4201b6fb650cb4ee9732,BJgam3r,,,OK,
 4adfb77d324d4799ba0fcd7fef7fcbef,Foonsecaa,,255,OK Scraped (Match),2025-05-23T20:39:50.958678+00:00
 4ae0ce0a54b5466bb8b2346ac03b1123,kippsy_,,,OK,
-4ae10e7e5ded4350bb9b4e6ca3da862f,ItsAllLegitBro,,945,OK Scraped (Match),2025-06-17T03:57:44.498910+00:00
+4ae10e7e5ded4350bb9b4e6ca3da862f,ItsAllLegitBro,,945,OK Scraped (Match),2025-06-17T04:39:00.380276+00:00
 4ae64b0dec2c4c6eaa5ebd5095df234d,_LiXiaoBai,,1207,OK,
 4aea43c8e2464216afb3b70bc3d849ad,MettSchwein,,1099,OK Scraped (Match),2025-05-06T21:38:12.284056+00:00
 4aec365b70274c9888765debfd483101,ThatGoogleKid,,,OK Scraped (Match),2025-05-16T21:35:30.433070+00:00
@@ -3639,7 +3639,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 4bf064c642dc4937a5b0d9b6327a7119,JasGamer409,jasgamer409,1447,OK Scraped (Match),2025-06-16T05:42:04.547089+00:00
 4bf64ce9dcca4dc6b2c0d712493c7937,Doades,,869,OK Scraped (Match),2025-05-11T23:32:11.517521+00:00
 4c015e7d64a848439da538debbe632c2,imer007,,,OK,
-4c01921bea5d4733bee25dfba5198d0a,Koughdsu,,1045,OK Scraped (Match),2025-06-17T03:55:09.666627+00:00
+4c01921bea5d4733bee25dfba5198d0a,Koughdsu,,1045,OK Scraped (Match),2025-06-17T04:45:53.826416+00:00
 4c050709cf52463aadc666443447b83e,fhcq_LRF,,1223,OK Scraped (Match),2025-05-27T05:32:14.912205+00:00
 4c050adfcfd7481cb355e56e2e0f6a84,ilyxus_,,,OK,
 4c0c61e903734cc0a5b478f3525b4348,DrEVIL1245,,,OK,
@@ -3660,7 +3660,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 4c6115383c07419cb0cb35a7e238b736,AsAngelsBleed,mariascorpse,1089,OK,
 4c644c2b8fa54e9abfc9fc17c82acd0a,aamwj,,,OK,
 4c6fe40395f544598f42b07764300534,_Flanflanx_,,,OK,
-4c77e9857a9a4ee0a971e30c31965006,mralanman,,1148,OK Updated (Match),2025-06-17T04:00:35.474665+00:00
+4c77e9857a9a4ee0a971e30c31965006,mralanman,,1148,OK Scraped (Match),2025-06-17T04:44:19.275003+00:00
 4c79fc4b5ce24990a021a7636de9c258,Tompas_,,1464,OK Scraped (Match),2025-06-16T20:39:08.184101+00:00
 4c7ac214440e4b75bfbd6e4372f9b3a1,plinker_,,,OK,
 4c7b53b08e8a4ff4aea6aa2cd5d4a08d,Chick1n,,,OK,
@@ -3681,7 +3681,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 4cbefea88fdd41dc8aedbf7deb1ccb08,Masterblock1337,,,OK,
 4cc2560e6de34636bbaf8b2f2c057131,bobikSR,,1259,OK Scraped (Match),2025-06-13T21:35:24.974549+00:00
 4cc37f56e2254481af7ab36875554a39,TheFrogKing314,,,OK,
-4cc7d48d62e64e598e1600d102826195,Proness1213,,754,OK Scraped (Match),2025-06-17T03:55:51.494942+00:00
+4cc7d48d62e64e598e1600d102826195,Proness1213,,735,OK Updated (Match),2025-06-17T04:46:14.830994+00:00
 4cc8b951ebc147ef8280614ea4b1df2a,Lucasisverycool,,,OK,
 4ccc780cd01c4d81a2ced7137d9c30a1,Zibbinaytor,,,OK,
 4cdc619295464f62bed7f1227977458b,Mystyde,,,OK,
@@ -3691,7 +3691,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 4ceb893149a8410f8cdce71f965ab110,Bienski,,,OK Scraped (Match),2025-05-15T15:35:42.254559+00:00
 4cef9655ddc34bd19a5bc380f6adad24,Moo_God41,,1392,OK Scraped (Match),2025-06-15T08:38:28.838345+00:00
 4cf19e4e28694907ba50a659615d9a85,Dicleee,,817,OK Scraped (Match),2025-06-16T22:40:06.191273+00:00
-4cf401d7b9474756b06a653867d22fca,BadGamer,,1614,OK Scraped (Match),2025-06-17T03:58:47.943773+00:00
+4cf401d7b9474756b06a653867d22fca,BadGamer,,1614,OK Scraped (Match),2025-06-17T04:42:13.132083+00:00
 4cfcbcb3b65f431f9aca7090054f71c8,Zeus_survival,,,OK,
 4d01083ab1ca4cb2b32d33ada4493bd1,Yoshimura_Etooo,,840,OK Scraped (Match),2025-06-08T08:35:23.840261+00:00
 4d0587cab16140eaae16fcb2f871534f,ETHAN__MC,,,OK,
@@ -3742,7 +3742,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 4ddab85847e6418592488dd2877755b0,610520_,,797,OK Scraped (Match),2025-06-14T14:29:46.271995+00:00
 4ddfb665973c4a408b14df2d6aa02a6a,21joozey,,1338,OK Scraped (Match),2025-06-17T02:21:51.421665+00:00
 4de110156e064884bbdc4c3ce64eeed7,GRANDMONSIEUR,,,OK,
-4de1f7eedfbc455a9931b4934d79e9c2,pnkdino,,987,OK Updated (Match),2025-06-17T04:01:29.887455+00:00
+4de1f7eedfbc455a9931b4934d79e9c2,pnkdino,,987,OK Scraped (Match),2025-06-17T04:39:54.767516+00:00
 4de2381f8d8f4b12bd5c265ba4e6d2b9,Nano0418,,,OK,
 4de690b4666a48bc8bc4adbc04158ea8,Elirium11,,,OK,
 4de7e44c50414b73a49f3df56dc3bcb0,BulbaMC,,,OK,
@@ -3753,7 +3753,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 4dfff2e9d5414109b6c36bf226d48672,RobQT,,,OK,
 4e02079c34174986aac17a048a27965a,Supersonic802,Supersonic802,1201,OK Scraped (Match),2025-06-16T23:29:06.460140+00:00
 4e096616fcf2401dbad64dee03e663b7,summerlex,,,OK,
-4e1c20c3eeec40139e230a77a9fe0b42,_f1shb0wl,,1317,OK Scraped (Match),2025-06-17T03:59:33.109290+00:00
+4e1c20c3eeec40139e230a77a9fe0b42,_f1shb0wl,,1317,OK Scraped (Match),2025-06-17T04:41:32.862860+00:00
 4e265f7763b54d688ab0b6e5efa7adc1,macalopo,,1368,OK Scraped (Match),2025-06-15T07:32:46.135190+00:00
 4e2705113a7e48e8aec27c79863a5f39,LazyGray12,,,OK,
 4e2ab01d8c8f43a1b3992122ec95b6a5,BbKom36,,1093,OK Scraped (Match),2025-06-06T17:33:25.806880+00:00
@@ -3880,7 +3880,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 50a2c2b8e00d462bb3e6ad720b0a9fab,SkibidiGoonMaxer,,478,OK Scraped (Match),2025-06-09T20:36:34.632213+00:00
 50a914ff89474ae1b044ba2c9a988f7e,lumingol,,,OK,
 50ad30305bb34d69a55b2e7de161d1c8,keawo,,,OK,
-50add35bc18c4abe8c7f24fb4907178e,2DTragedy,,1169,OK Updated (Match),2025-06-17T03:59:37.760646+00:00
+50add35bc18c4abe8c7f24fb4907178e,2DTragedy,,1154,OK Updated (Match),2025-06-17T04:43:16.187849+00:00
 50b157f69082460889a458b76624fccc,falconite400,,,OK,
 50b64e19bc024e2c8ab3b27f22929b9a,angly_xiaonan,,,OK,
 50b6ced24cd241a0b006084b7a89aead,Manju317,,,OK,
@@ -3920,7 +3920,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 5161f78d580d427da8a0ead9fd82d187,TheKirchi,,,OK,
 5168534726264a78af4ff17ff86ba77c,A9XK,,,OK,
 517484be5eef4bee867a9c8285ffe2d7,Mashedpot,,,OK,
-5175370d0a43400e9c5fef63db7aa56e,Orion_bo,,1288,OK Scraped (Match),2025-06-16T18:41:46.302797+00:00
+5175370d0a43400e9c5fef63db7aa56e,Orion_bo,,1288,OK Scraped (Match),2025-06-17T04:43:26.691122+00:00
 5176794104ef4e87ae8a30a522ac2bff,Ali2456,,,OK,
 517fccf712b74562bbdd67663831c66f,JeenJay,,,OK,
 518269b58787476daadbf20400c9b1a9,TheChampy,,,OK,
@@ -3953,7 +3953,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 522bc638a17243ad8551395aeec56e6f,masa_ERC,,1464,OK Scraped (Match),2025-06-15T11:25:55.079495+00:00
 522cb36831414f40b374ed25a6145372,darkkxz,,,OK,
 5233c3c98788473fbeb38f6697703c90,Plyers8,,1118,OK Scraped (Match),2025-06-04T11:33:28.377961+00:00
-5235e540b8b04c62894ddc61483b7735,Defenestrater1,,1063,OK Scraped (Match),2025-06-15T05:38:42.873666+00:00
+5235e540b8b04c62894ddc61483b7735,Defenestrater1,,1063,OK Scraped (Match),2025-06-17T04:41:48.626374+00:00
 523ccc98a22648aaaaae9305b76c8ec8,blade105,,,OK,
 523d62baf9664286b0af23bf644bfaad,WyndRyder090909,,,OK,
 523df9764a2a43829395ceffabcd0977,Its_Esoteric,,632,OK Scraped (Match),2025-05-08T19:30:30.897807+00:00
@@ -4205,7 +4205,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 571f57205eb6486c9dcd48ded7c7ff11,YEZISOFT,,,OK Scraped (Match),2025-05-30T19:32:13.495867+00:00
 571fc143caa349baa27b5cac1896b587,Redbeastsam_,,,OK,
 572270d10e3f4e53a470cb36646ef1fc,voxike,,,OK,
-5727c4aa3bcd43c895ec1c747f72fd2d,123ya,,883,OK Scraped (Match),2025-06-17T03:54:41.585147+00:00
+5727c4aa3bcd43c895ec1c747f72fd2d,123ya,,883,OK Scraped (Match),2025-06-17T04:45:45.080760+00:00
 572be2dcc6e8403ab3be9a88d66c2dff,CommandGamerPro,,,OK,
 5732c91065364577a80c17abd55aedc6,oDqlan,,,OK,
 5733b097175a4e8e8b3846e12856289c,Sonjuno,,,OK,
@@ -4216,7 +4216,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 57507e29f75d43cabdfb51d736114b81,ItzGaron_,,,OK,
 5754dc60236f4288833bb26a2f892c0e,Mamfuthachi,,,OK Scraped (Match),2025-06-07T17:34:34.480192+00:00
 57560d23306d46118e1827606ecba4ea,RUNNIN18,,,OK,
-575986db8fde42319e02e6a9aefa9971,KDAscarlet,,,OK Scraped (Match),2025-06-17T03:59:45.512164+00:00
+575986db8fde42319e02e6a9aefa9971,KDAscarlet,,,OK Scraped (Match),2025-06-17T04:42:04.381428+00:00
 575a39845c5a42f6b02fd2465c8846a1,Zeals___,,,OK,
 5760ae9360c94010b05c6c9e1ba13948,minecraf_account,,,OK,
 5766f301544741af998639d58ce65de5,Teanou_,,,OK,
@@ -4234,7 +4234,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 57884eac875247fe993a6051e1209c34,Rhil,,,OK,
 578a62f2118d499baa2db12ddbccd949,Envarad,,,OK,
 5790be9c81f04ddbb6ec98fcd451acd9,MaroooSky,,,OK Scraped (Match),2025-05-22T15:31:49.572395+00:00
-5791d722cbce419599a87fd3db74151e,EnEnCourage,,1192,OK Scraped (Match),2025-06-17T04:00:12.060552+00:00
+5791d722cbce419599a87fd3db74151e,EnEnCourage,,1192,OK Scraped (Match),2025-06-17T04:45:48.579562+00:00
 5796c6470037476dbb1c8a05b0b50508,AllDinosaur_,,,OK Scraped (Match),2025-05-27T16:43:40.010910+00:00
 57975c41701e46eba4a4a739ab25cdfd,LessiPlay,,,OK Scraped (Match),2025-05-11T20:33:29.116001+00:00
 579ac38d63f54013901d3cda80f84ef3,Foundmyball,,,OK,
@@ -4412,17 +4412,17 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 5b797990b5924e4990de808309f195de,Lavaffinity,,,OK,
 5b7be035e22043bd9055b285eba6c9e5,_SombreCheese,ItsSombreCheese,948,OK Scraped (Match),2025-06-02T09:35:40.741057+00:00
 5b81e096ef4d4d45b461f00ff356282d,Mikukasa,,,OK Scraped (Match),2025-05-11T22:34:47.335079+00:00
-5b84198e40b74bf880a77166e2d874c5,Ausal_,,1244,OK Scraped (Match),2025-06-17T03:58:27.837793+00:00
+5b84198e40b74bf880a77166e2d874c5,Ausal_,,1244,OK Scraped (Match),2025-06-17T04:46:41.101419+00:00
 5b8700a9cb3041118f9a22b3eb1b472c,FineCapybara42,,,OK,
 5b877eb8ea824ea4b2a5f12b07ed5b27,spencem07,,,OK,
-5b89a750ac6047d6b82e3162cc94f573,SeemsEmpty,,,OK Scraped (Match),2025-06-14T07:27:16.715510+00:00
+5b89a750ac6047d6b82e3162cc94f573,SeemsEmpty,,,OK Scraped (Match),2025-06-17T04:44:50.796184+00:00
 5b8d492490ec4050a20121e0105e8214,Tsilly,,1153,OK Scraped (Match),2025-06-16T18:43:43.436966+00:00
 5b8e32ba566e48a2aca33ad3a396f21e,Bh7_,,,OK,
 5b9b49d2660d445e870e086bc735a38b,29shreks,,,OK Scraped (Match),2025-06-06T17:38:35.784282+00:00
 5ba2b101ccd04278880a91bf82c10843,XerxthePhyrst,,1000,OK Scraped (Match),2025-06-09T18:47:38.280137+00:00
 5bad1e08b3d845f98ce8de815a37886f,Ozon_O3,,,OK Scraped (Match),2025-05-02T18:42:49.667500+00:00
 5bb5b75dafae4a67b56bbcf6587c9fba,5tff,,956,OK Scraped (Match),2025-06-12T15:36:35.835582+00:00
-5bbb5008bc1742a7ab95fc8d862e5e33,Calisthenicuber,,1081,OK Scraped (Match),2025-06-17T03:59:28.403537+00:00
+5bbb5008bc1742a7ab95fc8d862e5e33,Calisthenicuber,,1081,OK Scraped (Match),2025-06-17T04:43:19.691929+00:00
 5bbc8a3ab8a948fe94fdf5e746a77757,pedroislistening,,,OK,
 5bc40ad6ace24ed5b72683d47dfce71f,_shyqu,,,OK,
 5bdc58f4657f457384d53c3bc12cf148,BeefyAndTheDucks,,,OK,
@@ -4431,7 +4431,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 5be311a750864c4cae55cc11f58e6594,Runited,,,OK,
 5be43e3d80e44f668e025db93c9f287a,GET_OFFmyLAWN,,,OK,
 5be9ad8309e045d4bba80fbcdbacd9db,hikouki1913,,,OK,
-5be9af56d1dd4036807f833d55323981,ELninojaedyn,,1269,OK Scraped (Match),2025-06-17T03:57:07.406140+00:00
+5be9af56d1dd4036807f833d55323981,ELninojaedyn,,1269,OK Scraped (Match),2025-06-17T04:43:33.699141+00:00
 5bf01fa0f3ae483399bb6d41c9453497,tabib,,,OK,
 5bf4f60bb0204793856f7a6c60806631,Finger_,,,OK,
 5bf941a9d4cf469daf5cf7cb81e0afc8,perry_lin,,,OK,
@@ -4456,7 +4456,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 5c5159a73af940029dffde17a308cf3d,zenixouss,,,OK,
 5c5247a9b13542119cfa1b5090b35897,rjoss393,,1183,OK Scraped (Match),2025-06-12T11:28:28.942873+00:00
 5c534ebe1dae4a56ba3779ed0c5ee41d,Zimaxe,,,OK,
-5c56ad129d9e4200b944dd7366a4fcb6,Midpoint221,Midpoint21,1031,OK Updated (Match),2025-06-17T03:55:11.215640+00:00
+5c56ad129d9e4200b944dd7366a4fcb6,Midpoint221,Midpoint21,1031,OK Scraped (Match),2025-06-17T04:40:59.566637+00:00
 5c616ce347da454292bf6015a6c3c9d9,tailocqualon,,1056,OK Scraped (Match),2025-06-12T11:31:39.482166+00:00
 5c6392ca6c0e47bbbeb1b810447201ae,remedyowo,,1171,OK Scraped (Match),2025-06-11T17:32:18.813212+00:00
 5c660802aee94bce88f2decdb3ad9836,wfreghtgr2,,,OK,
@@ -4488,7 +4488,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 5cbd420749f941caa995d5cea8634655,MrAmoeba,,1102,OK Scraped (Match),2025-06-15T23:30:10.093329+00:00
 5cbdc0c098fa4bd1a7fa9f5bb9444bf5,HeatFromSapphire,,894,OK Scraped (Match),2025-05-15T07:37:34.629570+00:00
 5ccd84f0013b4d52a10e2e24099dbcde,Breizha,,,OK,
-5cd115f0ec1240659db152406c0984a3,yjako,,1798,OK Updated (Match),2025-06-17T03:55:17.407557+00:00
+5cd115f0ec1240659db152406c0984a3,yjako,,1798,OK Scraped (Match),2025-06-17T04:41:18.848467+00:00
 5cd1e83a92c34360b089755a183f4993,grq_,,,OK,
 5cdfef04894c4064aeab47664b7fe0e5,not_JK,,,OK,
 5cee9fff8cef4eeb8dab9ba2ddbdde40,Decay_1,,,OK,
@@ -4592,7 +4592,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 5f0db07355c944c6944aa3dfa30b30d1,Sugshii,,,OK Scraped (Match),2025-06-05T23:36:23.583617+00:00
 5f1014bb48c342209ad74e1c49cc3495,Bru_Dog,,952,OK Scraped (Match),2025-05-10T23:35:32.629170+00:00
 5f1700347ba8459380b45662703167cf,White_Games,,,OK,
-5f1b7f19eed84d5a84e4f7ab8c9bb1df,_limc,limconner,690,OK Scraped (Match),2025-06-17T03:59:40.857837+00:00
+5f1b7f19eed84d5a84e4f7ab8c9bb1df,_limc,limconner,690,OK Scraped (Match),2025-06-17T04:45:29.321966+00:00
 5f1c88c4ba7b4ac49a8da3d001f3ff93,evachris,,,OK Scraped (Match),2025-06-09T16:43:06.363303+00:00
 5f28e35c10c7458b81ca25d27c017d6e,_rgb_pixel,,659,OK Scraped (Match),2025-05-30T02:09:46.985916+00:00
 5f2baa7827e247a4b6fb246e91f6d9b8,KingFuzzyJr2,,1161,OK Scraped (Match),2025-05-25T07:28:32.989626+00:00
@@ -4637,12 +4637,12 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 5fdf2d77fbf34e84b6ea5e8473af7ef9,_rachxl,,,OK,
 5fe206dc797d456fb2060a850c32b3e6,Ahegaos,,,OK,
 5fe4da47c5bb44628b32327a4d73b247,SneakyNO,,1595,OK Scraped (Match),2025-06-16T21:35:21.932956+00:00
-5fe5b387b0ba4f178e4bef084688f8a0,Frank0Connor,,,OK Scraped (Match),2025-06-17T03:57:52.226942+00:00
-5fe66e8b389f4dc384222e8cc09485f0,sanjinhu,sanjinhu_,1746,OK Updated (Match),2025-06-17T03:55:40.658473+00:00
+5fe5b387b0ba4f178e4bef084688f8a0,Frank0Connor,,,OK Scraped (Match),2025-06-17T04:43:05.678194+00:00
+5fe66e8b389f4dc384222e8cc09485f0,sanjinhu,sanjinhu_,1746,OK Scraped (Match),2025-06-17T04:41:24.103266+00:00
 5fe70adf12a74c0b9ed0e1346408cae4,patriarch_sasha,,,OK,
 5feb62a193964cf49252ad5db36a808e,Baafaaonroof,,613,OK Scraped (Match),2025-05-24T02:04:59.459970+00:00
 5ff376ec1ee84f82924a46b43ca1fef3,Contraption8or,,,OK Scraped (Match),2025-05-18T21:33:40.387566+00:00
-5ff69d0deb3a4e80a908f8b5eb82f914,MikeyBoie,mikeyboie,1333,OK Updated (Match),2025-06-17T04:00:10.510830+00:00
+5ff69d0deb3a4e80a908f8b5eb82f914,MikeyBoie,mikeyboie,1311,OK Updated (Match),2025-06-17T04:40:50.819635+00:00
 5ff8ff6f39284abcb1ed5cdf8d3d9b49,Jettvac,,,OK,
 5fff3f9d3ed14b429353282a64b84da3,DONRUDO,,,OK Scraped (Match),2025-05-19T15:35:41.451607+00:00
 60089504fcc1423fa6dc1b84f83c42c7,BrettDaBeast,,,OK,
@@ -4801,7 +4801,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 632899aa6f0b4df08f3066cdc145c07f,joel878,,,OK,
 6332a05ba1fd4a51b57f7ffd65b5d7f6,CountCreeper_,,419,OK Scraped (Match),2025-06-07T19:29:37.172282+00:00
 633e14f5c6a84f9b939d95a73480ac48,DINOASTY,,,OK,
-633fb9bfcf7849c4a0159564b5ab416f,xueshuang_yyyyl_,,1049,OK Updated (Match),2025-06-17T04:00:33.908510+00:00
+633fb9bfcf7849c4a0159564b5ab416f,xueshuang_yyyyl_,,1049,OK Scraped (Match),2025-06-17T04:42:41.148993+00:00
 6344bfe848624f67a869a2c024a758f0,D_cage,,,OK,
 634c8caec0b445c9834d7b4c4b000e96,iwantutocome,,,OK,
 634e59d9d96a4318858141547f97f115,akkx,,1250,OK Scraped (Match),2025-06-16T20:32:30.222826+00:00
@@ -4817,7 +4817,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 638536f889d240ce9c59f01709f7b041,Cornelius14,,,OK,
 63858c9e212448adaef443ef55a44e8c,Canoe_922,,,OK Scraped (Match),2025-05-05T11:24:23.589281+00:00
 6392cea9f14e41efb49b877fd5b7cbf9,k6bu,,,OK,
-6395c700441b4b18a875e1e8cf603f80,N0thingMatters,,1531,OK Scraped (Match),2025-06-09T23:30:37.589171+00:00
+6395c700441b4b18a875e1e8cf603f80,N0thingMatters,,1511,OK Updated (Match),2025-06-17T04:44:49.046273+00:00
 63a7841df0f64d40ae81012c19e918ac,ShayaanFR,,,OK,
 63a8e18bb12e4bee84ecbb722f965911,ofthelethani,,1226,OK Scraped (Match),2025-06-07T09:31:59.560705+00:00
 63ad65a836d8481bb068bdee41212b62,Giraffeio99,,940,OK Scraped (Match),2025-06-16T21:30:12.981220+00:00
@@ -4913,7 +4913,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 6564f28f66464e0f95070fc48c6911b7,MapicSwift,,,OK Scraped (Match),2025-05-24T21:30:46.018882+00:00
 6565d742405841f9a728c3c63c9d13d5,Stoppo,,,OK,
 657af3a9eb8f408b9414335ed7237fb8,_luoxue_,luoxuebu,,OK,
-657b67a89cb04573abf1096a411dd5cb,Bimorrias,bimorrias,1139,OK Updated (Match),2025-06-17T03:56:58.116626+00:00
+657b67a89cb04573abf1096a411dd5cb,Bimorrias,bimorrias,1116,OK Updated (Match),2025-06-17T04:46:53.350968+00:00
 657dd45d97184e8a925705b747bf4fab,MicroExister,,,OK,
 658416db98f2427bb554d59f5984c198,SMAEdward,,,OK,
 65843cfee7b64d66950be049405b47cf,spaceyo_o,,,OK,
@@ -4953,7 +4953,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 6641389776f1461e8b2556bb5ff1a4df,Vicious_kiwi,,,OK,
 6641b8d3a682420d8e8c3707c4157e91,xueshuang_yyyyyl,,,OK,
 6644ab9471984c5eb8c08bac68e8e0b0,2econdairy,,,OK,
-664c5d85f90f45f3b5c752cc0f1e1765,Waterhouze,waterhous,1028,OK Scraped (Match),2025-06-17T03:58:41.764768+00:00
+664c5d85f90f45f3b5c752cc0f1e1765,Waterhouze,waterhous,1028,OK Scraped (Match),2025-06-17T04:43:10.930172+00:00
 66525550007e4abc9553170f2ccca3e3,_arg0n,,824,OK Scraped (Match),2025-06-17T02:23:56.430526+00:00
 66527c66b6884a05afe460913d71b3e1,kanaTM,,,OK,
 6652d776545b406ba5b3016a9665954e,NicoNBP,nico_nbp,630,OK Scraped (Match),2025-05-30T15:36:10.593614+00:00
@@ -4963,7 +4963,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 667793415dae499cb2ab40c32f3b948a,The1Outlaw,,,OK,
 6678d4fc27b34e8398282aec15b0b58e,JoYuR2,,,OK,
 66851899500e438d8b07a8c57244f75b,maggiomg,,640,OK Scraped (Match),2025-05-30T05:33:02.583780+00:00
-6685e1b85a6f4fd79f23456300f5651b,crablight,,,OK Scraped (Match),2025-06-13T02:19:47.125236+00:00
+6685e1b85a6f4fd79f23456300f5651b,crablight,,,OK Scraped (Match),2025-06-17T04:42:37.649931+00:00
 668a134a7e9e46ce9843fb87542238d4,RamitoG,,631,OK,
 668c2e58c1784cc983c80514e7363d78,AJHSDAJDBSHAJDH,,,OK,
 668e81d1b0394b5ebe1b272db5b54cd0,maximoomin_,,,OK Scraped (Match),2025-05-09T20:39:52.483868+00:00
@@ -4992,7 +4992,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 67109fe73d6249d7a585ebdd97ca5dd6,JNJPIG,,1103,OK,
 6715fbd29ee8456cb472ebf138163cbd,A6ri,,,OK Scraped (Match),2025-05-16T16:41:49.980052+00:00
 672a847243d24c48a5d35f027d97056e,chinchillalover9,,,OK,
-6736cb0b81ca4e5099007e37d21bac24,r_ge_,,830,OK Scraped (Match),2025-06-17T03:59:36.205398+00:00
+6736cb0b81ca4e5099007e37d21bac24,r_ge_,,830,OK Scraped (Match),2025-06-17T04:46:23.585169+00:00
 673867ce04eb44c39748f9bf731fd7b5,wowb,,,OK,
 673895e20dfc454a9aabb006cd0f82f7,Riptide3809,,,OK,
 673a2f7f899f4feabe600ef154556521,sun008,,,OK,
@@ -5018,7 +5018,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 67d252115d184a4ea53f0d879872ce36,Hurricane996,,,OK,
 67d2cbebaaf743b48d468dd9cdd1cd9b,CunniArchive,,,OK Scraped (Match),2025-05-11T15:31:47.812873+00:00
 67d878fc420c45eaa73d1549418e669a,YellowApple5,GelberApfel5992,1132,OK Scraped (Match),2025-06-15T23:34:14.008411+00:00
-67dc3f177439420f89a18fa0c84bd1cd,Jameing,,1150,OK Updated (Match),2025-06-17T03:58:10.846665+00:00
+67dc3f177439420f89a18fa0c84bd1cd,Jameing,,1150,OK Scraped (Match),2025-06-17T04:43:44.220918+00:00
 67e0eecee0024ba29caa3158df6e7c1f,Strayblaze,Str4yblaze,,OK,
 67ee0f8a3ed34f91b0f96310677e5b1f,Kadestrom,,,OK,
 67ef46e74f544ad2b4f79210c8dee7a2,Vondraker,Vondraker,1189,OK Scraped (Match),2025-06-01T09:32:38.069368+00:00
@@ -5095,7 +5095,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 69903acf26ca4a30a43b11f56fcfa67d,Astinaa,,,OK,
 6994d1ca03344c2180f7ec35e4b4c69e,AutGamer2,AutGamer2,1043,OK Scraped (Match),2025-06-03T16:46:55.384097+00:00
 6995f48f1a56483c83c4ca96984eeac9,asterisq,,683,OK Scraped (Match),2025-06-14T08:37:03.260396+00:00
-69984cc017cc41b1af420d94a25ac058,Tyloo,,1213,OK Scraped (Match),2025-06-16T16:39:29.461346+00:00
+69984cc017cc41b1af420d94a25ac058,Tyloo,,1213,OK Scraped (Match),2025-06-17T04:45:27.573889+00:00
 6999342b0a8a42bcb8aed9f140804b6d,bonoben,,,OK,
 69ab12f53bc1400cac58e62d18521694,Ninjacode,,,OK Scraped (Match),2025-05-31T11:29:11.504371+00:00
 69adbccdf33c45aebc1836bb5cadc64f,ovijukas,,,OK,
@@ -5148,7 +5148,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 6aa6cdef27e545a78414f7345027b160,Piggy_pog,,,OK Scraped (Match),2025-06-15T07:26:27.845838+00:00
 6ac2f7758f6142eba06594334e9ed81b,n7bbb,,,OK,
 6ac4a4a79ee34b69b25bb205bbcc4945,Nayostik,,,OK,
-6ace0b496c0540d2b1fdbda848e0fa61,MrJeck,,1205,OK Updated (Match),2025-06-17T03:54:58.806707+00:00
+6ace0b496c0540d2b1fdbda848e0fa61,MrJeck,,1205,OK Scraped (Match),2025-06-17T04:46:58.601026+00:00
 6ace9faa786641639fe65d4cc8fc7cf4,EgregiousTao,,,OK Scraped (Match),2025-05-23T22:35:46.174646+00:00
 6ad2d3d6b2a14906ac1eab5f1a6cb1f8,Its_Me_Eduard,,852,OK Scraped (Match),2025-05-11T22:32:50.771533+00:00
 6ae73c8eb9334ba8a1a263c48fadb755,Clever_Clown,,,OK,
@@ -5237,7 +5237,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 6c268501955e4cab825f32ec20a16671,benwhite_,,851,OK Scraped (Match),2025-05-24T16:37:48.947994+00:00
 6c29cd6516ae4e74a8321e483de9d782,HaDE_9786,,,OK,
 6c2ce80057ff4171bef49a6b93205781,45emre61,,,OK,
-6c2cf1cfabcd4e96a45012921449d797,johnplumber,,1201,OK Scraped (Match),2025-06-13T21:29:35.398138+00:00
+6c2cf1cfabcd4e96a45012921449d797,johnplumber,,1162,OK Updated (Match),2025-06-17T04:39:03.877172+00:00
 6c394463803e451786392530672909e0,Acactus_,,,OK,
 6c3f5d054e5c4f958272a3d2002d2f54,InsidiousMCP,,,OK,
 6c438b3e349f4586a3e1b17ecc138047,youBabaovo,,,OK,
@@ -5271,7 +5271,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 6ce961f5d6854d10a9212a5d3a163147,canhvjp,,,OK Scraped (Match),2025-06-16T07:37:19.572094+00:00
 6cef459f21ad4539bea77805cc9f17b0,Dziamm,,,OK Scraped (Match),2025-05-18T04:42:26.161158+00:00
 6cf38b1903f24beba2b9ca1f45c16313,PepsiFanta,,,OK,
-6d02db9ae48843f888b634891eec6b2e,Samuel02117,,998,OK Scraped (Match),2025-06-17T03:54:55.706642+00:00
+6d02db9ae48843f888b634891eec6b2e,Samuel02117,,999,OK Updated (Match),2025-06-17T04:44:33.276023+00:00
 6d08ba89a3fd4a668eb1de365231a71d,kyh547,,898,OK Scraped (Match),2025-05-04T14:33:31.314141+00:00
 6d112b0454ee4b1cb91c0cb7c924d50a,ChungusBoi,,,OK,
 6d160110ea1e4ab3b1513b3b45c53556,MaybeSoul,MaybeSoul55,1638,OK Scraped (Match),2025-06-16T19:30:24.133159+00:00
@@ -5280,7 +5280,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 6d25b7867ca447f7906cf0921973297d,NevvR,,,OK,
 6d25e6b39d4b4103b72947989c6c2509,__Paanda,,,OK Scraped (Match),2025-05-12T06:50:16.251810+00:00
 6d37cee227694910a7069f256cb52d2f,ToffeeETT,,1254,OK Scraped (Match),2025-06-06T22:37:02.039617+00:00
-6d3e1a4c5e834b01a32fb3aac747e813,_yuileyop_,,1062,OK Scraped (Match),2025-06-16T18:44:58.749576+00:00
+6d3e1a4c5e834b01a32fb3aac747e813,_yuileyop_,,1027,OK Updated (Match),2025-06-17T04:42:27.137305+00:00
 6d4216e175264fa28f66a1729f6020e1,Twrzzq,,,OK,
 6d45fcc1bfe34ac1b51df50df05d38b9,leoniglio,,,OK,
 6d4687d8f3094b1a8d6e71172830f1fa,Dokolenko,,,OK,
@@ -5327,7 +5327,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 6e0f88cd8a694f4093b971bc7b82998c,unicornbetrayal,,1262,OK Scraped (Match),2025-06-16T23:34:24.439378+00:00
 6e1068f6acfa40cda825fe101d4775d0,Dboigreat,,,OK Scraped (Match),2025-05-29T02:18:18.210206+00:00
 6e15e753c83d42479d82aafca0a72c6f,Soniim,,,OK,
-6e19534b9edb4a56b512f292f782cf55,Vavvll,vavvll,1232,OK Scraped (Match),2025-06-17T03:57:21.332941+00:00
+6e19534b9edb4a56b512f292f782cf55,Vavvll,vavvll,1232,OK Scraped (Match),2025-06-17T04:42:58.668411+00:00
 6e1e8915446244efb99ff8a78cbdac6e,plrek,,1288,OK Scraped (Match),2025-05-16T14:41:23.047827+00:00
 6e26d64c8a464f2f91bd0fc075a4a255,habgarkeinbock,,849,OK Scraped (Match),2025-06-15T21:30:56.714440+00:00
 6e2aac67b5cd49f3b894ba84da6036b1,Yonush,,,OK,
@@ -5453,7 +5453,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 7075e6a500594f089fadb41e1e251271,PresnoCraft77,,,OK,
 707c7df9641c468899e0c2957e4b0d55,LeahMCSR,LeahMCSR,1380,OK Scraped (Match),2025-06-15T04:47:06.120793+00:00
 707d8417a0c040f5ad67aeab3b3e6192,unabusing,,535,OK Scraped (Match),2025-05-17T06:37:42.222787+00:00
-707da52b1fa9411e87a4e9f1653a5a87,111__Spider__111,SpiderIsFv,1017,OK Scraped (Match),2025-06-17T04:00:40.113160+00:00
+707da52b1fa9411e87a4e9f1653a5a87,111__Spider__111,SpiderIsFv,1017,OK Scraped (Match),2025-06-17T04:42:35.899798+00:00
 708cbec38fca4b6799a030d154624bb3,Ares_202,,,OK,
 70967d0986e347b5aadf17c7d7144fa2,TaroCat1999,,,OK Scraped (Match),2025-06-01T05:38:03.334186+00:00
 7096b050a76c44218e1ff2ca51b7f735,rickypizzaaa,,1430,OK Scraped (Match),2025-06-17T02:26:39.061856+00:00
@@ -5469,7 +5469,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 70cc2cec519f4aba8ebb7105af729b62,boyosandigreels,,985,OK Scraped (Match),2025-06-16T21:32:18.918632+00:00
 70cda16448d04fbf96477a11c382c636,Hejk_Laomiao,,,OK,
 70d30eec09b143579019fed6ab659ccd,swift_pineapple,,1072,OK Scraped (Match),2025-05-26T05:34:36.638320+00:00
-70d863a5e7cc4fde983e447c4604f45a,ilickturtles04,,776,OK Scraped (Match),2025-06-17T04:00:44.744364+00:00
+70d863a5e7cc4fde983e447c4604f45a,ilickturtles04,,776,OK Scraped (Match),2025-06-17T04:40:54.319018+00:00
 70da7152bacc4a51a6a354653971b471,idontlikecheat,,,OK Scraped (Match),2025-06-11T23:30:08.351730+00:00
 70ddbd8f1c104596b171127aefc0c1df,dariasc,dariasc,,OK,
 70e82d53c9d64feab26416461d6e5d46,_Augi,,1219,OK Scraped (Match),2025-05-31T23:28:21.898773+00:00
@@ -5522,7 +5522,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 721ec18330f340efa8b7200cccf7b0a6,ChipChonk56,,,OK,
 721fad377c73468897ba822ed863757b,TwentySh0t,,,OK,
 7221606b80c5408bb975d2de94ec3a5d,monshiCD,,,OK,
-72219e097a1e479baefc8d460f4e389e,Mcraftor2137,,1089,OK Scraped (Match),2025-06-17T04:00:47.835110+00:00
+72219e097a1e479baefc8d460f4e389e,Mcraftor2137,,1089,OK Scraped (Match),2025-06-17T04:44:54.303438+00:00
 722cc1821d2a43d1bab2f9235145010e,Herlix34V2,,,OK,
 722d4f81d46a468a9dd14fc6daac5bd2,Icyiobrellim,,,OK,
 72328896c21c44b590252d92ed917465,SSSharker,,,OK Scraped (Match),2025-05-02T13:36:59.981586+00:00
@@ -5553,7 +5553,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 72b24d8b5b92481a904f2dbec822a47e,zebchicken,,,OK Scraped (Match),2025-06-14T19:26:56.792429+00:00
 72b82da855794d01b54da0620e46c2b0,Qmojo0529,,,OK,
 72c48107207842fc9cda2f3426747ffe,Firefoks0804,,360,OK Scraped (Match),2025-06-10T18:43:04.203476+00:00
-72d39d3a4d214fbda52d4fcd3a62dfe9,redstoneil,,936,OK Scraped (Match),2025-06-17T04:01:05.026544+00:00
+72d39d3a4d214fbda52d4fcd3a62dfe9,redstoneil,,936,OK Scraped (Match),2025-06-17T04:43:47.727007+00:00
 72f220fe80134aceb06504a14c395a8c,FS14,,,OK,
 72f564e186db4795b476aa1a3d7f2824,Der_Schr3dder,,749,OK Scraped (Match),2025-06-16T22:36:59.453499+00:00
 72f91b48784c4069a62f2c61e083d1b8,LucidCattle,,,OK,
@@ -5582,7 +5582,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 73877238029f470291c644d30fc22d4c,Lumin_yt,,,OK,
 738acb64d6e84399893e61f5f3acceea,lcwkey_,jupreza,,OK,
 738afed340da443cac4350b5f16409ef,Magneton,Nexlation,,OK,
-7394578d19654f6db88a65d3811366f2,Tomassy,,,OK Scraped (Match),2025-06-17T03:56:45.684210+00:00
+7394578d19654f6db88a65d3811366f2,Tomassy,,,OK Scraped (Match),2025-06-17T04:46:39.350784+00:00
 7394866c5dee478497815e8254b0cf08,DarKsuYT,,,OK,
 739608f84fe84fb3b78287d5db8b06f8,walnut_Emo,,,OK,
 73990292aa2a4b1f91e3e8e1ab76c983,FoggyRats,,1039,OK Scraped (Match),2025-06-15T14:37:52.067152+00:00
@@ -5643,7 +5643,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 74d8653b2b7a45809cae40df36b68b7c,NongKhong_,,833,OK Scraped (Match),2025-06-14T11:25:54.677312+00:00
 74dd599536b44748be94e94d58b16ab2,Nebrula,,1440,OK Scraped (Match),2025-06-16T08:45:14.008277+00:00
 74ef0c98fc094e8cb3352c720ac4bec9,VVVVVILLIAGER,,,OK,
-7506e50c33a04ce5a941b6be02077f13,tastyfries,verytastyfries,1320,OK Scraped (Match),2025-06-17T04:00:41.653704+00:00
+7506e50c33a04ce5a941b6be02077f13,tastyfries,verytastyfries,1320,OK Scraped (Match),2025-06-17T04:45:34.573786+00:00
 75098347d7824167a33ea10b06ca6f81,KrypticIllusion,,426,OK Scraped (Match),2025-06-13T07:31:30.372712+00:00
 750d3d962acf48cb9e5d0c3378fc2286,RAGElite,,,OK Scraped (Match),2025-05-25T19:22:01.278076+00:00
 7515703d10f843c28be333a2864a43d7,Local_LordBoss4,,,OK,
@@ -5722,7 +5722,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 7674de474f974c3181201faabcf7cca0,coke0_0,,,OK Scraped (Match),2025-05-11T23:28:57.409541+00:00
 76768fc2976a452c94d026e6082522b4,axdeyy,,,OK,
 7677522fd2634d03941604a67c1863f3,__Simit_,,,OK,
-7677f786a9cf407e8a90224e221b26eb,EepySleepyBoy,eepyfemboy_,1246,OK Scraped (Match),2025-06-17T03:54:14.905727+00:00
+7677f786a9cf407e8a90224e221b26eb,EepySleepyBoy,eepyfemboy_,1246,OK Scraped (Match),2025-06-17T04:44:31.529422+00:00
 767c0568524c492ba70fce1e6f3c644b,Janekgr,,,OK,
 768bb5c7c1974ef196757851a03f80d9,Coolburst0,,,OK,
 769089383a8f44ce94390e8e6d7e631e,Dogecyanide,,,OK,
@@ -5764,7 +5764,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 7774a241a4ee49ea84973f31fc610975,Silorak_gt,,542,OK Scraped (Match),2025-05-08T22:36:18.237006+00:00
 7777c830929942a89016bb4ab49c9a11,Terrinn,,,OK Scraped (Match),2025-06-15T11:28:17.691241+00:00
 777af1d5698f410e84d0ec54c89a21a0,KaydaCant,,,OK Scraped (Match),2025-05-25T08:40:38.352817+00:00
-777be17e7b1f448b9e60165e2987a07a,Munch0s,,1186,OK Scraped (Match),2025-06-17T03:56:50.324090+00:00
+777be17e7b1f448b9e60165e2987a07a,Munch0s,,1186,OK Scraped (Match),2025-06-17T04:44:22.779043+00:00
 777f3fb71c9d4a06b901fdda5c122cd4,YagizDelice,,,OK,
 77847865cec44e21af0e9c5d974d2890,Tob1,,,OK,
 7787c779368c4ef38df39d6f8f4ce884,manubnuy,bitsbyalyx,1015,OK Scraped (Match),2025-05-25T23:28:53.478857+00:00
@@ -5795,7 +5795,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 781142f739c94b26878ed1bfc218519b,IzzyHeroPrime77,,,OK,
 781e4eaf5a3c4c1d8cd9da2b45e41ec0,bagelexe,,,OK,
 781fdf00738d450db90b688e114fb685,Blyde_,,1321,OK Scraped (Match),2025-06-14T23:34:24.458506+00:00
-7820c6d710104a8a8596f8a5ee523d91,SquirreLove_,,1368,OK Updated (Match),2025-06-17T03:55:39.116556+00:00
+7820c6d710104a8a8596f8a5ee523d91,SquirreLove_,,1387,OK Updated (Match),2025-06-17T04:39:32.004488+00:00
 7825461cf61a45d2b27439ca4af91b8f,OscarDivine,,,OK,
 782a7e0fae624b5eb0697e210fab98e6,KAISOUSARADA,,,OK,
 782ce80332c744e7bbd2e57b3ab6f5e3,HashtagNoRacism,,,OK,
@@ -5857,7 +5857,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 790ffa09a3544b439bc7da66d3556f70,AndrijaJV,,,OK,
 791647e37e2d41bc83ce04288e3248ff,Blanqx,,1022,OK Scraped (Match),2025-06-16T13:01:07.852808+00:00
 791f1209f0b34665a71dbdad5687d77a,nqv5_ZZypRd,,,OK,
-79200e34c2074dd6a953ca5a3310e47e,joeyr_,,986,OK Scraped (Match),2025-06-17T03:55:28.220341+00:00
+79200e34c2074dd6a953ca5a3310e47e,joeyr_,,986,OK Scraped (Match),2025-06-17T04:44:08.774365+00:00
 7924dd4c48564a4ab677b78a48e37198,Wuespin888,,,OK Scraped (Match),2025-05-05T06:48:27.843129+00:00
 7925f9794c7c4f5f8751bb1215d16021,HailZeus,,1178,OK Scraped (Match),2025-05-16T22:40:03.655150+00:00
 7926c3dce93549b7965a60f4ce2ce050,SmustafaC,,,OK,
@@ -5874,7 +5874,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 795b410d593a4406b043d3a62d9254ef,Minekey94,,,OK,
 795d97fe00804f35b033e988938c8945,LV_Koko,,,OK,
 795db4033a684583947040a9219237d9,ThisRedstoneMan,,495,OK Scraped (Match),2025-05-17T19:28:04.596242+00:00
-79635c3dbf634a228bf44544cc7c0d27,laysar_on_e,,1325,OK Updated (Match),2025-06-17T04:01:32.977839+00:00
+79635c3dbf634a228bf44544cc7c0d27,laysar_on_e,,1325,OK Scraped (Match),2025-06-17T04:44:26.278367+00:00
 7963d868fd4749e691d9c1242f20fd77,oopthie,,,OK,
 7965d96ba8ec4289b2a6d7673658fdbd,fizzyfantasy,,,OK,
 796d400f64ff4eb09ab223d56dbffbd5,Lishian,,,OK,
@@ -5888,14 +5888,14 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 7998b4141a034c0f9caaf9b9c4323c1a,lakovic,,,OK,
 799cca33243e46d789f34d271b79d831,5ymlink,,,OK,
 799e38e1ccc5491396c008d4a512b553,29zen,,,OK,
-799f62acf3ec444cb09d41fb043eba9e,0BSIDIANYT,,635,OK Scraped (Match),2025-06-17T03:56:34.868635+00:00
+799f62acf3ec444cb09d41fb043eba9e,0BSIDIANYT,,635,OK Scraped (Match),2025-06-17T04:42:21.884431+00:00
 79a6197530b74ff99f04de2dc4e67d23,arc_anarchist,,909,OK Scraped (Match),2025-05-21T22:40:10.371079+00:00
 79b0c939e06147759efbcb3b05edc767,redstonepickaxe,,,OK,
-79b13ceb10ed4460ab4c1691622b86c8,miabbyyyyyyyyyyy,,692,OK Updated (Match),2025-06-17T04:01:19.065152+00:00
-79b203a3a38d43b5987fba91d4b5b602,SGBESTMC,,,OK Scraped (Match),2025-06-17T03:55:20.494237+00:00
+79b13ceb10ed4460ab4c1691622b86c8,miabbyyyyyyyyyyy,,670,OK Updated (Match),2025-06-17T04:43:12.688086+00:00
+79b203a3a38d43b5987fba91d4b5b602,SGBESTMC,,,OK Scraped (Match),2025-06-17T04:39:35.506509+00:00
 79bee360867c4fba879b84c572325585,ItsDarkNeko,,,OK,
 79c6c35fdda4410898bb9c5b8008de80,Mr_napkins68,,,OK,
-79c83a7706a049a7bb2d619281b21f4b,unflipped,,1423,OK Updated (Match),2025-06-17T03:58:46.394626+00:00
+79c83a7706a049a7bb2d619281b21f4b,unflipped,,1401,OK Updated (Match),2025-06-17T04:40:05.272394+00:00
 79c9168fb14241a6bff72dfbc3256e81,Triix333,,754,OK Scraped (Match),2025-05-20T20:40:37.495291+00:00
 79ca2e18c00f4242bf8d89fbb61e336c,Patch57_,,,OK,
 79d4960c96534538b47e46a76701e8b0,Rampj,,,OK,
@@ -5904,7 +5904,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 79dbf0f88267478bb81e60d04eca037c,A0SE,,,OK,
 79e22b3cbffc43b2b7f58a2c26a0c494,Leakyss,,1180,OK Scraped (Match),2025-06-16T18:44:34.220171+00:00
 79e3a2ade9264109a8dc0a900af4caee,smrgl,,,OK,
-79e4793275ba4d7bb5a873dea0a72f2f,ATurtle123,阿龜龜龜龜,1531,OK Scraped (Match),2025-06-17T03:58:34.019388+00:00
+79e4793275ba4d7bb5a873dea0a72f2f,ATurtle123,阿龜龜龜龜,1531,OK Scraped (Match),2025-06-17T04:45:17.068013+00:00
 79e4da94ce404e73bf98f5265cd32420,JustDay0727,,,OK,
 79e6b6004f084b19a495e35f1a9d845b,Jarrettt_,,964,OK Scraped (Match),2025-06-16T19:25:41.823884+00:00
 79ebb173ed7c4da69c66c77af4799385,SuperBowserSpike,,,OK Scraped (Match),2025-06-16T02:29:32.408256+00:00
@@ -5996,7 +5996,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 7bafd1ffbf6a4fc1a6de3c9ea566e3a5,Exterminator33,,,OK,
 7bb2d759b5a142bdae9f3d3d95a674f1,Jurassic_Friends,,883,OK Scraped (Match),2025-06-16T13:45:26.219280+00:00
 7bbde55c507247f28a009ca91ce1bb0e,Synt4xS0rr0w,,,OK,
-7bd551615a314f63aa96b8c5aaa35c9c,8BitClover,,1404,OK Scraped (Match),2025-06-17T03:59:00.419175+00:00
+7bd551615a314f63aa96b8c5aaa35c9c,8BitClover,,1404,OK Scraped (Match),2025-06-17T04:45:55.576564+00:00
 7bdbe41899734dec930fa4f24bc833d2,Grvdge,,845,OK Scraped (Match),2025-05-09T22:34:56.758351+00:00
 7be25bf9162b40f7bc585d8187729409,kyteware,,,OK,
 7bea270c971a4dee9a095b5e63c133bf,gaming_mats_bot,,,OK,
@@ -6009,7 +6009,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 7bff05920cd14cf4b63fb255bcb98612,NextBot256,,,OK,
 7c044557806a42148ed9cfb58b0298a4,Whetuc,,,OK,
 7c0a26e974534692901324532ac70b2a,soupysushi,,,OK,
-7c1bb7505cfc423b9bee15798a387e39,xBlitzy1,,1010,OK Scraped (Match),2025-06-09T04:45:30.677877+00:00
+7c1bb7505cfc423b9bee15798a387e39,xBlitzy1,,993,OK Updated (Match),2025-06-17T04:46:30.600254+00:00
 7c1fbcbab4b64e00b85e191245a30309,Verpeilteres,,,OK,
 7c212ebab3b24a0ba346a80531386ee6,hiitzhunter,,,OK,
 7c22ce384ab44be0bfae7f043769c34d,APTK29,,1009,OK Scraped (Match),2025-05-18T15:28:08.114576+00:00
@@ -6065,7 +6065,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 7d1f5ab2b558435d814edae4f3f1a7d9,Nq_xLKKCq,,,OK,
 7d2f609860c34b388e7068d1463ab2f0,MAARKFAN7,,,OK,
 7d320034571e405a9b6889104489a3c4,kohout135,,1441,OK Scraped (Match),2025-06-14T23:36:04.480257+00:00
-7d3a6bb9f62645ae80cf40840ca84c50,Frigbob,,1490,OK Updated (Match),2025-06-17T04:01:00.314053+00:00
+7d3a6bb9f62645ae80cf40840ca84c50,Frigbob,,1490,OK Scraped (Match),2025-06-17T04:41:11.836668+00:00
 7d3ff04a0f8347fe8b8ebb6d8c8c71be,jabthe189,jabthe189,1131,OK Scraped (Match),2025-06-12T11:27:48.436888+00:00
 7d44195816554586adc3a268af16ca58,koumaron,,688,OK Scraped (Match),2025-06-16T14:38:16.882033+00:00
 7d4cfa8fccaa436db9bda3c7e99b1d3f,NinjaSpeedyB,,1026,OK Scraped (Match),2025-06-16T20:36:41.269705+00:00
@@ -6079,14 +6079,14 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 7d680342ea104543a79116a8661ae11d,ItsBluxy,,,OK,
 7d68fa2b3df3411db79359c687e00815,iIplasticineIi,,959,OK Scraped (Match),2025-06-14T14:34:20.516191+00:00
 7d6e01cbfd9044f387805f7448ed90a5,Brainfreezerz,,,OK,
-7d6e893c7ce24d86b4ff3105a16f42a3,ottersome113,,,OK Scraped (Match),2025-06-17T03:55:59.224322+00:00
+7d6e893c7ce24d86b4ff3105a16f42a3,ottersome113,,,OK Scraped (Match),2025-06-17T04:39:28.506242+00:00
 7d6f8345c4914fd6bcedfaf5ca2e7586,coldhearted_jehu,,,OK Scraped (Match),2025-05-30T09:37:30.358375+00:00
 7d7442f1afaf4322a6d9ae320db84b01,timoking321,,,OK,
 7d75967fcc974531ace0ff931d1f60b2,tropakwopa,,,OK,
 7d79ad354efa4113b2278f12cf1cc296,Dr3xile,,,OK,
 7d7bd73a68bd46779f52b749cfb723e5,Tiscaz67,,,OK,
 7d7e5ecf465e4c8bb79aa8402afa6b14,Clarkkyy,,1277,OK Scraped (Match),2025-06-17T02:23:45.634446+00:00
-7d7f9891969a4c479dc8f4d6a5b302af,Nerdi_,,1091,OK Scraped (Match),2025-06-17T03:58:58.847598+00:00
+7d7f9891969a4c479dc8f4d6a5b302af,Nerdi_,,1091,OK Scraped (Match),2025-06-17T04:46:21.835315+00:00
 7d7fc225849644d18eeb2c202b239e82,Dianbach,,,OK,
 7d83704ff127444c8a7e54409b233ad4,EmceeKirby,,1009,OK Scraped (Match),2025-06-09T07:35:04.089511+00:00
 7d83fd628e8c4db2ad6fdfa0e9a04f75,OfficerNine1111,,,OK,
@@ -6138,7 +6138,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 7e8b22e180b24c25937c06ec7471ee2f,fdgfdgfhfgh,,,OK,
 7e92f0d2a6064b3db2e2f1521cf486f5,Marylaand,,,OK Scraped (Match),2025-05-07T19:27:54.126994+00:00
 7e96d8c9e65b474fbd86581507ce7514,PizzaTheKitten,,1154,OK Scraped (Match),2025-05-25T11:31:30.276241+00:00
-7e9ae74207e24150ae7b1354887aa040,shixiao_NotFound,,352,OK Scraped (Match),2025-06-16T18:45:35.495592+00:00
+7e9ae74207e24150ae7b1354887aa040,shixiao_NotFound,,352,OK Scraped (Match),2025-06-17T04:45:22.313789+00:00
 7e9d0624ed9b4ba8918d150a2e5bbe45,chufarinov,,,OK,
 7eaa70ab54ab42039badf6ce2a0c8bee,Noahmindcraft9,,,OK,
 7eae091dd371479493e8bb5195cf5b12,BOWDIGGZ,,,OK,
@@ -6147,12 +6147,12 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 7eb5afbee8884b99b5deaab6b71c0175,PotataoDream,,,OK,
 7eb5c17359864dc488cbefda2fdb5ebf,GamingLegend123,,,OK,
 7eb9015fa254473ab7ca1f457817096f,rickypizzaa,,,OK Scraped (Match),2025-06-03T22:39:33.471869+00:00
-7ebfdfeb72ab4773a6c0b9de3a01adaa,TiX0819,,906,OK Scraped (Match),2025-06-16T13:45:47.941617+00:00
+7ebfdfeb72ab4773a6c0b9de3a01adaa,TiX0819,,927,OK Updated (Match),2025-06-17T04:38:53.380030+00:00
 7ec3338161904956b72e35626add9641,Zedaar_Norixius,,,OK,
 7ec3640e136a46d09f0582855114722c,kxntw,,,OK,
 7ecd8567bbb04248aaf50d45fa26677b,the_xiaohan123,,1275,OK Scraped (Match),2025-05-22T17:37:54.772640+00:00
 7edb7898ae234323b0d48738d61073dc,BadPain,,,OK,
-7eeb68c236b742ec84cf89b353d89586,EoneN,,1309,OK Scraped (Match),2025-06-17T03:55:46.850496+00:00
+7eeb68c236b742ec84cf89b353d89586,EoneN,,1309,OK Scraped (Match),2025-06-17T04:45:24.063286+00:00
 7eeb730d84874438810668600c6da9d2,KingFatekL,,,OK,
 7eecf26a4d714bc2965059bc129b9488,Atu3815,atu_rta,1148,OK Scraped (Match),2025-06-14T14:29:13.314626+00:00
 7eef38ac9e4e4a8da4fb674fbe70ce43,Ovelini,,1267,OK Scraped (Match),2025-06-16T23:31:05.983437+00:00
@@ -6164,12 +6164,12 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 7f01028ecaff4aefa58d2f9bda336d4b,oBlazee,,,OK,
 7f0b1c21b9c541609f28f8455d743ba7,doofus_420,,1038,OK Scraped (Match),2025-06-16T11:28:13.170410+00:00
 7f0dea3ee92c4f23bd2dce1bd9e5f857,_Zyloh,,1094,OK Scraped (Match),2025-06-16T16:41:20.956539+00:00
-7f1401942fc54b2494e82a5f0f11518a,hackingpotato_,,1259,OK Scraped (Match),2025-06-17T04:01:06.590190+00:00
+7f1401942fc54b2494e82a5f0f11518a,hackingpotato_,,1259,OK Scraped (Match),2025-06-17T04:43:59.996207+00:00
 7f1cd56b550b48c88bdfe6bba27ddb4f,ProJecTipy,,,OK,
 7f1f6d1ede4b45169d553bdcea1ea51c,qRain_,,,OK,
 7f231b0f7a5340d9a624f61b8cd1a71d,namredips_YT,,,OK,
 7f293a83859e4293b710164e159ed673,azsumbatman,,,OK,
-7f297e8fb80d453bb50673754759248a,HeyImJanni,jannituts,984,OK Scraped (Match),2025-06-17T03:55:22.037399+00:00
+7f297e8fb80d453bb50673754759248a,HeyImJanni,jannituts,984,OK Scraped (Match),2025-06-17T04:46:13.078436+00:00
 7f30ab2f098a4083a2182dc688f74121,Quxp,,,OK Scraped (Match),2025-06-09T17:35:20.300026+00:00
 7f36b01d1b8f4fbcab4df24a454d6e15,Dimeax,,,OK,
 7f3b243349a1405aaf2ed56db1191a0a,ThorMagni,,397,OK Scraped (Match),2025-06-09T22:38:14.927071+00:00
@@ -6276,12 +6276,12 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 8171a1004430406fb38341bdd805ece5,BURST_SPINJITZU,,1011,OK Scraped (Match),2025-06-16T15:37:43.321191+00:00
 8175d54bb81e474986b2deedd8beb782,Burger2017,,,OK,
 81786c3f5d074f3190845c7716f4a365,Bonsheeros123,,,OK,
-817a3f2e92da42ab89c64a787ce16d28,Voxio,Voxioo,1869,OK Updated (Match),2025-06-17T03:59:11.231402+00:00
+817a3f2e92da42ab89c64a787ce16d28,Voxio,Voxioo,1869,OK Scraped (Match),2025-06-17T04:42:51.671357+00:00
 817adedd1b034764bd3090df1ea21359,someone_1,,,OK,
 817b9262ac004baf877d71eeb7191cae,n01ed,,,OK,
 817bd44ccd834950af8a4f3cea9d80bb,Command435,,,OK,
 817e85559e744c6aadf5a8d8ad138b8c,0rangina_10,,,OK,
-8193e458fad440188b7e44dc3fa62f63,cristo099,,1235,OK Scraped (Match),2025-06-17T03:57:08.954807+00:00
+8193e458fad440188b7e44dc3fa62f63,cristo099,,1235,OK Scraped (Match),2025-06-17T04:44:24.531826+00:00
 8195522a3c574d86b2162c8b8ec8bd3d,pardonmc,,1514,OK Scraped (Match),2025-06-17T02:25:07.684483+00:00
 81967b714bf74b2d95aa20d42570c116,FireRace,,,OK,
 819820168b224e39bde9fb8cbf8dbd47,Teddy_GG,,,OK,
@@ -6326,7 +6326,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 826617f28c284159b413783d7f6507c6,VIV01690,,,OK,
 8268ad59f4324457922364623aa47ea7,Uncoiled,,1003,OK Scraped (Match),2025-06-01T07:33:27.593719+00:00
 826cb28d10954c5c99e7709f0a24dfea,mericdenizz123,,,OK,
-82762f7fefd34547855bdf5ce0127da2,imHIGHaftbf,,1067,OK Scraped (Match),2025-06-17T03:59:58.072425+00:00
+82762f7fefd34547855bdf5ce0127da2,imHIGHaftbf,,1067,OK Scraped (Match),2025-06-17T04:42:44.649434+00:00
 82764b44c40d41b6ab233352e52d7338,_2y,,,OK,
 828c190728584d5589c7468d12163178,Ninoxygene,,,OK,
 82955aadfa294a35812ef9dfac67a688,GamerGuyZ2022,,,OK,
@@ -6406,7 +6406,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 841cb33d2b3d4de899ea4477b627982c,Ransterr,,,OK,
 84205b09babc465f8943ef99979aedaa,iheartstriders,,,OK,
 842efc03047f48689baf66445df7a716,Clxppedz,,,OK,
-843a90bbe96d44baa97140c53ea5cc4b,EliteShakez,,1062,OK Scraped (Match),2025-06-17T03:55:31.392693+00:00
+843a90bbe96d44baa97140c53ea5cc4b,EliteShakez,,1062,OK Scraped (Match),2025-06-17T04:44:10.524589+00:00
 843b953cd2f046b8bfdd4a3effcdc9d3,lionmini_,,1049,OK Scraped (Match),2025-05-22T13:01:06.956151+00:00
 8440ab8ed9204b858841f913e7a63cd3,yinyong,,,OK Scraped (Match),2025-06-09T02:30:24.231452+00:00
 844486e16179462dabe885114cf1a5ac,Astelo,,,OK,
@@ -6500,7 +6500,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 86334fc9e38344bdabf1a97f63c7be23,Anjo___,,1207,OK Scraped (Match),2025-06-08T09:31:43.343336+00:00
 86339007a2c34a64b008f453bd8f681e,Benertater,,,OK,
 863542f2c1554589930b72671b92012c,Tsubaki8029,,859,OK Scraped (Match),2025-06-14T14:33:33.723330+00:00
-86461020001a49e39dba323e7460a0f0,Defender580,,1134,OK Updated (Match),2025-06-17T03:57:24.420584+00:00
+86461020001a49e39dba323e7460a0f0,Defender580,,1134,OK Scraped (Match),2025-06-17T04:41:03.063509+00:00
 86480d4ba613430a83badd116bc90dd8,CaKogs,,,OK,
 8649c0aa25834dada1201ccb1165bda9,SLMD,,886,OK Scraped (Match),2025-06-02T02:27:46.614481+00:00
 8652a00235a84a3c968aa2af27de2a85,Mettwurst_LP,,,OK,
@@ -6512,7 +6512,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 8660e130f8894d64923af0075238e9fb,IamAper1s_,,1205,OK Scraped (Match),2025-06-13T05:36:46.194668+00:00
 86619e4a256244b6a0b6cad7733b7354,Herry1028,,,OK Scraped (Match),2025-05-31T11:23:45.465767+00:00
 866689ba102a4453b409fa3733a12400,RhemusJ,,,OK,
-866cfa38b542424fa1944c0b1733a118,Jkyo,yungjakio,934,OK Scraped (Match),2025-06-17T03:54:36.853515+00:00
+866cfa38b542424fa1944c0b1733a118,Jkyo,yungjakio,934,OK Scraped (Match),2025-06-17T04:41:20.604273+00:00
 86739072257542429c1a681f9172cd7e,AstroTheLast,,1240,OK Scraped (Match),2025-06-12T03:58:59.291330+00:00
 86765fb4b6be4c0980dadda30bc9096b,Big_Leo_,,1321,OK Scraped (Match),2025-06-16T15:33:10.795985+00:00
 86768ee0c0d84432aa523c11eff5a2a5,Fleyz,,1135,OK Scraped (Match),2025-06-04T23:29:49.583388+00:00
@@ -6589,7 +6589,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 8818f06b81e74e5197490ab335a7fe75,iNife,,,OK,
 881c83bf52e3433986d2d92ed60849ab,Kholbey,,,OK,
 881ef1e7e57042f8b5ee9d0eedffe702,Chillsify,,,OK,
-881f25cd5842458ebff3417417b143e1,iTweedle,,841,OK Updated (Match),2025-06-17T04:00:55.640904+00:00
+881f25cd5842458ebff3417417b143e1,iTweedle,,841,OK Scraped (Match),2025-06-17T04:45:18.817093+00:00
 881f40d1ed074f679b5284858e43cbe5,vtcm,,,OK,
 8821aa0da8354369b8e71430753f703e,MinerTobik,,,OK,
 8826a66bfac846d19455849bf417f00d,bajbye,,,OK,
@@ -6674,12 +6674,12 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 89dd2a265509434a81daba2e47233475,Xenerith_,,,OK Scraped (Match),2025-05-23T19:29:25.329188+00:00
 89e05fd0b75e4d96bb04544482f3000a,PhoeniX_TNT,,,OK Scraped (Match),2025-05-31T17:33:02.867080+00:00
 89e85362eb364cfe8fe3619f063f0f99,cupabqnm,,,OK,
-89e8f8b07f594d6fa8aa448005da2c57,Walls_,,1149,OK Scraped (Match),2025-06-17T03:54:35.306985+00:00
+89e8f8b07f594d6fa8aa448005da2c57,Walls_,,1149,OK Scraped (Match),2025-06-17T04:46:46.347771+00:00
 89eb67ea8eb446b6937b209f8392d839,OpponentAI,,,OK,
 89f134add6e7421fabcdfb20e300c413,RealBlaze05,,,OK,
 89f281545349424fb33c2a5d7373cd10,spacey2711,,,OK,
 89fe2899a20f44f198acd81dec5acc3c,reddit_user,,1241,OK Scraped (Match),2025-06-16T18:47:18.862598+00:00
-8a03ed694aa5447591594b87dc689da0,itswickedmc,itswickedmc,1257,OK Scraped (Match),2025-06-17T03:58:03.111503+00:00
+8a03ed694aa5447591594b87dc689da0,itswickedmc,itswickedmc,1257,OK Scraped (Match),2025-06-17T04:42:30.643994+00:00
 8a04e05dc4ab4aada207b4d269b7a68c,vysnevsky,vysnevsky,1015,OK Scraped (Match),2025-06-13T03:54:55.159405+00:00
 8a0f97ff619c4853ab1bc19faedfc7a5,MK_Affe,,,OK,
 8a13453fb93c46f79cf061a1d094291f,PegaGG,,,OK,
@@ -6852,7 +6852,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 8db58cce768540bb96ff564cafca63f2,JaffaJake68,,,OK,
 8dc3a62cf53543c88217cd42d801d039,1Velzxn,,1166,OK Scraped (Match),2025-06-15T20:31:11.440215+00:00
 8dc54c0adc734a8d93c93d338b0f547f,ImSryy,,1128,OK Scraped (Match),2025-06-11T19:30:12.601557+00:00
-8dc8fd85db184f479fcacaad30840878,sppien,mcsrdaily,1199,OK Scraped (Match),2025-06-17T03:57:32.143480+00:00
+8dc8fd85db184f479fcacaad30840878,sppien,mcsrdaily,1199,OK Scraped (Match),2025-06-17T04:40:14.046391+00:00
 8dc9162ef0494d9ba61ff016a132219a,RubenAmorimEra,,,OK Scraped (Match),2025-05-12T14:39:07.012809+00:00
 8dcad0ea9f7444ee8eb0a1aa5b868331,emia,,1516,OK Scraped (Match),2025-06-15T17:32:16.830439+00:00
 8dcdb90847484746bea81a87f533dcc2,BendyAG,,1099,OK Scraped (Match),2025-06-14T20:36:39.513304+00:00
@@ -6956,7 +6956,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 8fbffd3ab2c34ab4af380ccd68c1ae18,sanjijia,,1151,OK Scraped (Match),2025-06-16T16:43:36.874475+00:00
 8fc93aecda5b4f699cf76694116eaf11,rekrap2,,1679,OK Scraped (Match),2025-06-16T22:39:50.909042+00:00
 8fdfa71e78cf4a01a64ba185c8ac68bf,D1rettore,DirettoreLIVE,1162,OK Scraped (Match),2025-06-08T12:59:09.528380+00:00
-8fe8a5decf0142669bca6356a566e85b,GhostlyUchi,ghostlyuchi,1162,OK Updated (Match),2025-06-17T04:01:20.612266+00:00
+8fe8a5decf0142669bca6356a566e85b,GhostlyUchi,ghostlyuchi,1162,OK Scraped (Match),2025-06-17T04:46:07.823578+00:00
 8fefa2e529bf435691eb90a111248f66,Bednyazhka_Woker,woker0n3,1360,OK Scraped (Match),2025-06-17T02:19:47.286457+00:00
 8ff3eda472d047a5bd60486e45b8fe1b,Brandonthegoat47,,,OK,
 8ff57017b8b345aaa7152d1451044871,uriikid,,,OK,
@@ -7097,7 +7097,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 92bfa24eab1f438eba249bf65e0ee332,SundriedBricks12,,1208,OK Scraped (Match),2025-06-06T08:41:10.128214+00:00
 92c223d0dbe141dcaf90237bc2d6959b,JoshyG_,,,OK,
 92c22f429002425488f59f6f9df0752a,advikpro,,933,OK Scraped (Match),2025-05-27T19:28:10.236570+00:00
-92c4809d883a4267af02edd26ef808df,Blnja,,1188,OK Scraped (Match),2025-06-17T03:54:43.162336+00:00
+92c4809d883a4267af02edd26ef808df,Blnja,,1188,OK Scraped (Match),2025-06-17T04:45:46.829178+00:00
 92cc5e7ff2af4ee29488a597e8f170f0,CeleSymmetry,,,OK,
 92d9851c154f4642beb96ffba2a1721e,Fr0b_b,,,OK Scraped (Match),2025-05-23T21:27:54.781214+00:00
 92da65f5a3484fd680d853e6befd618f,SharpXXI,,,OK,
@@ -7139,11 +7139,11 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 93968592315c4affbeec4e6b4271a317,ClassicGamer878,,,OK,
 9398742b479342dfa89f995e51c63a75,Nato_Navo,,,OK,
 9399e1c066a94cb58c4aa47a273694f7,Ayrele,,,OK Scraped (Match),2025-05-18T11:24:54.673563+00:00
-939ddf85303441de901d60bfa4109318,thecamo6,thecamo6,1827,OK Scraped (Match),2025-06-17T03:54:29.097928+00:00
+939ddf85303441de901d60bfa4109318,thecamo6,thecamo6,1818,OK Updated (Match),2025-06-17T04:41:59.130983+00:00
 93a0cc5f0fd245d8af72a59224fd35d3,Thegogomaster76,,,OK,
 93b75820d78b433d8a0f5de4e3122eb0,glarded,,,OK,
 93b85f8de7a14b0cbdb55524981fb9f5,Jaimonji,,,OK Scraped (Match),2025-06-13T16:39:55.252240+00:00
-93ba396a8f974b1f92c8b2d6e7071880,stu1907,,,OK Scraped (Match),2025-06-17T04:01:03.477662+00:00
+93ba396a8f974b1f92c8b2d6e7071880,stu1907,,,OK Scraped (Match),2025-06-17T04:41:13.587113+00:00
 93bb5942edeb42078fe199a62b624fde,DirtMcGerk808,,,OK,
 93bdd8cf2c864a5bbc9904f9d5fbdd42,AeroAstroid,,,OK Scraped (Match),2025-06-10T08:38:58.786843+00:00
 93c09b58a2a74ec8802ef0d01b98dfd0,GabzlynMC,Gabzlyn,1555,OK Scraped (Match),2025-06-09T05:36:19.741022+00:00
@@ -7201,7 +7201,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 94c4535e256843dd9dd4040046eb45ba,ceza07,,,OK,
 94c6f7d6be354eb2b88b0e8fc5c79aea,Gigamer77,,,OK,
 94ca5f0c3cfe459fbde76d35e17a8694,svyh,,,OK,
-94cb99cc79e24a1ebe94adaa0955c31c,CHR4NIUMcruz2,,769,OK Scraped (Match),2025-06-17T03:59:05.051577+00:00
+94cb99cc79e24a1ebe94adaa0955c31c,CHR4NIUMcruz2,,769,OK Scraped (Match),2025-06-17T04:42:11.384941+00:00
 94d760da3c234ed6b55160d603a1a30e,sobluu_,,,OK,
 94d8f031fd4d4c1f9fbfa5ac5a219c50,Risky1One,,,OK,
 94dba8643cbe4b04932ea255a181961d,Whystorm,,,OK,
@@ -7214,7 +7214,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 94ef013056e242f8b8a75eaee1cab5b2,Moragon965,,,OK,
 94ef9d3d26c5407ca1fb78b6ab3b857e,Noahpoa1167,,949,OK Scraped (Match),2025-06-16T21:28:21.796325+00:00
 94f777ef67314004a8bca8e2d4604d3c,BigworldBOSS,,,OK,
-94f98baeda16495ba745b65afbcc336c,OFFLINEL0TUS,,1133,OK Scraped (Match),2025-06-17T03:59:50.153085+00:00
+94f98baeda16495ba745b65afbcc336c,OFFLINEL0TUS,,1133,OK Scraped (Match),2025-06-17T04:40:29.806822+00:00
 94fe89cde86542a28a297289551c75e4,ZJKYT,,513,OK Scraped (Match),2025-05-17T16:44:46.160293+00:00
 94ff94b852404b7da45872328dcd029d,AddRest,,,OK,
 94ffb641b8634344a557ab29279b69bb,dabieshan337,,,OK,
@@ -7257,7 +7257,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 95cdb657c9d643beb3c5a76890ed401b,Kobies_,,804,OK Scraped (Match),2025-05-02T12:58:07.474393+00:00
 95d342bbf1f54146bd13a3da28797c15,0100010101001110,,,OK,
 95d3bb2773874c27a2474de2acf1fd9e,Roscaroda,,,OK,
-95e0c77b02b74a4285da1dfdbf3062e1,HealthyDawson,,,OK Scraped (Match),2025-06-17T03:54:38.395545+00:00
+95e0c77b02b74a4285da1dfdbf3062e1,HealthyDawson,,,OK Scraped (Match),2025-06-17T04:45:20.566845+00:00
 95e7b6b7b36f40519aa5dce2596e6d21,JakkeBoy3651,jakkeboy3651,1336,OK Scraped (Match),2025-06-17T02:22:39.250035+00:00
 95eb8d52570b466fa437a98ed08a9bf9,DCX12319,,742,OK Scraped (Match),2025-06-01T15:36:40.858257+00:00
 95f11ac3cf4947288b62f2f8946ad920,prefxm,,,OK,
@@ -7302,7 +7302,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 96bb844adf0b434696978466349933f3,rikfm,,,OK Scraped (Match),2025-06-02T22:38:30.584719+00:00
 96c2529f2ef545c5bc0bc08b34542b03,FLX_Storm,,,OK,
 96cfb74284364e94ac1b7e74cc3618af,willydwafflepc,,,OK Scraped (Match),2025-06-16T23:28:37.036060+00:00
-96db86e4fc4c46bf810bf1a1ccb77264,AirOfCan2,A1rlesss,1383,OK Scraped (Match),2025-06-17T03:54:25.990231+00:00
+96db86e4fc4c46bf810bf1a1ccb77264,AirOfCan2,A1rlesss,1383,OK Scraped (Match),2025-06-17T04:41:43.378581+00:00
 96dea4f6f1d24c64b70e594a1c6ed269,Winter9453,,,OK,
 96e3e140ec264167ac96f6f340532afa,Awddtistic,,,OK,
 96e47f27c36f4fbaae85dd03bf6f4aca,W0G0109,w0g0109,,OK,
@@ -7347,7 +7347,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 97a74173dfc8449cb5277d4ef5d27f2a,__KaiTakeo__,,,OK,
 97b2603b64064f37a081c0ca587b3465,inks01,,,OK,
 97b579dbd36f4ff9a2c1e231090d0c32,VapuLite,,1071,OK Scraped (Match),2025-06-16T17:38:45.894417+00:00
-97be38b03385479fad976b4a54094f1a,MendedSphere820,,1304,OK Updated (Match),2025-06-17T03:58:35.584349+00:00
+97be38b03385479fad976b4a54094f1a,MendedSphere820,,1304,OK Scraped (Match),2025-06-17T04:39:18.007373+00:00
 97bfd54e059748b2979c89e5d01826e6,jozintepli,,934,OK Scraped (Match),2025-05-09T20:32:30.806537+00:00
 97c6fa6915524209af304be5f69cf468,mtray18,,,OK,
 97cae2ac81494b4bb0da489327a74ec2,McMonkey819,,,OK,
@@ -7437,7 +7437,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 99965e92aba34e859a71bb4d02883c32,Luke1Dad,,,OK,
 9999bd6ca94743e5840855d6e13e554c,BatBoyEditz,,,OK,
 99a7501d63014022919d2c26e638cf27,Ignitedddd,,,OK,
-99aa9e0e8034479a90259e244dfb9029,Emillk,Emillk_,1754,OK Scraped (Match),2025-06-17T03:56:27.129834+00:00
+99aa9e0e8034479a90259e244dfb9029,Emillk,Emillk_,1754,OK Scraped (Match),2025-06-17T04:40:42.065603+00:00
 99ac05cd6c6949bda63d17f0cab582c1,AssassinJillian,,,OK Scraped (Match),2025-05-15T23:36:52.353981+00:00
 99acacf9d6a74756b10ecc4afa794bb2,Sebe357g,,,OK,
 99c31b0703ab4abeaf1a8d3c9c556110,kingklev,,1214,OK Scraped (Match),2025-06-14T06:41:59.616926+00:00
@@ -7481,7 +7481,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 9a856de856304ed8945d065249e7d0d8,Just_Iced,,,OK,
 9a88edeef7b54f8c9773d936ab69c477,Luminescents,,1316,OK Scraped (Match),2025-06-01T04:50:45.939420+00:00
 9a8c87347a224bd0a2b7d8c15ec00956,3dente,,1213,OK Scraped (Match),2025-05-02T09:29:56.386052+00:00
-9a8e24df4c8549d696a6951da84fa5c4,Feinberg,Feinberg,1987,OK Scraped (Match),2025-06-16T11:32:34.961014+00:00
+9a8e24df4c8549d696a6951da84fa5c4,Feinberg,Feinberg,1987,OK Scraped (Match),2025-06-17T04:40:35.064208+00:00
 9a9716aaf6034860a825e4c1abd9b03d,Timothy64,,,OK,
 9a9887bcfa724419af74a8cacf3888c6,PizzaPirate247,,673,OK,
 9a98eaa6744b456583c324518223a24a,Ninja_Titan,,,OK,
@@ -7611,7 +7611,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 9ce4c2f1b3a8471a9d3b9186e4214bd5,SyberMaik,,,OK,
 9ce559794624487a95dcb39f24c197c4,Grey_Clay,,,OK Scraped (Match),2025-06-14T12:58:52.628027+00:00
 9ce67a9d9b854e58a0698eacc6824120,sc0014155,,344,OK Scraped (Match),2025-06-05T09:34:12.836274+00:00
-9cf3508feee5478da894cbd3b13931d4,Semperzz,,1435,OK Updated (Match),2025-06-17T04:01:11.238011+00:00
+9cf3508feee5478da894cbd3b13931d4,Semperzz,,1434,OK Updated (Match),2025-06-17T04:45:31.073633+00:00
 9cf439ca72254263baf97e491e944bd5,ayman5,ayman55,1572,OK Scraped (Match),2025-06-14T22:33:55.575047+00:00
 9cfdc0f588d24f8fa52cd296951a7142,Y_i_A_n,,,OK Scraped (Match),2025-06-10T18:43:44.426900+00:00
 9cffad0f904b459ba6d4f77a9f5fbf7b,Balakes,,1109,OK Scraped (Match),2025-06-14T23:29:21.802007+00:00
@@ -7697,7 +7697,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 9e7a234a28204513acef944aedebc6a8,TeamNuxer,,,OK,
 9e810812509848be96a6af3ad68091e9,emmounii,,,OK,
 9e8f8c4167de4bef8a030cfe03de2946,_zeroone,,,OK,
-9e9811e1e0c24f2099820b85d2d146c5,mangrovejack,purplewormwhat,1530,OK Updated (Match),2025-06-17T03:59:26.857548+00:00
+9e9811e1e0c24f2099820b85d2d146c5,mangrovejack,purplewormwhat,1528,OK Updated (Match),2025-06-17T04:43:54.741417+00:00
 9ea8791ae32a46338623a7896fe82922,Dark_kinght1933,,,OK,
 9eabe1847c3a4a2e8bb32d2c5bcfbb7c,hexnexhd,,,OK,
 9eb8543034864f6b9231cdbd1c24144b,Jammy3270,,,OK,
@@ -7721,7 +7721,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 9f1d6e251f6744a5ad3a91b7585477e6,That0negvy,,,OK,
 9f251cf821834911b95676fa9438fb86,dragonlord329,,,OK,
 9f283fc24b8c40ed8b2fb52513cc845c,imleohi,,,OK,
-9f3011216ca04bbb8713b359b517eedb,hygui,Higuy112_,1305,OK Scraped (Match),2025-06-14T10:37:59.995169+00:00
+9f3011216ca04bbb8713b359b517eedb,hygui,Higuy112_,1285,OK Updated (Match),2025-06-17T04:44:59.558527+00:00
 9f3676cd88af43b399ae7b9a69113a31,ShruggingEggZ,,,OK,
 9f372934e7114117b4c8064ef976cf58,TigerTries,,,OK,
 9f3c3acbf46844bea325e85201d4d35d,flufv,,,OK,
@@ -7730,7 +7730,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 9f485dc76e1640c8828b67cd3c922a88,NinetyBac,,963,OK Scraped (Match),2025-05-24T09:35:02.816045+00:00
 9f4fcc0b14724104967a30ddbecd345a,KnatteFnatte,,,OK,
 9f589f3972904b299a3bd3335a4f7e24,Icripley,icripley1,905,OK Scraped (Match),2025-06-06T05:36:01.181628+00:00
-9f5a2cece2cf4f03b82e17ce8f7e150e,BroncoSR,bronco_sr,1287,OK Scraped (Match),2025-06-17T03:55:00.355552+00:00
+9f5a2cece2cf4f03b82e17ce8f7e150e,BroncoSR,bronco_sr,1287,OK Scraped (Match),2025-06-17T04:43:02.178630+00:00
 9f5a917a323849f783168aa46f0ba38a,Hyreiygn,,1152,OK Scraped (Match),2025-06-16T23:35:09.052622+00:00
 9f64689a587c4451acf3f53eb3ee11d8,Corn_speedrun,,1374,OK Scraped (Match),2025-06-15T06:40:51.305872+00:00
 9f6892bc9aac4bc4b466c9dbbb796f69,PeetzaaYT,,,OK,
@@ -7750,7 +7750,7 @@ uuid,nickname,twitch_name,eloRate,status,last_scraped_at
 9fc74a91c98f4a8b906b8e3385a95bb5,ulumululul,,,OK,
 9fcda3ae55894912a4156d39767e2f68,MagmaGamer297,MagmaGamer297,,OK Scraped (Match),2025-06-04T20:34:03.568927+00:00
 9fd1c2f082dd48fba5eacd268f3684ad,XijaySR,,,OK,
-9fd3c3f3d68449eb9f5e9d598129fc46,Octob_r,,876,OK Scraped (Match),2025-06-17T03:59:47.058586+00:00
+9fd3c3f3d68449eb9f5e9d598129fc46,Octob_r,,876,OK Scraped (Match),2025-06-17T04:40:01.764933+00:00
 9fd82af9a3d84b3b84e1d676d2b4d2f3,pillow0341,,,OK,
 9fd972147d464840883bcd0baa025ee1,LittleSussyLamma,,,OK,
 9fdf207b4b4d4571a26669f5546f3346,Adabock,,,OK,
@@ -7772,12 +7772,12 @@ a01e7f9d07644b7c9cca2c3a05613210,Space_Li0n,,1063,OK Scraped (Match),2025-06-16T
 a01fe59be15b42f0a2cb55d3195dde07,SebastianSMV,,,OK,
 a02207fcb1704dce872ad79af37be483,SXCHX,,,OK,
 a036c1be4aa9445a8d4cedd1bc00e0b1,manskarpta,,,OK,
-a037073c42944363b580c54f1140d029,ValdarenMC,Valdaren,1660,OK Updated (Match),2025-06-17T03:55:42.207484+00:00
+a037073c42944363b580c54f1140d029,ValdarenMC,Valdaren,1613,OK Updated (Match),2025-06-17T04:43:42.474462+00:00
 a03a2b0770694d7dbb226c86fbc464f0,ComputerFlip,,,OK,
 a046b57df0b840d495d5ad4ad20040b9,PixlEXE,,,OK,
 a050f82bc9a143ac9a7c58bb5367427d,Gja27k5,,870,OK Scraped (Match),2025-06-12T11:31:26.953395+00:00
 a05a64a162944985aff4d2ea2e311256,a1meon,,868,OK Scraped (Match),2025-06-14T15:30:08.060344+00:00
-a06845e822234b60848f9c871d20aa44,dolphinman_rl,,1395,OK Scraped (Match),2025-06-17T03:57:41.409854+00:00
+a06845e822234b60848f9c871d20aa44,dolphinman_rl,,1395,OK Scraped (Match),2025-06-17T04:39:10.935629+00:00
 a06ec678c1fc424d906ee480bdece805,WolfGaitX,,,OK,
 a071a2871073489f9354760a2a49d8d4,serotonion,,,OK,
 a07d6e07e5534b9d92d0d1eecc6e5e5e,OmerFaruk43,,,OK,
@@ -7833,7 +7833,7 @@ a15ab9d386c74bc0a8cec7950fc108c2,Wirac10,,,OK,
 a167266b43de488a8fe926ab12ca16bf,_MEYMUN_,,,OK,
 a1689441ec204aa78aaecd0b360834ea,UnQuietable,UnQuietable0,997,OK Scraped (Match),2025-06-16T04:46:56.456737+00:00
 a1715925c5ce4a389d9e49d1c987272d,GalacticXD,,,OK,
-a174637787ad4eb3af7a8a6c64e07ce9,zachrai,,794,OK Scraped (Match),2025-06-17T03:57:05.854235+00:00
+a174637787ad4eb3af7a8a6c64e07ce9,zachrai,,794,OK Scraped (Match),2025-06-17T04:41:46.876426+00:00
 a1752b4cad6a435dba67de10e835896f,AlanIsPro,,,OK Scraped (Match),2025-06-09T13:06:30.091454+00:00
 a176cd2cb3f04deaa602d96f07d8f4b9,seigo0608,,,OK,
 a177a44b451a4515a57f38fbf209b7ca,Oliver_Piper,oliver_piper,,OK Scraped (Match),2025-06-13T17:31:34.126001+00:00
@@ -7864,7 +7864,7 @@ a220b27c39314b1c90c67e26cdc9af06,XaseFreestyle,,,OK,
 a23382dea7d7469abd472205aee354da,zerobrockboy,,,OK,
 a238425bf2b04691bb225865db3fcaef,bruhhy_,,785,OK,
 a23c3593fb4948ed95b6c4532c832c0f,Mikichuha,,851,OK Scraped (Match),2025-06-14T19:22:03.561793+00:00
-a23db16ab129425fbacfba27d61c4bf2,Roborg8,,1004,OK Updated (Match),2025-06-17T03:57:38.321604+00:00
+a23db16ab129425fbacfba27d61c4bf2,Roborg8,,1004,OK Scraped (Match),2025-06-17T04:46:18.328316+00:00
 a24d7c46089246dfb3f46952a6b4e8e6,nntxt_2T,,,OK,
 a24e19b4414c4cfdb665b36ec3cf4dda,ladsad,,1132,OK Scraped (Match),2025-05-19T13:05:35.068912+00:00
 a251d19ab224470fa69660aa79e1895c,Brrokem,,,OK,
@@ -7966,7 +7966,7 @@ a48cc4df9498495aae243e282b83ec9d,Canopus_C,,928,OK Scraped (Match),2025-06-16T15
 a48d9bf3e9854b38b420eff9f4716147,kobe1kenobe24,,,OK,
 a49751ba3ec24b258ac73fe313f540db,Lordeng,,1109,OK Scraped (Match),2025-06-13T14:40:17.811285+00:00
 a49ae6542ba44ad78f97490f5d5ac214,Racsolot,Raxolot_,1200,OK Scraped (Match),2025-06-15T06:44:05.780855+00:00
-a4a0e61227ab402084d24f5e44385c7d,verogna,,1100,OK Updated (Match),2025-06-17T03:57:33.692246+00:00
+a4a0e61227ab402084d24f5e44385c7d,verogna,,1100,OK Scraped (Match),2025-06-17T04:45:11.813070+00:00
 a4a1556f77734b01b3cac19713ca4af8,joshi3344,,,OK Scraped (Match),2025-05-09T22:33:08.341547+00:00
 a4a3dd6dcb1440529f01023cf1750e50,Mnzake,,,OK,
 a4ac61e3ec3b431ba4a24cb0b2ccef89,NiceEduCraft,,,OK,
@@ -8000,7 +8000,7 @@ a53540ad086c490e9a0405171f0e0e58,aleen,,1529,OK Scraped (Match),2025-06-10T21:30
 a536eec9a68e4d309cd09f5af4c006a7,Reignex,,,OK Scraped (Match),2025-06-08T06:47:45.089781+00:00
 a53d25afb62d434fae8f1a8d080adece,finallyfri,,,OK,
 a5406c6d426c48ad83e00e24cb5bcbb4,ca312,,,OK,
-a54e3bc4c6354b07a236b81efbcfe791,Infume,infume,2203,OK Updated (Match),2025-06-17T04:01:28.337093+00:00
+a54e3bc4c6354b07a236b81efbcfe791,Infume,infume,2203,OK Scraped (Match),2025-06-17T04:39:09.189115+00:00
 a551148a6f904ff3811ae6f418f76fd2,Felipe_Neto,,1029,OK Scraped (Match),2025-05-15T19:23:58.616128+00:00
 a553f3715b9e494989c94880d686e692,DarkMaster028,,,OK,
 a55f0f54b9664958938cf56ed8ea65b4,Xiao_tian_yo,,1272,OK Scraped (Match),2025-06-13T18:43:19.270709+00:00
@@ -8058,7 +8058,7 @@ a666774be4084299948243a9943184ad,TheUltraRaven,,,OK,
 a66a7ff5fd234556b9570f7f0ac6384a,Tareczkaaa,,677,OK Scraped (Match),2025-06-08T23:32:04.228196+00:00
 a66d00a167df4d61a8190e5be5089a61,grzybek__,,,OK,
 a670ec6e53d94324ab4a83e254a64f77,actuallymicro,,,OK,
-a67184b3f5d749ea930a8b4d56445a97,Shehed,,1117,OK Updated (Match),2025-06-17T03:56:03.863391+00:00
+a67184b3f5d749ea930a8b4d56445a97,Shehed,,1117,OK Scraped (Match),2025-06-17T04:40:21.042801+00:00
 a6723e932e13474791fe57857e5685bc,Mateo685,,,OK,
 a677b195c43a4230843b932b7c2867ee,Gendor56,,,OK,
 a67ce3f2ebf543e2bcd42f3ed4bf9a5f,LTRshadow,,,OK,
@@ -8091,7 +8091,7 @@ a71ad61de9494bcbb5a9ba5a2d11f511,CuvlBoi,,,OK,
 a7258743ac39469b803a8988d5d3d124,Kayl1y,,,OK,
 a7262cf2509b448eb23be97ed9cf0715,ghghmghgh,,,OK,
 a72fb233075f4a11ac0c5f5b00e4d2c5,3J7OT39WLMO6A00W,,,OK Scraped (Match),2025-06-17T03:56:17.803771+00:00
-a731c9fa43e04b2490ad15f216b8d2b8,Bastion_Tarute,SamonRTA,1420,OK Scraped (Match),2025-06-17T03:59:56.531332+00:00
+a731c9fa43e04b2490ad15f216b8d2b8,Bastion_Tarute,SamonRTA,1420,OK Scraped (Match),2025-06-17T04:41:04.813216+00:00
 a73e3bb3662a402b8a27a0f6f5b851bb,7jm,,,OK,
 a7406b76eda6410fbdc4751d0449aff2,LIeRZ,,,OK,
 a7436e546dcd4089a59877765d515892,Nice_Rice_block,,,OK,
@@ -8164,14 +8164,14 @@ a8dad47e16a84ffc8cc0f04a0e133501,ThoroldThings,,766,OK Scraped (Match),2025-05-1
 a8e14b6fca59436cb4ba0a7b76f6b8e8,DannieGaming,,,OK,
 a8e274988f1740959f001d6f37350a8d,Toaster421,,,OK,
 a8e4647440ca4f27b707fa38387f281e,QuarkTV,QuarkTV,,OK,
-a8ecd138575d407ab293b6f4bb946572,Poggamer9034,,,OK Scraped (Match),2025-06-17T03:55:29.852365+00:00
+a8ecd138575d407ab293b6f4bb946572,Poggamer9034,,,OK Scraped (Match),2025-06-17T04:42:16.632858+00:00
 a91b73aa272449f5a7ea25e0610610c2,xplsiv,,,OK,
 a91d5c39cb244462b982b3fab472e871,Romper_Cones,,,OK Scraped (Match),2025-05-25T09:34:12.515473+00:00
 a920cb6b78d2426a97078ee9d8061d04,quizky,quizky,1202,OK Scraped (Match),2025-06-14T23:36:26.235730+00:00
 a923579a15844d2daba4f111d5836d1d,ne_wt,,,OK,
 a92a0b301f184f04b8864a0f8827b681,noons__,,,OK,
 a92f04da9e9f40c1a65b11dc8ef207ee,Tsuki97,,,OK Scraped (Match),2025-05-01T23:35:07.113099+00:00
-a934b4e2651f4d628c7b003ff279b7a1,MasterLum,,948,OK Updated (Match),2025-06-17T03:55:23.587758+00:00
+a934b4e2651f4d628c7b003ff279b7a1,MasterLum,,948,OK Scraped (Match),2025-06-17T04:45:41.579313+00:00
 a934de0f660e4cdea6191bc1382b47ed,qMaxXen,,1106,OK Scraped (Match),2025-06-13T20:35:46.057824+00:00
 a93e0212de9a4b24a6bb8ab3c5007d22,MrOrangePie8517,,733,OK Scraped (Match),2025-06-07T10:39:07.164313+00:00
 a93fba0736ec42428fc71f52b9cfcc23,_xiper,,,OK,
@@ -8212,7 +8212,7 @@ a9ff069812da47989379dd5669c6d1f2,DemonXZ10,,,OK,
 a9ff2fb8a9464304ab07cb39a2cadd2d,EnderWardenPlayz,,,OK,
 a9ff9685d1104d858c3dc092a605c9a1,ModdingArt,,,OK,
 aa07442c4d07446e8c9c215baa8f3984,Beorn4482,,,OK,
-aa0aee82f7a94591a076331d899f836c,sacanagem_online,,1561,OK Scraped (Match),2025-06-17T03:55:25.128976+00:00
+aa0aee82f7a94591a076331d899f836c,sacanagem_online,,1561,OK Scraped (Match),2025-06-17T04:40:57.816897+00:00
 aa0b036cbe1a4c59a752cefb80abe990,ThisIsArthurDent,,,OK,
 aa12992e0e3d4f86bf3edef1e336fdf4,LargePipe1776,,,OK Scraped (Match),2025-06-14T14:35:41.975662+00:00
 aa12b9f8362d4d61a41b6c481159663f,BasicallyKing_,,,OK,
@@ -8303,7 +8303,7 @@ abdfea6b4aaa490695febd2647c67d0c,Lil_Dumpty,,740,OK Scraped (Match),2025-05-15T2
 abeb5e3ceec549c0a9edef52c07fbb47,telayscope,,,OK,
 abf0f7f08e214485acb90aa3f5e373c0,effortlessname,,,OK,
 abfa366baf394d1ab6358b91279a3d7e,kgongonx,,1049,OK Scraped (Match),2025-06-14T11:27:28.963343+00:00
-abfe975d5a4d495db534d210cbec768c,CL0UDED,ayoclouded,1142,OK Scraped (Match),2025-06-15T23:29:22.024621+00:00
+abfe975d5a4d495db534d210cbec768c,CL0UDED,ayoclouded,1142,OK Scraped (Match),2025-06-17T04:39:42.510296+00:00
 ac084a2815034078a8c043fde498c1aa,Clocen,,,OK Scraped (Match),2025-05-10T22:38:26.433273+00:00
 ac0880f48f3142f5a090d905bc7cb7f1,Doby__,,,OK,
 ac0b861d61e742ebb6ef5b54c56f62c2,skittleKFC,,,OK,
@@ -8337,9 +8337,9 @@ ac7e3c7fd3c84ff69ee109feb7be0a45,NullDragoon,,,OK,
 ac876307b1064dbbafa08ff23d1156f8,theonewhoasked42,,,OK,
 ac8b80ce59d246309eac26aaf2610896,AxelWaxel,,,OK,
 ac8d4048b3e64e7f98d31c3a7174cc50,magicsonks,,,OK,
-ac9012ee6b1e4a0eb4e69c92ea62f04d,vivivici,Mrvivivici,1182,OK Scraped (Match),2025-06-17T03:57:25.964546+00:00
-ac936d403a8c47b98265956cd3efd4a3,iBarton,,,OK Scraped (Match),2025-06-17T03:57:55.389640+00:00
-ac94f87ac4714cb1873847f6c3432f0b,CyberOG,,1647,OK Scraped (Match),2025-06-17T03:56:39.506007+00:00
+ac9012ee6b1e4a0eb4e69c92ea62f04d,vivivici,Mrvivivici,1182,OK Scraped (Match),2025-06-17T04:40:40.318542+00:00
+ac936d403a8c47b98265956cd3efd4a3,iBarton,,,OK Scraped (Match),2025-06-17T04:43:31.949627+00:00
+ac94f87ac4714cb1873847f6c3432f0b,CyberOG,,1647,OK Scraped (Match),2025-06-17T04:44:47.289993+00:00
 ac975d2506ef442f974028035e2900be,MiddlePower,,,OK,
 ac9a50904aac4b77af2269bd4afa0fe2,Mr_YsMr,,,OK,
 aca294422ad94b509aefa1f23d8b51eb,depolarizable,,1182,OK Scraped (Match),2025-06-16T23:31:01.074590+00:00
@@ -8363,7 +8363,7 @@ acfd9f3826434d29ae23397c0d2aacdc,Etherina,,1406,OK Scraped (Match),2025-06-01T16
 ad009990191b4be181780376992ae27d,Traveler114514,,874,OK Scraped (Match),2025-06-14T05:36:41.228280+00:00
 ad0203bca41e45a2ba2fcf6b97c601ec,DirtSlabs,,,OK,
 ad0b0a103e364457807b1ba54e0a4ca1,TaakunzzTM,,,OK,
-ad11c8cbeaa54ce7a6e351759257b5a3,AzHEHE,,1515,OK Scraped (Match),2025-06-17T04:01:17.508493+00:00
+ad11c8cbeaa54ce7a6e351759257b5a3,AzHEHE,,1515,OK Scraped (Match),2025-06-17T04:39:47.760680+00:00
 ad12130052714551829e95a99690889e,Kabbsters,,,OK,
 ad15a0401e6c4d6b8bce526bf3063b3d,BKVIP7xD,,473,OK Scraped (Match),2025-06-16T14:40:58.134689+00:00
 ad17cdc4ce1e4a47809f23166684149a,najkiidude,,,OK Scraped (Match),2025-06-11T20:39:49.331029+00:00
@@ -8740,7 +8740,7 @@ b516d1d18261467bbb6f447f0c111be7,Gabryll_,gabryll_1,1803,OK Scraped (Match),2025
 b518e582572d4c8baccfb1e9df35fc4d,Fenrisss95,,,OK Scraped (Match),2025-05-17T04:40:44.493607+00:00
 b51b81f449fe4a7db0035df4ec7a6e29,TwitchName,,,OK,
 b51d45594a044491bf33405ad16c1964,ZGiova7YT,,,OK,
-b51dd3226bfe469e9cd0121a07b216f4,PEOJII,fudge1,1217,OK Scraped (Match),2025-06-17T04:00:50.998787+00:00
+b51dd3226bfe469e9cd0121a07b216f4,PEOJII,fudge1,1217,OK Scraped (Match),2025-06-17T04:46:32.346144+00:00
 b5211d9c730844d6ad8d942d0f2c0f2e,OverLordParzival,,,OK,
 b5282f8cd1aa4a75b45efc9fdd4c441d,zwaxz2,,506,OK Scraped (Match),2025-06-15T14:37:39.813010+00:00
 b52f05b771ac44318459b1e0ba17d90d,Fafulini,,,OK,
@@ -8787,7 +8787,7 @@ b641bd7fdd004da7b6e3ec3c789c6611,SandWedge,,1063,OK Scraped (Match),2025-06-13T0
 b643dde5b0c8412bb5c72d2ba1beb9ff,Aether_BK,,,OK,
 b646115ef1304dd08e68ef5d0779dfa7,Figthetwigg,,,OK,
 b646c8c7b0fd4d24a44300204c55b581,Weii_lol,,,OK,
-b649c482676343c38e60de81bb718c4f,LazerTron,,993,OK Updated (Match),2025-06-17T03:55:14.315275+00:00
+b649c482676343c38e60de81bb718c4f,LazerTron,,993,OK Scraped (Match),2025-06-17T04:44:05.269569+00:00
 b64be168118c453398e2b63c4390cf09,Lemon339,,,OK,
 b64e251865aa422d866f803a539d58d9,Jafe1,,1107,OK Scraped (Match),2025-06-17T04:01:31.429617+00:00
 b656669b00e142409f763909add26738,eficzz,,,OK,
@@ -8822,7 +8822,7 @@ b6d26d6f77b54860b5205f74e8e43caa,CEDUARDO12,,,OK Scraped (Match),2025-05-23T23:3
 b6d5a591e8bd47648713e61681a805ec,Syurtip,,1221,OK Scraped (Match),2025-06-09T13:45:57.555547+00:00
 b6d77c13a6214754b333482b96778a68,tianhixx,,1373,OK Scraped (Match),2025-06-05T06:45:44.562196+00:00
 b6d951be72ad46949413f3a3d28aae7d,aaaaaaaayu_,,,OK,
-b6dafc474bf4492bb0083634037253d9,walirules,,1099,OK Scraped (Match),2025-06-17T03:54:22.875123+00:00
+b6dafc474bf4492bb0083634037253d9,walirules,,1099,OK Scraped (Match),2025-06-17T04:46:34.095515+00:00
 b6dc6d167f814c56a7614ba444208909,TD3535,,,OK,
 b6ded09f1bcf418191a9996daa52e1d7,DareIsh,,,OK,
 b6e1636c654546f8bed73d12e1b25f42,Ozy2S3,Ozy2S3,1138,OK Scraped (Match),2025-06-10T21:30:23.663883+00:00
@@ -8859,7 +8859,7 @@ b78fe01aae2648a9a3c757d5ce3cfd9e,Rarga,,,OK Scraped (Match),2025-06-08T16:35:14.
 b791379cd28646b8aa7df3b0886a5692,Markschine,,,OK Scraped (Match),2025-05-02T02:16:24.272634+00:00
 b796f90cd156439fa7a584044d11a098,Dreamsoso,,,OK,
 b7a3599d9687495fb73fcc48e752855f,TheWhiteFoxy,,,OK Scraped (Match),2025-06-12T23:33:23.931880+00:00
-b7a499c9e021415d8cd889c79aadfa81,moonnight143,,781,OK Updated (Match),2025-06-17T03:58:57.304637+00:00
+b7a499c9e021415d8cd889c79aadfa81,moonnight143,,781,OK Scraped (Match),2025-06-17T04:41:38.122098+00:00
 b7a4f1f77c1046a8a44c3828430a397e,xia_chuan_,,873,OK Scraped (Match),2025-05-22T16:38:26.320807+00:00
 b7ac1e9bd853434b87befad5b7ef54a0,Wyllza,,,OK,
 b7b63180794d47c4b0703f1dfce18bb3,hugemoth,hugemoths,,OK Scraped (Match),2025-05-05T08:41:04.878760+00:00
@@ -8877,7 +8877,7 @@ b7d5f6a6ffd643e8b4588106be54fa9e,Typi3r,,,OK,
 b7d99fe0a09547ec895d9b8a25a57090,Lehmamies,,,OK,
 b7dc92ff87e24e9eb0df473d55229eaa,Hitlcr,,,OK,
 b7dd4f884ebb41e881eabc1ac240ee8f,everyin,,,OK,
-b7e1244c9ba84f159d9d4523cdb46ef9,Saber226,,871,OK Updated (Match),2025-06-17T04:00:57.224160+00:00
+b7e1244c9ba84f159d9d4523cdb46ef9,Saber226,,871,OK Scraped (Match),2025-06-17T04:41:34.619013+00:00
 b7e71257c3fc4c4c899c7e87db32e432,OneCrafter17,,1109,OK Scraped (Match),2025-06-08T23:34:24.490345+00:00
 b7ee738c48804ba9944b3fa0dbdf1d86,Invst,,1125,OK Scraped (Match),2025-06-03T17:32:56.861839+00:00
 b7eedc7d9a814367bf1025a06230c426,Coolioon,,,OK,
@@ -8923,7 +8923,7 @@ b8b030da040045908de792d54a969c45,Jaskelsin,,,OK Scraped (Match),2025-06-11T16:41
 b8b376a554da4d639e111f6021e7d5f0,Tasty_Peach,,1110,OK Scraped (Match),2025-06-16T19:24:33.325299+00:00
 b8ba591fc56342518bb2ac14db48ec32,TheCoolFalcon85,,,OK,
 b8bd3b2525134cbd983a7bbbac32061f,Nxbulaa_7,,,OK,
-b8bdfa9f78a54699862f17663aca2f41,BanesSon,,1166,OK Scraped (Match),2025-06-17T04:00:37.021011+00:00
+b8bdfa9f78a54699862f17663aca2f41,BanesSon,,1166,OK Scraped (Match),2025-06-17T04:42:48.155633+00:00
 b8cf5e2bda2347abadcca38e9f23f48a,BIG_JIMMY2169,,,OK,
 b8d5612bb3894f8f8bd325036c317ba1,mff7,,336,OK Scraped (Match),2025-06-14T23:29:54.853923+00:00
 b8deaf8284d04772aa6b30e69b99c64f,flarumi,,1171,OK Scraped (Match),2025-06-17T02:24:49.005316+00:00
@@ -8966,7 +8966,7 @@ b98405bc83664b33bb1f173ca4ee2966,b3dl,,,OK Scraped (Match),2025-06-16T15:37:48.0
 b989e9f16355447fa5137468004a363c,michaelshady,,,OK,
 b9935a0b7a284482af955bf4f0d59fc5,IronHammer269,,,OK,
 b998c3b744eb46f88871b66b92c8dede,itro06,,,OK,
-b998ec0170114d69a9174bce3f1833a2,Evro_,,1276,OK Scraped (Match),2025-06-17T03:54:19.632033+00:00
+b998ec0170114d69a9174bce3f1833a2,Evro_,,1276,OK Scraped (Match),2025-06-17T04:46:49.853601+00:00
 b9a0b2bb2beb468db0e957f62891b273,beamerrboy,delmcsr,1222,OK Scraped (Match),2025-06-15T20:29:48.319849+00:00
 b9a1658553c44d598f2d2e84ed91f944,PARTYcreeper97,,,OK Scraped (Match),2025-05-16T18:38:32.393217+00:00
 b9a1ecc7c06a4c419ed98ea02504c568,Saeedx1,,719,OK Scraped (Match),2025-06-04T19:24:06.299107+00:00
@@ -8990,7 +8990,7 @@ ba0fda9cd9e3414b9aca518b3a077364,noxywashere,,,OK,
 ba181b3bdf7f41acbf5377b4f268b11d,Invisible_Hole,,,OK,
 ba200fc68c7b47bf9a207a150eb5b937,WQoRL,,,OK,
 ba273b8d87074a928d959ad2c2c19937,QuietSamurai,,,OK,
-ba31689fe7d24431bf7997a52efcc21c,meebie,,1612,OK Updated (Match),2025-06-17T03:56:47.231723+00:00
+ba31689fe7d24431bf7997a52efcc21c,meebie,,1675,OK Updated (Match),2025-06-17T04:44:36.792692+00:00
 ba31ef2985aa4a5d846888dd1334610d,ICICLE_62,,,OK,
 ba3bbc8278da46e88149217831a52ccc,XLowq,xlowqmc,991,OK Scraped (Match),2025-06-16T21:31:22.919337+00:00
 ba515c23540e41d097d214b3932d3d1b,Itsthebluespace,,,OK,
@@ -9006,7 +9006,7 @@ ba739a596f264811b620a0bd5ebc1353,BOBJEFF12366,,,OK Scraped (Match),2025-05-29T03
 ba7ab18ade3e4cc3bbdf90ad58106fdf,ResinX1,,,OK Scraped (Match),2025-05-24T15:29:55.107325+00:00
 ba86f96a7be4410bb95abce37211c73d,derpingderp,,1448,OK Scraped (Match),2025-06-16T05:41:24.261139+00:00
 ba8c0cd9304745faaf7987239de4a195,NewHOTSHOT8391,,,OK,
-ba8ca44d9ac044808f6ae745769b8ec5,xShatter,,1522,OK Scraped (Match),2025-06-17T04:00:52.552430+00:00
+ba8ca44d9ac044808f6ae745769b8ec5,xShatter,,1522,OK Scraped (Match),2025-06-17T04:43:23.188754+00:00
 ba930c9d33684cd6aae7514e9ff3bd97,kanoa087,,1100,OK Scraped (Match),2025-06-16T19:24:08.265578+00:00
 baa22ef3fefb4d13808ff382b2cf0846,1Akselotl,,,OK,
 baa4c804104b426eb4ca4d361d7badc2,cSaleh,,1145,OK Scraped (Match),2025-06-12T19:29:57.766612+00:00
@@ -9017,7 +9017,7 @@ babe1fd1f61a41a0bed0868696a6cbd9,qAtoo,,,OK Scraped (Match),2025-06-01T13:38:39.
 bac2df9f2a7c49ccb059330a2e1f3a8b,TravisMcGeeF14,,,OK,
 bac775d242f14fc2a78313cf7da75107,xXnibbaXx,,,OK,
 bac90bae8802426786a0b3317952d879,Emillk_EVIL,realeloking,,OK,
-bacaff45eab4495494c202f01dc42748,koowaluh,,1117,OK Scraped (Match),2025-06-17T03:55:05.037577+00:00
+bacaff45eab4495494c202f01dc42748,koowaluh,,1117,OK Scraped (Match),2025-06-17T04:39:56.516993+00:00
 bad57a9aec744c97808c83d52790273f,Sergietesan,,1188,OK Scraped (Match),2025-05-28T16:43:21.005483+00:00
 bae129cc2d2d42e8858305fedd34ef7e,FayserEU,,914,OK Scraped (Match),2025-05-22T11:29:55.164016+00:00
 bae59f31ac564ad3a69fbdc5255b084e,Statefarm001,,689,OK Scraped (Match),2025-05-10T07:30:10.977415+00:00
@@ -9035,7 +9035,7 @@ bb253548d1e049fcb0871e59f173a51e,me_slow_,my_aim_slow,,OK,
 bb26d8d23cea4ae69867ad496e60cfff,vuklol,,,OK,
 bb2b731cbd2c4f95838f2509a1e679c6,groovearmada,,,OK,
 bb32da2616d241a7b15adbf24d90f5c7,oce_goldie,,,OK Scraped (Match),2025-05-26T09:55:12.438469+00:00
-bb33b33c074e44279e79b3f06641ade8,NothingRuns,nothingruns,953,OK Scraped (Match),2025-06-17T04:00:04.252670+00:00
+bb33b33c074e44279e79b3f06641ade8,NothingRuns,nothingruns,953,OK Scraped (Match),2025-06-17T04:46:09.572651+00:00
 bb3d2572916c4d74926ae4ed326bf65e,Seelaxmuiker,,,OK Scraped (Match),2025-05-20T13:45:51.912478+00:00
 bb3f41d038de424bbfb09741f002dc1c,_SironMC,,1005,OK Scraped (Match),2025-05-07T22:39:09.460205+00:00
 bb42014649004d15a3aa277bd42a8d04,Cooldude_73952,Cooldude_73950,716,OK Scraped (Match),2025-05-18T19:23:39.090668+00:00
@@ -9095,7 +9095,7 @@ bc560fb8bca7403f9985fa0a65e8a5be,Zloynk,,,OK,
 bc65345956f242389201c2dcc46515ab,piep,,,OK,
 bc67b8fe00634f5bb3988497319d0685,Warrior_Monkies,,1108,OK Scraped (Match),2025-05-14T16:42:19.764126+00:00
 bc6c441420e84380aa7c5cbf1367d8b8,Ogmeo,,,OK Scraped (Match),2025-06-14T19:28:21.282341+00:00
-bc6edca3c8e14237bb484d4185a5f6d5,sqrt12345,,1331,OK Scraped (Match),2025-06-17T03:57:58.480690+00:00
+bc6edca3c8e14237bb484d4185a5f6d5,sqrt12345,,1331,OK Scraped (Match),2025-06-17T04:46:42.850852+00:00
 bc71ad82a6aa4cd5a68134f2a3c85977,KODOMOXD,,,OK,
 bc7306c7050748348adf303bf66fe513,G3NISS,,,OK,
 bc80af38933f4ae19b0494681a54422b,Ancoboyy,Ancoboyyy,1874,OK Scraped (Match),2025-05-22T16:46:11.513139+00:00
@@ -9106,7 +9106,7 @@ bc8e247cde3f4e1aaa1dcf3350c60d6b,BassBoyWarrior,,,OK,
 bc9d6dd988f64bc387ead6f67878acb3,Luca_1604,,,OK,
 bc9e83ed613a4a2d82d6724ee109981e,scythethanos,,,OK,
 bca8f8fb98344f97ae7103f930ed1d92,TheShyneseGuy,,,OK Scraped (Match),2025-06-16T15:32:46.790660+00:00
-bcb0f43558d745ee977841180b121267,pavkin,pavkinXD,1467,OK Updated (Match),2025-06-17T03:56:22.440043+00:00
+bcb0f43558d745ee977841180b121267,pavkin,pavkinXD,1472,OK Updated (Match),2025-06-17T04:46:25.332027+00:00
 bcb3fe7c8a10449488af04267644656b,Zeulara,,,OK,
 bcb560c907da4053b023b81e95c3a711,Alberth1005_,,1110,OK Scraped (Match),2025-05-14T21:24:29.665675+00:00
 bcb6f077c6884eecaaccd2cc32638a36,ImSoLaggy33,,,OK Scraped (Match),2025-05-04T19:28:23.818869+00:00
@@ -9169,7 +9169,7 @@ be19002b11b34f438319a41f42f8ae9d,INoahLotOfThings,,,OK,
 be2cba45ee844c19b9f1a8504453db20,degreeofdeath,,,OK,
 be2f5995d899478e9cae1f62e83046e0,Labadaicho,,1168,OK Scraped (Match),2025-05-23T14:38:53.895161+00:00
 be309cf69cca4758baab5c0b88384060,ponkichi_1,ponkichi750,1194,OK Scraped (Match),2025-06-16T15:34:57.586098+00:00
-be42ef0254014206a9c3b96eebd93e7d,Powermyleaning,,860,OK Updated (Match),2025-06-17T03:58:30.929401+00:00
+be42ef0254014206a9c3b96eebd93e7d,Powermyleaning,,918,OK Updated (Match),2025-06-17T04:44:45.537012+00:00
 be4ad7e999e14a74974d47ac650062a3,_bidd,bidddd_,1801,OK Scraped (Match),2025-06-17T03:56:59.663616+00:00
 be52749c3a4d4dd1a9423cc6f58f9997,CriiZzz,,784,OK Scraped (Match),2025-06-15T05:38:02.539124+00:00
 be54a9ebc21948a3b31937fb8330bec8,Ruined_portal,tunasandwichwastaken,775,OK Scraped (Match),2025-06-16T17:39:49.967102+00:00
@@ -9184,7 +9184,7 @@ be68e06eace64e739ea8f1038b0dc8e9,Ranked_YT,,,OK,
 be6c9b8af28841daa8f28f8d9d6e02ed,Aiphalol,,,OK Scraped (Match),2025-06-10T09:35:40.772793+00:00
 be735f3e4afb4a2da2c9d73640ebf79b,Advasik,,,OK,
 be74a908b0c743789a8a966473c037a1,Anchast,,,OK Scraped (Match),2025-06-16T15:32:56.366853+00:00
-be7a79f3331042f19c07230752b26725,dinonuggieboi,,1460,OK Scraped (Match),2025-06-17T03:54:24.421745+00:00
+be7a79f3331042f19c07230752b26725,dinonuggieboi,,1460,OK Scraped (Match),2025-06-17T04:41:22.353845+00:00
 be7d15be5bb64a00987c25788a1078e0,123Komin,,,OK,
 be83b1b2731845f68f80ae7b10f4b40b,SideGrade,,,OK,
 be871b8a0df8422abfd9a27dd5fbc15e,WolfMike6,,,OK,
@@ -9239,7 +9239,7 @@ bf7df142180b40fdbb3ed7730bb30519,Rain_rvs,,,OK,
 bf85c445a86c449bb0782422d776eea1,TechnoSledge,,,OK,
 bf86b1f3898847dc922008044025378b,SpielerEnde3738,,,OK,
 bf86cedd383a40d8bffd911625861764,Chanthait,,,OK,
-bf8a4539e54f4889a14e74cc033cee48,ZSRoach,,1296,OK Updated (Match),2025-06-17T04:00:21.511292+00:00
+bf8a4539e54f4889a14e74cc033cee48,ZSRoach,,1332,OK Updated (Match),2025-06-17T04:40:03.517788+00:00
 bf8b242fe7734e60ad803661eaf846db,Kenyyyyyyyy,,,OK,
 bf8bd15826c54094a336e38d5d0d34b9,Kazir24,,1019,OK Scraped (Match),2025-06-13T13:40:31.623360+00:00
 bf8df1a6d423463ca08dcf1812ea367f,frowss,,899,OK Scraped (Match),2025-06-04T14:40:34.412853+00:00
@@ -9273,7 +9273,7 @@ c0128c5c3d8145b49e05b74f08c6473c,Random373,,,OK,
 c01333e58c5949528fc20efe5beb2629,Florianm23,,1000,OK Scraped (Match),2025-06-15T20:32:34.020018+00:00
 c01bb2933f644eb3a70b295430c6194f,FxtureOnTikTok,,,OK,
 c01cc400dd02488ea9f740419001a297,CardcursesU,,,OK,
-c01de26e98ed4fb299cf5feae4686a18,cNero,,1174,OK Scraped (Match),2025-06-17T03:57:30.601279+00:00
+c01de26e98ed4fb299cf5feae4686a18,cNero,,1174,OK Scraped (Match),2025-06-17T04:43:09.179491+00:00
 c026a81c5aca42509d35848ea8692d9b,LadyAshFox,,949,OK Scraped (Match),2025-06-16T23:33:59.879259+00:00
 c027ec84e7764f6680ad5f7b45032eab,QueenAnybee,,,OK Scraped (Match),2025-05-13T23:32:03.551670+00:00
 c028ddfb077b4b1fb776751fcec9f437,Espectr4l,,,OK Scraped (Match),2025-06-03T19:30:35.795172+00:00
@@ -9327,7 +9327,7 @@ c18aefcecc024046af53a1967bbbb4a9,NoCalc,,,OK Scraped (Match),2025-05-06T11:32:59
 c18d9e0fa2294eeea9c3fa5109631abc,klebn,,1220,OK Scraped (Match),2025-05-17T07:26:29.099670+00:00
 c190f024a64649db92db3a1e291c80f7,faridnicat,,,OK,
 c19a9192aab44438ac7868dd6877ffd9,KaTuOz,,,OK,
-c19fa3bc099d47a5a14c38fe86acff03,uwuzift,ruffeex,1055,OK Scraped (Match),2025-06-17T03:56:37.960803+00:00
+c19fa3bc099d47a5a14c38fe86acff03,uwuzift,ruffeex,1055,OK Scraped (Match),2025-06-17T04:45:15.311213+00:00
 c1a11ae430024e578bf28e164825dd80,WingfeatherMC,,,OK,
 c1a21929727f48b0a884f8a25bea626f,ly_9MVQY_0227,,,OK,
 c1a5b10fdb1e4008ba0ed7cceb918d1f,lusterko408,,1001,OK Scraped (Match),2025-06-16T17:32:29.561016+00:00
@@ -9356,7 +9356,7 @@ c204b252dadf416ca52dc05c9b930e0c,Jimothy7010,,,OK,
 c204d7a35cc443eca618157c3e4d9aeb,DrUnKeN_ElMo,,,OK,
 c205ea649a6f4bc2a9c4aa9e992dc32e,BoxBro_,,,OK,
 c2066dbd686745bb9457255be793f278,BshopEx,,1083,OK Scraped (Match),2025-06-07T21:27:48.730516+00:00
-c206b071634947768ad7f20774cec73c,linksbasher,,1091,OK Scraped (Match),2025-06-17T03:58:44.852132+00:00
+c206b071634947768ad7f20774cec73c,linksbasher,,1091,OK Scraped (Match),2025-06-17T04:40:38.564954+00:00
 c20ae89e8e8a496a963a199f4b4cdac0,littlechickren,,595,OK Scraped (Match),2025-06-15T18:38:18.756696+00:00
 c20e64bc194847c9ba5c9113abac1261,Fros1inng,,,OK,
 c2126076971a4b2badcb142b7466f152,intellectM,,,OK,
@@ -9445,11 +9445,11 @@ c3a644f88784482698207d77a31531d5,UR_C,,,OK,
 c3b3bb21942c4ac393cd03c911f26655,AphroFluff,,,OK,
 c3b3f9982975487b98e5ed0d97f0e601,binxyxd,,194,OK Scraped (Match),2025-05-31T15:32:13.606069+00:00
 c3b438cc351f4e0986310d469a235a2b,MrCierek,,1249,OK Scraped (Match),2025-06-17T02:19:41.005624+00:00
-c3bd7e8bf53440eb97c495318f53f199,EmpireKills702,EmpireKills702,1294,OK Scraped (Match),2025-06-17T03:57:29.054502+00:00
+c3bd7e8bf53440eb97c495318f53f199,EmpireKills702,EmpireKills702,1294,OK Scraped (Match),2025-06-17T04:40:26.303590+00:00
 c3c4dbdf573841f1995fa72dcf3b5aef,nerdyasfa112,,,OK,
 c3c8a5fa24b942b18dff2ba5cfa365cf,NavKing,,,OK,
 c3caf61eaffc409d8fda5e93d051d2d9,theSBHS,,,OK,
-c3d728176982448fb1c7b0cbabec1c76,ttco,,1203,OK Updated (Match),2025-06-17T03:55:49.940668+00:00
+c3d728176982448fb1c7b0cbabec1c76,ttco,,1221,OK Updated (Match),2025-06-17T04:41:50.375562+00:00
 c3df7fa17f0d4689a90f1032aac7e2e1,rtnaok,,1154,OK Scraped (Match),2025-06-16T19:28:36.838076+00:00
 c3f6f04bc81e45ffb55f4cca4d24c6a3,ZenteOfficial,,,OK,
 c3fb197d06d743cba8768da8d4728156,KumiiVA,,,OK,
@@ -9459,7 +9459,7 @@ c4025f61249c46a7b57ebb241b0c8b5d,GizmoTheGamer,,,OK,
 c40e2a63512b4d6b8f2b897f04c3c56c,Sawpatt,,,OK,
 c414737c724c4ba584c79551392d73b5,Thirdaniel,Thirdaniel,,OK,
 c415278d0888441f808f5c7d5c273978,sull_E,,,OK,
-c41b14ac0f1547aeb7690276d82aa458,Psemcovici,psemtube,1702,OK Scraped (Match),2025-06-17T03:54:54.160551+00:00
+c41b14ac0f1547aeb7690276d82aa458,Psemcovici,psemtube,1702,OK Scraped (Match),2025-06-17T04:43:00.418676+00:00
 c42bad15cad544f7a742821b20aa3f2a,edworte,,,OK,
 c42d890046b941638a6e660cdb54512a,RCNSS,,,OK,
 c430e6746ff242a5892f4cfee7af756f,Luxlecy,,,OK,
@@ -9468,7 +9468,7 @@ c43a1692da404fd5b2071482877b151f,havxy,,,OK,
 c4471f45379e4374b26bd7813616bdcd,ACgroup,,,OK Scraped (Match),2025-05-28T17:35:06.421909+00:00
 c45332f2872644a99e82bc1df74e0eaf,DXTN_Gaming,,,OK,
 c458d222f5d6468c9608b612133742ad,Eggmanfan,,,OK,
-c45b9a968d9e4e2e8e2f8a32136215c9,klklkll4,,1006,OK Scraped (Match),2025-06-17T03:59:51.694140+00:00
+c45b9a968d9e4e2e8e2f8a32136215c9,klklkll4,,1006,OK Scraped (Match),2025-06-17T04:42:25.383704+00:00
 c4608998727b43819fb69e4ded378c3f,MaxVo,,1098,OK Scraped (Match),2025-06-12T06:48:38.176290+00:00
 c464bb63913748b281a33337c4420aff,rodi28,,,OK Scraped (Match),2025-05-08T17:30:12.942902+00:00
 c469b1dcc0f847fd8ed244f61352f4c4,Frodo_15,,,OK,
@@ -9524,7 +9524,7 @@ c54fda3c77b64a0fb53eaf14c3ecfcd0,MoltenbossSauce,,,OK,
 c5593024e1a44713bf59cb286d97ba51,HaisamClappsU,,857,OK Scraped (Match),2025-06-13T19:27:26.733498+00:00
 c5604c438bb04c1c8e96099ca4dff0a4,TristanFour,,,OK,
 c567d09cb95547d5a301f0d84cb07eef,noHax4u,,,OK Scraped (Match),2025-06-08T21:28:50.278993+00:00
-c569bf473f5d43eba599e56ec51c050c,Burawoy,Burawoy,1212,OK Scraped (Match),2025-06-17T04:00:38.563740+00:00
+c569bf473f5d43eba599e56ec51c050c,Burawoy,Burawoy,1212,OK Scraped (Match),2025-06-17T04:44:43.787359+00:00
 c571dd94dfa74180a29996cca494d22c,KlunkFace,,,OK,
 c57d6f31b8674b94851de57e7d966c94,Catsune_Miku,,,OK,
 c57fb1893a6542b2931b2da05dea5683,pinkfishyXD,,,OK,
@@ -9552,7 +9552,7 @@ c5e08acc61d14cd49b8a05985e85232a,cyhg,,,OK,
 c5e4ca8aecfc4fb2abb69b9b90b82575,00AD,,,OK,
 c5e52fa470f64390bd865e577e8023c4,DaYerf,,,OK,
 c5e8611561b047c08465eac3a5fff395,yamayuhei,,226,OK Scraped (Match),2025-06-12T02:22:34.457680+00:00
-c5f1d85046664bb2b8aeeec743d9782c,ghtjason,,1117,OK Scraped (Match),2025-06-13T02:22:33.796899+00:00
+c5f1d85046664bb2b8aeeec743d9782c,ghtjason,,1098,OK Updated (Match),2025-06-17T04:42:28.887548+00:00
 c5f265b9d5824b0494586b4e406e72c8,ShadowSensei101,,,OK,
 c5f9533bbd3d40a9a2711f3b45338e76,SimplexJungle20,,902,OK,
 c5fbc52401c94593af2fb4f5c6f308b2,2rps,,1518,OK Scraped (Match),2025-06-16T21:33:11.771182+00:00
@@ -9625,7 +9625,7 @@ c7469f397d77421e80d2c398eeb825d2,plastiboy,,,OK,
 c74b874d2e5046bc86b21b182c7eebef,yukita_,,,OK,
 c74c62960fa343f989681434259d500c,Ice_Stain,,,OK,
 c74cbd14d396474bab0b364de590eeb4,MrLuckyBlockMod,,,OK,
-c757edbd69144ab68418a9e7ceb195e9,Yesberr,,794,OK Scraped (Match),2025-06-17T03:59:25.316544+00:00
+c757edbd69144ab68418a9e7ceb195e9,Yesberr,,794,OK Scraped (Match),2025-06-17T04:46:11.320108+00:00
 c7630e0d608f424e898feec0c87840ad,NotDalVenA,,,OK,
 c765670be3a342bdb7c489e1e1c83626,Xia_Men,,,OK Scraped (Match),2025-06-14T18:37:03.179908+00:00
 c76c3eb4cf4941e28b4b2ebf70f04dfb,Coulrs,,,OK,
@@ -9661,7 +9661,7 @@ c7f6f602d18945fc85219709fbc7d753,niemieckyy2137,,912,OK Scraped (Match),2025-06-
 c7fdbddb0117453795dd88e6e5f48b14,VineSeed,,,OK Scraped (Match),2025-06-16T13:03:07.857720+00:00
 c80ab6637058487bb6758ed6acdbce47,Astheticmonster,,,OK,
 c81a44e0c18544c29d1a93e0362b7777,Snakezy,,1368,OK Scraped (Match),2025-06-12T07:36:28.349798+00:00
-c81ac4a0bb50499384d5cb640809297c,This_Monke,,928,OK Scraped (Match),2025-06-17T03:56:19.352160+00:00
+c81ac4a0bb50499384d5cb640809297c,This_Monke,,928,OK Scraped (Match),2025-06-17T04:39:46.006276+00:00
 c822316da7294b6ab1b7e50937fd98ba,bubblybear1222,,,OK,
 c824317d09ad4399872576755a0c0f95,TheRaiN62,,,OK,
 c82581673f2c4b09a5544819a2b53e05,Rinchan_ALT,,,OK Scraped (Match),2025-05-10T23:33:31.464355+00:00
@@ -9713,7 +9713,7 @@ c91c83341a404a66a5b844588ab01137,DeepSeek330,,1088,OK Scraped (Match),2025-06-16
 c92021f449a94bdc9811a3e5e299820e,oshgay,oshy,1501,OK Scraped (Match),2025-06-03T23:27:51.952792+00:00
 c920d9d625754eaea9c66f382d136728,Makkaroniman,,1152,OK Scraped (Match),2025-06-16T17:36:03.995550+00:00
 c921a4d7c7154ff0bf13f432a5c072f9,EggsEater,,,OK,
-c9231648d553492c8636bad50ff40521,yubbawubba8,yubbawubba8,1387,OK Updated (Match),2025-06-17T03:58:51.035585+00:00
+c9231648d553492c8636bad50ff40521,yubbawubba8,yubbawubba8,1387,OK Scraped (Match),2025-06-17T04:46:20.085098+00:00
 c9236b4d530841c3980b83d98ae440c0,Sculk_Warrior,,,OK,
 c9263613e0f848faa8901a1236bd8ab8,Stxqz,,,OK,
 c928028859384cadbf4bcee3197e79d4,Leksiox,,,OK,
@@ -9736,7 +9736,7 @@ c9963228a6d04b21992e1a717309acec,KRISTRADAMUS,,,OK,
 c999e6050e7b49dca08b751599b9cee5,Wohkn,,,OK Scraped (Match),2025-06-07T03:23:28.339037+00:00
 c9a24c79ef67475a9151f29dcb8028d0,retes_ok,,,OK,
 c9c05e7e18814e4fa6bbcf0bd0119df7,Simply_Useless,Simply_Useless_,1474,OK Scraped (Match),2025-06-16T17:31:08.011332+00:00
-c9c12372acbb4ac09198e708bdc67466,UnProfiting,,1043,OK Updated (Match),2025-06-17T04:01:12.779025+00:00
+c9c12372acbb4ac09198e708bdc67466,UnProfiting,,1043,OK Scraped (Match),2025-06-17T04:40:33.315582+00:00
 c9c480b5ceb643209affeda13fdcae94,idofentforfun,,,OK,
 c9c5863ed49b4294ae1d945087c6d90f,DreamArab,,,OK,
 c9c734a6dbdd4b2c8d7f56518a8bf87e,super_gamer394,,,OK,
@@ -9759,20 +9759,20 @@ ca1637666db24c42b33aa574fbaf6cff,Procurador,,974,OK Scraped (Match),2025-06-05T2
 ca1f8c93671b486786ed9327ffbc31fd,Broseph707,,,OK,
 ca20156eab6e486fa25545db11decf95,Kepra,,,OK,
 ca21d7aedb3c43b19e4cd8f40dd42aa8,Michal_02,,,OK,
-ca2216d450e247b5b412d6b7e85890fa,TheTitaniumBat,,1215,OK Updated (Match),2025-06-17T03:59:54.896390+00:00
+ca2216d450e247b5b412d6b7e85890fa,TheTitaniumBat,,1233,OK Updated (Match),2025-06-17T04:44:52.550552+00:00
 ca2639f8afbb457ab2459d20514ca9a4,lucycocoa00,,,OK,
 ca28180813ae468a8e9476695208f0d1,PlusNotEarth,,,OK Scraped (Match),2025-05-25T09:28:21.304721+00:00
 ca3781ba2398420bad926313be004242,oSlain,,,OK,
 ca4b4f82a88a41348440be1b075729cb,smA11cube,,555,OK Scraped (Match),2025-06-16T17:38:01.037002+00:00
 ca4db390b37248549e694ae167204282,cu4k,,555,OK Scraped (Match),2025-06-15T17:35:22.629394+00:00
-ca588131241d4424911ada0659273eff,sword912,,1077,OK Scraped (Match),2025-06-17T03:57:19.776734+00:00
+ca588131241d4424911ada0659273eff,sword912,,1077,OK Scraped (Match),2025-06-17T04:45:13.564359+00:00
 ca5939e52d0647eb96eddc4727bad952,Dou_Pin,,1001,OK Scraped (Match),2025-06-16T17:32:59.848363+00:00
 ca5c862e03df4019ad809e803175be92,whitemask66,,1136,OK Scraped (Match),2025-06-16T23:33:28.679453+00:00
 ca5ce1c0471f49a8a184d0ed918f6e35,MrFlinxy,,1082,OK Scraped (Match),2025-06-11T11:29:51.123786+00:00
 ca60a05882514cd1a2a736a61e4e4e55,Obama37,,,OK Scraped (Match),2025-05-15T15:37:24.540332+00:00
-ca63cf6446c24fa2a1b1396c5a0159eb,Aura_Pharmer,,1346,OK Scraped (Match),2025-06-17T04:00:08.896505+00:00
+ca63cf6446c24fa2a1b1396c5a0159eb,Aura_Pharmer,,1346,OK Scraped (Match),2025-06-17T04:39:49.515613+00:00
 ca6a4bcc957e4f9cb394f238ad2c1379,BqldMC,,,OK,
-ca6b42a6aabc41268aac256985df4ced,Ishigiru,,1351,OK Scraped (Match),2025-06-17T03:54:18.088760+00:00
+ca6b42a6aabc41268aac256985df4ced,Ishigiru,,1351,OK Scraped (Match),2025-06-17T04:45:03.060412+00:00
 ca8111d067ee4c00949fce6fe5bd3b31,Coloful_Clouds,,1131,OK Scraped (Match),2025-06-15T19:25:30.263536+00:00
 ca83bdad20464dec8345fe0d4756132f,enemos,,371,OK Scraped (Match),2025-06-05T19:27:46.230331+00:00
 ca898c76fc524edd922ebc71835bc987,Shrando,,1067,OK Scraped (Match),2025-06-12T15:34:24.997810+00:00
@@ -9887,7 +9887,7 @@ cc8487dae59d478facf252acd891c7b1,iamyagiz,,,OK,
 cc84f13416214a8a99f311717826990f,GideonTheGamer,,,OK,
 cc8b97d856d843de8e6d8d24c4387de7,AxeWrld,,,OK Scraped (Match),2025-05-29T20:38:47.108712+00:00
 cc900b46aba84ed6aa85641143e0c62e,medatama,,1225,OK Scraped (Match),2025-06-14T23:31:32.980474+00:00
-cc90cea226fd4b2f8c1bcd208dde5011,_Weeoo,,1242,OK Updated (Match),2025-06-17T03:59:15.958714+00:00
+cc90cea226fd4b2f8c1bcd208dde5011,_Weeoo,,1242,OK Scraped (Match),2025-06-17T04:44:28.030058+00:00
 cc95dfe42eab4f83af253122a9bcedb0,CMaelstrom,,,OK Scraped (Match),2025-06-15T13:39:02.839488+00:00
 cca744afd78f4b14883b567a17463985,FetteKatze_,,,OK,
 ccb53099e11845469b43b9b4fad2f758,ProMCQUACKS,,,OK,
@@ -9900,7 +9900,7 @@ ccde7fb45f33452ea0db25d58cb60be0,RainbowPlatypus1,,1264,OK Scraped (Match),2025-
 cce2e200528f4b0c89c201e02e6228a7,_TheMightyZee_,,,OK,
 cce87185e4d341559457450668fc438e,Orionrocks19,,,OK,
 ccef03cd477c433482e1f00d6fc4efda,FatiguedBird,,,OK,
-ccefd206f061415cbd1b63e5e377a632,marr0w_,,1167,OK Updated (Match),2025-06-17T03:58:04.661088+00:00
+ccefd206f061415cbd1b63e5e377a632,marr0w_,,1167,OK Scraped (Match),2025-06-17T04:42:49.912056+00:00
 ccf137bc05bc4e54b55069cfae1e80bf,eamonoodles,,841,OK Scraped (Match),2025-06-06T21:28:06.878488+00:00
 ccf1dc20c25341b988edbcc2fc5ec07f,15acorn,,,OK,
 ccf4babb57b24070b9efeb4007cf6234,_XJ__,,,OK Scraped (Match),2025-05-05T02:20:35.132789+00:00
@@ -10073,7 +10073,7 @@ d095517803194765aa05cd6b8bb060ba,alexblack35,,,OK,
 d098f54582c946fa8be8a83e3c1c0aba,Zile1,,,OK,
 d0a18c4f9a1546e2b5895c227fe49c14,TheFlaf,,1040,OK Scraped (Match),2025-06-16T17:38:53.897932+00:00
 d0a33d22841241eab82ffa16ec16bb34,Miles_Imperial1,,958,OK Scraped (Match),2025-06-14T21:26:13.300450+00:00
-d0a684fdcbe445d5abb39990ae1cfc3a,danterus,danterustv,1779,OK Scraped (Match),2025-06-17T04:01:08.135766+00:00
+d0a684fdcbe445d5abb39990ae1cfc3a,danterus,danterustv,1793,OK Updated (Match),2025-06-17T04:40:08.769637+00:00
 d0acbca0d50e4824bc38a44395cce096,Fyroah,,1430,OK Scraped (Match),2025-06-13T18:49:24.153238+00:00
 d0aed4af3b98428dbb233fcc048cef4e,Guiltymoonx,,,OK,
 d0b8ad7a232c4844aebd1b106a424dda,ikobittho,,,OK,
@@ -10101,7 +10101,7 @@ d0fc59c3d4a64a64b8d13ba50317d260,DragonLegends,,,OK Scraped (Match),2025-05-05T1
 d1040a991cce475cbd2043b407b63485,Phantomized,,,OK,
 d1050f69a76b440f92f4791917eb88bc,Proalizedd,,,OK Scraped (Match),2025-05-10T02:04:35.330052+00:00
 d10649d3b3234b6a9aad38bf66cf81e8,meteorinto,,,OK,
-d10be6f072a34e069882ae04bfe60c98,Unknwonc,,1626,OK Updated (Match),2025-06-17T03:55:56.132895+00:00
+d10be6f072a34e069882ae04bfe60c98,Unknwonc,,1626,OK Scraped (Match),2025-06-17T04:41:10.079613+00:00
 d1114693fd9b4e80b9e6a3609d907961,GobGobGoob,,,OK,
 d112a262476f4fb3bab6309aa9dc092d,woole,,,OK,
 d115862c4a0d4b9c88adbaa0ce8784db,ShinFutaba,ShinFutaba,1083,OK Scraped (Match),2025-06-09T05:40:47.390065+00:00
@@ -10154,7 +10154,7 @@ d219fe36ec1c4d8cb0f0346f71ccd915,Grunchy0,,,OK,
 d2203770437e45a3999e8caa11627241,slowdescent,,,OK Scraped (Match),2025-06-05T20:33:45.784481+00:00
 d224199b93e741d0b261f07ec798ea4c,canreks1,,,OK,
 d22b2641ab2a4fadb00a4bc9371436ce,IceKid16,,,OK,
-d22d9033b45a4cb7ad4270202cc13edb,Pamowen1,,1336,OK Updated (Match),2025-06-17T03:59:09.689087+00:00
+d22d9033b45a4cb7ad4270202cc13edb,Pamowen1,,1336,OK Scraped (Match),2025-06-17T04:39:05.625961+00:00
 d2487f5783cb47c6a4257f073bb33da9,DyIanRodriguez,,,OK,
 d2507d4602c34641989f6d72ec29d00d,Vicdup1,,,OK,
 d25fe4ea2cdc4ce9be36a1185bbea4fb,OcuEfe,,888,OK Scraped (Match),2025-05-10T17:27:18.365288+00:00
@@ -10254,7 +10254,7 @@ d4104f31065a4100917d1566bab43ef3,Anti_C9H28O2,,1113,OK Scraped (Match),2025-05-1
 d411ecbdf73b4accb887f5b560e22f9f,Keet0ngu,,1127,OK Scraped (Match),2025-06-12T21:35:08.258040+00:00
 d4137b06ba9d428f833d3eb352f276de,Hi__Im_Tyler,,,OK,
 d41b9f480ae34b99a1d8349e459ca960,Dr_Palmenmann,,,OK Scraped (Match),2025-05-07T18:39:10.250956+00:00
-d41f0f3caebe45e1bc6a380fedf54ca9,boosterruns,boosterruns,1540,OK Updated (Match),2025-06-17T03:59:53.278917+00:00
+d41f0f3caebe45e1bc6a380fedf54ca9,boosterruns,boosterruns,1602,OK Updated (Match),2025-06-17T04:44:56.058167+00:00
 d422c195700946f9ad22390457081ddd,sstoxinss,,,OK,
 d4313261412e471791bc660c686f4536,Destroyee_,,,OK Scraped (Match),2025-05-02T11:28:40.668629+00:00
 d433a13e3acd441a8dac04707cfcfd67,4khil,,,OK Scraped (Match),2025-06-08T23:27:53.586442+00:00
@@ -10339,7 +10339,7 @@ d5e791ea1e594a75b9f99f3fb4855ba0,firesword85,,,OK,
 d5e8a2aae20f4385a20fc5a8a018eb80,SlinkySolid7106,,,OK,
 d5f169745c7d42c1aa952e8ac4595c56,darkmatter556,,890,OK Scraped (Match),2025-06-17T02:23:39.467667+00:00
 d5f1da81160e4f95be8340fe6d5eb54e,LeftyVio,,,OK,
-d602ce8abdd04560a6e48fa4afee8a17,100ksup,,1228,OK Updated (Match),2025-06-17T03:57:15.146734+00:00
+d602ce8abdd04560a6e48fa4afee8a17,100ksup,,1260,OK Updated (Match),2025-06-17T04:43:52.988583+00:00
 d60b5b3dc5dc46ff9bfc2b548feb8246,itzEUG3NE,,,OK,
 d60c4b4e9c15485ca57c9a8c421d677f,Yoep_Jan_14,,,OK,
 d60c99a94ef04c1f973eb590ca058dd0,arcenine,,,OK,
@@ -10426,7 +10426,7 @@ d7c770b59bf444dabc9df8794b6d33e5,Koizume,,,OK Scraped (Match),2025-06-16T23:30:5
 d7cbb46d578145bf9631415d06acc56a,nojus112,,786,OK Scraped (Match),2025-06-16T20:36:02.896955+00:00
 d7cca9bf45764ab8b95efa829bdf8043,Thorcrist,,,OK,
 d7cf2caf81bd403fbef94bc71a157912,frafra2000,,,OK,
-d7d0b271136647fea7398a444ab51c13,JustAltoid,justaltoid,1603,OK Updated (Match),2025-06-17T03:55:03.468710+00:00
+d7d0b271136647fea7398a444ab51c13,JustAltoid,justaltoid,1557,OK Updated (Match),2025-06-17T04:42:00.881669+00:00
 d7d72339fd114542aed0a1402518eced,NullDrag0n,,,OK,
 d7d94bc415404033993defd4109c2017,Insanity247,,1217,OK Scraped (Match),2025-06-07T23:32:26.396736+00:00
 d7de3ebb8cf74b99a81eebabc72e54a4,Skywarrior,,,OK,
@@ -10444,7 +10444,7 @@ d8294c355a554445aba7d9a4cb563500,scape167,,,OK Scraped (Match),2025-06-12T11:27:
 d833ce443ce248259019ecf86fbb60ae,61yo,,,OK,
 d83677865c2f469697492b4e8adf9539,meds33bro,,1055,OK Scraped (Match),2025-06-15T09:32:55.179488+00:00
 d843fe5d8eb449c584b7c6acbe515a27,tamdemon,,,OK,
-d84f4ab8f8ce41c09ec422fe5e568c1d,Weznon,,1182,OK Scraped (Match),2025-05-27T08:41:14.167345+00:00
+d84f4ab8f8ce41c09ec422fe5e568c1d,Weznon,,1201,OK Updated (Match),2025-06-17T04:45:36.320276+00:00
 d8510dcdc55b49b9ae29157cb22ff2da,vulpinedig,,,OK Scraped (Match),2025-06-06T23:35:18.695621+00:00
 d85f7a8a25574662bbb2ae18313f9174,R1PP2,,,OK Scraped (Match),2025-05-02T04:33:43.974450+00:00
 d873cb502d90410f9a2b8d9d88be069c,RuneFX,,,OK,
@@ -10509,7 +10509,7 @@ d9a61efff42346b6b7a5b3cefbe03151,selmaganic,,,OK Scraped (Match),2025-05-19T04:0
 d9ab95093b2f41949b974ef0166a5f48,anken0610,,1014,OK Scraped (Match),2025-06-08T16:36:34.309710+00:00
 d9b838a52ce640eeab067e935d61de5e,MenderLoveMyBug,,,OK,
 d9c3467f5fff4cc9bb5a78adf5599164,XC_MoShen,,,OK,
-d9c90bb37061486b8bd5e3d771db3a05,MigNuggets,,623,OK Scraped (Match),2025-06-17T03:54:46.338717+00:00
+d9c90bb37061486b8bd5e3d771db3a05,MigNuggets,,623,OK Scraped (Match),2025-06-17T04:46:02.574866+00:00
 d9cfe55fda0844b19e679ba1b8bfe667,Her0x_,,,OK,
 d9cffc3d2d0b4e11b62803e54b76c916,CutJelly,,1063,OK Scraped (Match),2025-05-16T19:31:33.513885+00:00
 d9e292bcbb8c4211919a581ff0422164,kboy_not_Kasen,,,OK,
@@ -10526,12 +10526,12 @@ da2ac63284f9468ab3dbcfc661d90262,Ronan_00,,939,OK Scraped (Match),2025-05-23T07:
 da30ee37899a45b788df4483214868aa,Wobuh,,,OK,
 da363d16771d4b01b5a3f760c793b502,pogmonkey21,,,OK Scraped (Match),2025-06-16T20:37:28.346235+00:00
 da3f340aad654ffd8f1902d390d7c61f,forceha,,,OK,
-da47659e7d154de8bdb0a0f5e870d7d9,qmbi,ambivaIent,1169,OK Updated (Match),2025-06-17T03:57:02.767452+00:00
+da47659e7d154de8bdb0a0f5e870d7d9,qmbi,ambivaIent,1169,OK Scraped (Match),2025-06-17T04:39:40.760699+00:00
 da4b01040e0b42ee99abae54a3cb0471,SirClukington,,,OK,
 da4b574c628b4d0a822c7b58da7a5b21,Kool_Person4061,,,OK,
 da505659ce714396984db8ffe53fbbbb,Melnyyy,,960,OK Scraped (Match),2025-06-07T15:31:26.675378+00:00
 da532e98c4e546b3b237f0c4dc428f8d,TheRealWolfClaw,,,OK,
-da5e15a7d3c04a84b432defd5a15c910,paukll,xx_Rms_xxGamer1337,1620,OK Scraped (Match),2025-06-17T04:00:27.724593+00:00
+da5e15a7d3c04a84b432defd5a15c910,paukll,xx_Rms_xxGamer1337,1620,OK Scraped (Match),2025-06-17T04:39:53.017996+00:00
 da62cb54e4574be3918e0a21bea2be64,Gojo_RIP,,1089,OK Scraped (Match),2025-06-14T13:38:41.841817+00:00
 da635673499e43e49533bfea3de58553,_0zA,,,OK,
 da69a8aab1594ea382479ec17ae88a58,Coniglietto00,,,OK,
@@ -10553,7 +10553,7 @@ dab0adf54ae44af1bde8469ce8554af0,GyatHunter5000,,,OK,
 dab159a47f9b4c56949c5601f3f48f4e,Venvenheeart,,,OK Scraped (Match),2025-06-14T19:23:36.140024+00:00
 dabb5d550278432ea90c80b0ce05ccce,EuCl4upy,,,OK,
 dabf7b86e73d47e28b645e4a336caae1,Beljonko,,,OK,
-dac076ab0e11436b9aff6f985e99df26,Loefars,,1183,OK Updated (Match),2025-06-17T03:56:51.864993+00:00
+dac076ab0e11436b9aff6f985e99df26,Loefars,,1203,OK Updated (Match),2025-06-17T04:46:35.845692+00:00
 dacf61a7b4f74f9cb83512d7f2fe88a9,Birdeyyy,,1428,OK Scraped (Match),2025-06-16T23:32:45.850293+00:00
 dad044ffb81944fc900e3f8363764ca6,Derpy2TV,,,OK,
 dad3aa45b0a6400baf342bdb99305899,Larsiboy_HD,,1146,OK Scraped (Match),2025-06-15T20:35:13.062480+00:00
@@ -10588,9 +10588,9 @@ db86bb39316f495091deb4181c60a659,karpovian3,,1204,OK Scraped (Match),2025-06-12T
 dba2eac1b047460fa2122e8accfb688c,Stwfan13,,,OK,
 dbaa4341dc51493682ed9dfeb0d81ff5,BF638,,,OK,
 dbab63e86888451ebd15b4d176e78549,DaExotic,,686,OK Scraped (Match),2025-06-15T23:33:48.345923+00:00
-dbaeeaf62a9348698a3604cded144298,AntonyPrime_2008,sergtivanovamarya,1522,OK Updated (Match),2025-06-17T03:57:50.678177+00:00
+dbaeeaf62a9348698a3604cded144298,AntonyPrime_2008,sergtivanovamarya,1522,OK Scraped (Match),2025-06-17T04:41:17.089018+00:00
 dbaf7faa2beb47b98f66c4072faa5ed3,MusicIsCoolWyatt,,,OK,
-dbc510130fea4a149568fc4f7fe09e86,Kingj16,,887,OK Updated (Match),2025-06-17T04:00:13.602743+00:00
+dbc510130fea4a149568fc4f7fe09e86,Kingj16,,887,OK Scraped (Match),2025-06-17T04:43:03.928424+00:00
 dbc579eedafc42098aab635f4435337b,Bubblegum____,,,OK Scraped (Match),2025-06-03T13:44:35.360360+00:00
 dbc645189c4a4b9e8382d7e9ad2e322b,no6we,,750,OK Scraped (Match),2025-06-14T11:27:56.769128+00:00
 dbcd168d104442cfaf73b64d6285d72b,Tulensy,,,OK,
@@ -10639,7 +10639,7 @@ dce325a3baa34d329757b2f64530b6bf,FallArc1,,,OK,
 dd000f2f51674d648e911a797ac44a59,Xiao_Hei1,,1215,OK Scraped (Match),2025-06-15T20:31:34.792617+00:00
 dd0f24c62c7b4234ad03638b41982ddc,Coleasaur1,,,OK,
 dd2eb4a44ccb453cae388af17229cd78,zYampixd,,,OK,
-dd34e44dfe5d4e05923d876b9c34ca5f,waluyoshi,waluyoshi,1638,OK Scraped (Match),2025-06-17T03:56:13.149054+00:00
+dd34e44dfe5d4e05923d876b9c34ca5f,waluyoshi,waluyoshi,1638,OK Scraped (Match),2025-06-17T04:38:56.880954+00:00
 dd382293fed04a3e9fa850bb139279fc,vorbh,,1490,OK Scraped (Match),2025-06-17T02:26:29.779840+00:00
 dd38e334cb3b41dcaed243931bd169fa,senez,,,OK,
 dd39f193502943119126c21bba182639,sans_gamers,,,OK Scraped (Match),2025-06-03T19:29:22.543307+00:00
@@ -10698,7 +10698,7 @@ deb32c53a3894332842fe14b1cd9780e,Gamemod1855,,,OK,
 dec1918fd9e0436da67bb03545b4a8f8,ProDanBoi,,,OK Scraped (Match),2025-05-13T14:35:31.116735+00:00
 dec5cc1314c7422fb3f1856f31c9818f,Visions1,,856,OK Scraped (Match),2025-06-16T15:38:26.354853+00:00
 decbbb4c65404b7bb1b70575ce74fa32,MMMayyy,,,OK,
-ded762357edb459d95e0215dc6339a45,Eager_Darksniper,,1179,OK Updated (Match),2025-06-17T03:55:26.677104+00:00
+ded762357edb459d95e0215dc6339a45,Eager_Darksniper,,1179,OK Scraped (Match),2025-06-17T04:42:23.633932+00:00
 dee4ab2222bb46c5a6e15d372d4dcd0b,FelipeInTheTrap,,,OK,
 deeac70e09ae4addb6f824d99810276d,markitos5773,,,OK,
 deec2bf159724f538eea5271473f2505,TheHofer,,,OK,
@@ -10830,7 +10830,7 @@ e1859651816741709da4e013946cee58,Weir__,,,OK,
 e187c5bb6f054303958ba0035f9d481f,aatool,,,OK,
 e190507db8fe4702b6c6daa78edebca0,Ianis_123,,1373,OK Scraped (Match),2025-06-16T23:28:18.825435+00:00
 e191d1a0eeec48c9ab10c306b7f4462e,Supersloths12e,,,OK,
-e1923b76cb5e42abbff7e3f0122440c8,lakersuner,lakersuner,1278,OK Scraped (Match),2025-06-17T03:56:30.232926+00:00
+e1923b76cb5e42abbff7e3f0122440c8,lakersuner,lakersuner,1278,OK Scraped (Match),2025-06-17T04:43:38.964929+00:00
 e1a7fa0be00748b6a153b14112391d5c,MForMouse1,,867,OK Scraped (Match),2025-06-15T14:35:44.338435+00:00
 e1aba4d8c4f84270aefdf58de600eecc,sm1le_1,,,OK Scraped (Match),2025-05-02T15:38:14.907879+00:00
 e1b4b4f87a2547e28058e80915562a06,DX3T,,,OK Scraped (Match),2025-05-22T06:43:14.929176+00:00
@@ -10838,7 +10838,7 @@ e1bb5c3dbcec4e748d40f558b87cce9c,HeyNahu,,,OK,
 e1bc01f970f34abea0258e162257cdb3,kiki0605,,,OK,
 e1c7294d62b34bd392c153be5bcffb2c,thegoldenking7,,,OK,
 e1cfd039dcb841a9ab5b9a0891982fce,RaifGamerYT,,,OK,
-e1d01de7d0f84ec0b4a136b89207b282,GguitaR158,,1089,OK Scraped (Match),2025-06-17T03:59:39.304071+00:00
+e1d01de7d0f84ec0b4a136b89207b282,GguitaR158,,1089,OK Scraped (Match),2025-06-17T04:39:44.260085+00:00
 e1d6a3fc76e044638611a99b9cdd4f39,grapepeels,,949,OK Scraped (Match),2025-06-15T02:32:36.578263+00:00
 e1e0aef5481342a086e766ec38628b85,Jerry_XI,,,OK,
 e1e21dfcae3148ab945966ccdd950b74,Wroy,Wroyble,1071,OK Scraped (Match),2025-06-06T22:39:24.346206+00:00
@@ -10870,7 +10870,7 @@ e290f66836f74800b184d7c241aca37a,PolarHaled,,,OK,
 e2980ad8bba9476f82e73a166f264f5c,Licious_,,,OK,
 e29dc060663e4c09bf11a57581a3ab68,gmmkpropog,,,OK,
 e29e69c405a443a0b28b3e43fc0a83bc,bytoxy0,,,OK Scraped (Match),2025-05-05T13:44:47.635991+00:00
-e2aba2ce45194e5db2010a962c837414,Tanywastaken,,1016,OK Scraped (Match),2025-06-17T04:00:19.959158+00:00
+e2aba2ce45194e5db2010a962c837414,Tanywastaken,,1016,OK Scraped (Match),2025-06-17T04:40:19.295523+00:00
 e2adc8208cec445ba2826b397e862ca2,catgirlalya,,,OK,
 e2aeebd0416f41a88b919bf927a5ec0b,AIRboyHP,,863,OK Scraped (Match),2025-06-15T23:35:00.492052+00:00
 e2b0cef3a54140359a9f21439437a6c0,CraftisMineHun,,,OK,
@@ -10910,7 +10910,7 @@ e3381d15745a48f3ba6eda86da0de6f4,Chaosian44,,,OK,
 e33b082245394bc18b07be49283b7f43,fvps,,,OK Scraped (Match),2025-06-01T20:34:24.671432+00:00
 e352cb11a862435badaaaa590b0f8140,Samyew11111,,1073,OK Scraped (Match),2025-06-16T17:37:37.001165+00:00
 e35ffa9857ec4b3997f7953138ddaf31,ShadowBoyFuture,,,OK,
-e3603282c2cb4935a5b6246c66fbc23f,ChocoScotch,,913,OK Updated (Match),2025-06-17T03:59:06.601023+00:00
+e3603282c2cb4935a5b6246c66fbc23f,ChocoScotch,,914,OK Updated (Match),2025-06-17T04:45:57.323023+00:00
 e36217a1121a427aa01d72e0d8a1359d,Trottster2601,,,OK,
 e369c076887549f395ff063f634bfd37,SupremeChimp3,,,OK,
 e36a193d03ee468886b5c32db168bbc7,CamSlam8,,,OK,
@@ -10968,7 +10968,7 @@ e478a75451614ac3a424fbaad40b5dfe,SomeFurredDog,,,OK,
 e4808bc3e1e347988cbb59b55d723e0f,dandannyboy,dandannyboy,1878,OK Scraped (Match),2025-06-15T11:24:47.864870+00:00
 e480b8d14903489f8643a00c3d94c0b8,Cyclohexia,,1108,OK Scraped (Match),2025-06-13T19:26:39.445542+00:00
 e487685a6fe2420a8afa208acb69d380,_Kert,,,OK,
-e487cee34b7f4407b8a618513f8dad57,Weasely,weesely,1380,OK Updated (Match),2025-06-17T04:00:54.094400+00:00
+e487cee34b7f4407b8a618513f8dad57,Weasely,weesely,1380,OK Scraped (Match),2025-06-17T04:42:09.634549+00:00
 e48961bbebe641d6a1e3bfad85b87d77,Wund3r_,,,OK,
 e48bb220d40041f2bf764a1d1d3adc6f,Linus198,,716,OK Scraped (Match),2025-05-17T23:30:38.889912+00:00
 e4988fcf39ee42269773dacfe571cc3b,MsIve,,,OK,
@@ -10990,7 +10990,7 @@ e4feadf2d1e340fdbacae479f40dc28e,TheUndaying,,,OK Scraped (Match),2025-05-11T05:
 e4fef195ef5b4f82aebf23f86291bbba,badrxxii,,,OK,
 e5056abf932141e588dbfd3a86fcb404,ape101,,,OK,
 e5072cf5cf03404c81c97ccfca476764,TacoWith_ATophat,,,OK,
-e50aa94be9cc400ba30bf0ca89b60828,47cpss,,1404,OK Updated (Match),2025-06-17T03:56:20.893190+00:00
+e50aa94be9cc400ba30bf0ca89b60828,47cpss,,1381,OK Updated (Match),2025-06-17T04:39:23.257877+00:00
 e513b9f7608b4d1bb8d597ecfbd27687,G_Lise710,,1091,OK Scraped (Match),2025-06-13T23:33:10.058990+00:00
 e516d764b0c343c7976c43bdc02830cb,qxuse,qxuse,1442,OK Scraped (Match),2025-06-16T20:36:35.564912+00:00
 e517f5e1b9044714980552b2dae97d3e,ProChamCham,,,OK Scraped (Match),2025-05-08T15:35:08.638726+00:00
@@ -11063,7 +11063,7 @@ e68d45b1c1d64ed2a32504daeeccb530,Miky_Hry,,1001,OK Scraped (Match),2025-06-05T23
 e68fb8b458dc4358a7de6924aa5cd3ee,FaZeJonas,,,OK,
 e691063a2afc4c47ac987c0f307297ad,VMiZ,VMiZzZz,,OK Scraped (Match),2025-05-05T22:41:57.326996+00:00
 e691275a5dbf475cb52311f2e8a27529,_LegitLar_,,,OK,
-e6948979c2e04d3d84e30e927d3d422e,clasherrms,,1023,OK Scraped (Match),2025-06-17T03:54:32.218226+00:00
+e6948979c2e04d3d84e30e927d3d422e,clasherrms,,1003,OK Updated (Match),2025-06-17T04:41:25.852360+00:00
 e695bc3db33d4e8b846e4fcd5b090171,CactuzGD,,,OK,
 e6adc716cf124baba3378d56f8620d58,Oversizedmonkeh,,880,OK Scraped (Match),2025-06-16T23:35:02.491390+00:00
 e6add0abd5bb4ed9893cda0f978e3933,Beta3Z,,,OK,
@@ -11092,7 +11092,7 @@ e72eb12383964037bef7baff2f5952c8,Landest,,,OK Scraped (Match),2025-05-21T21:27:5
 e7303c4ba08d4ffa898e7916e70cfb3f,pinknam,,1059,OK Scraped (Match),2025-06-11T08:41:47.697533+00:00
 e74d35f6ed594168b2a7732b415643a3,flpcn,,,OK Scraped (Match),2025-06-07T03:22:04.827264+00:00
 e74e45fd0a954f79803e35307aab6f79,Crexx0,,,OK,
-e751b881d98a4bf9bcbc6dd2c7184c8c,D1llon,,928,OK Scraped (Match),2025-06-16T04:47:36.798101+00:00
+e751b881d98a4bf9bcbc6dd2c7184c8c,D1llon,,949,OK Updated (Match),2025-06-17T04:44:38.542532+00:00
 e7559f4f13ea4953bf578155fb3d1742,Mustafanyt,,,OK,
 e756a525f0f94424812ae5de1cda47cc,skittle4,,,OK,
 e76172bf0130477a8a24781e9b92870e,DoubleA_Battery0,,480,OK,
@@ -11282,14 +11282,14 @@ eb5d4b46fd364d7a98b2f35d7343b0e2,boB2123,,1086,OK Scraped (Match),2025-05-04T10:
 eb671646e037487e8a8286c8707f7e5e,SBMetehan006,,,OK,
 eb68a16d2ab0434da114a36a28b25d79,OreoIceKream,,,OK Scraped (Match),2025-05-12T11:25:37.270665+00:00
 eb69289b79084abfae640e211007b1d2,Fabo0814,fabo0814,1342,OK Scraped (Match),2025-06-08T13:41:45.750689+00:00
-eb716400fedb49ba82244800dcf9a042,oGarfield,,1122,OK Updated (Match),2025-06-17T03:55:36.030041+00:00
+eb716400fedb49ba82244800dcf9a042,oGarfield,,1122,OK Scraped (Match),2025-06-17T04:42:56.919102+00:00
 eb754eef83dc48a58584813554c2dd62,DeepCheater_,,,OK,
 eb77c626a8ff4d25b0957918a5d19b59,Pjoes,Pjoes1,1548,OK Scraped (Match),2025-06-15T07:30:03.283863+00:00
 eb79169d77bf4850947526cdd77d4adf,Blankboi_,,1415,OK Scraped (Match),2025-06-15T06:41:08.840404+00:00
 eb7b7e7c787041899f339ba06a99df5c,SpacedSix284394,,454,OK Scraped (Match),2025-06-01T14:32:59.170521+00:00
 eb81b9dbb5804e9ab22907fe5f5574b9,augustlnn,,,OK,
 eb81f4a462f140378da4b8edd1935f87,Slychampking,,,OK,
-eb86dc19c3f54aefa50ea4bf435a7528,gdemerald,zEmerald_,1220,OK Updated (Match),2025-06-17T03:59:22.223178+00:00
+eb86dc19c3f54aefa50ea4bf435a7528,gdemerald,zEmerald_,1201,OK Updated (Match),2025-06-17T04:40:00.014076+00:00
 eb8c376a922344d185e31108829d9970,MissingFille,,,OK,
 eb8e856092d949b5aefbaf9b6113c4b6,Kaydxns,,,OK Scraped (Match),2025-05-25T23:31:31.112898+00:00
 eb9088f027d04729948e4ce093447963,FrenchFryJ,,,OK,
@@ -11355,7 +11355,7 @@ ec9b30c02e1e40358632240a82d1ea77,sn0wfall1,,,OK,
 ec9d07a80a0744feaea19fb053e8ee13,TimeST1975,,,OK Scraped (Match),2025-05-16T16:44:08.387586+00:00
 eca3ed4fefac42679a5f54cbef2e7b6d,oscarkr,,1134,OK Scraped (Match),2025-06-16T15:35:35.806730+00:00
 eca74f9529d34fcaa862fae43bd2bc96,pyzem666,,,OK,
-eca8f414685e4eab912d9e85b2b274e4,B1KOZ,,957,OK Scraped (Match),2025-06-17T03:55:34.481600+00:00
+eca8f414685e4eab912d9e85b2b274e4,B1KOZ,,957,OK Scraped (Match),2025-06-17T04:41:52.122470+00:00
 ecac724f18e24459a19df609e32b27ac,sharnn,,,OK,
 ecafa33602cc45e6b81667505480339b,BestSeaBass,,,OK,
 ecb64a64fd984903b0eed9ad34f0730d,xellish,,1282,OK Scraped (Match),2025-06-15T14:31:53.194714+00:00
@@ -11370,7 +11370,7 @@ ece94ca8cbbf40419eda77390c53814f,Itz_Iccy,,,OK,
 ecec0cf3f7bd4ef4943bdecbbcb755a4,ZuNdo_,,,OK,
 ecee67d503e14944bdc2de05e7033b2a,Poochui,,,OK,
 ecef3a175a0b477d9d3d6ecc58f2025a,SomeFurredNerd,,,OK Scraped (Match),2025-05-13T16:46:58.546147+00:00
-ed0605bc88fa411f8f1d530323efd867,Prince___OK,prince_0k,1293,OK Updated (Match),2025-06-17T04:00:07.346964+00:00
+ed0605bc88fa411f8f1d530323efd867,Prince___OK,prince_0k,1350,OK Updated (Match),2025-06-17T04:39:33.757194+00:00
 ed062e4bc8fb4773b6e4474b13bfb02c,Suppee2,,,OK,
 ed07e77b12a54c99824cd0951e0d15cb,nickyggg,,,OK Scraped (Match),2025-05-31T08:38:33.977682+00:00
 ed16488f5b6a4d1faa6c7ab2956c3033,fnandoond,,,OK,
@@ -11434,7 +11434,7 @@ eeba3df860ae4171b6db6338518899d5,Joschinatoro,,,OK Scraped (Match),2025-05-18T23
 eec04f414ae14002a11662aa54837d1c,Rhomax,,,OK,
 eec2b50dee3d40cbb6d46945ea6e632b,Patchware3,,1012,OK Scraped (Match),2025-06-16T17:38:42.689098+00:00
 eec30ac48c9e4db18cdbc3630793a776,elmerfud134,,,OK,
-eec5f39395884f17a2c0ae811d17b953,Tabspacecrafting,Tabspacecrafting,1298,OK Scraped (Match),2025-06-17T04:00:43.202099+00:00
+eec5f39395884f17a2c0ae811d17b953,Tabspacecrafting,Tabspacecrafting,1298,OK Scraped (Match),2025-06-17T04:42:32.394142+00:00
 eecfc8f6807f472196466fc49cfbf65b,lisztor,,,OK,
 eee198e4a7d34954b8c86fea753089fc,Oilers4Cup,,,OK,
 eeecf0a4d608426f90cd311efad0b6a5,aPlant,,,OK,
@@ -11451,13 +11451,13 @@ ef1bbaddf77c490da6f8e9cf25e89483,Gutgyk,,,OK,
 ef1fc90dcc934083a1f6fc34987a2df7,ratatatatosz,,,OK Scraped (Match),2025-05-18T14:33:45.186724+00:00
 ef2376cb1f52418ea727dcbeb7b969de,aties2,,,OK,
 ef2803a08d72445b9f17df029a3b87ec,v099,7resistence,1058,OK Scraped (Match),2025-05-28T15:32:21.150792+00:00
-ef477b2ba5a8421a9be993326a892497,ichikow,ich1kow,1160,OK Updated (Match),2025-06-17T04:00:05.804617+00:00
+ef477b2ba5a8421a9be993326a892497,ichikow,ich1kow,1139,OK Updated (Match),2025-06-17T04:46:00.824440+00:00
 ef4b96aa0c734e46b23cf7d07e5fc258,Express356,,,OK,
 ef4f72973a0447a8acb1ae88989c9c4a,the_voidd,,,OK,
 ef591053a4744eddb920895afa577dc3,waterdude1,,1361,OK Scraped (Match),2025-06-16T23:34:52.642399+00:00
 ef5fdf761d224ffebe641c31e05c2dc7,AzeWailord,,,OK,
 ef633d7dea3f475c9c3271bdb8d30b1f,L_chagou_L,,,OK Scraped (Match),2025-05-03T11:24:30.751560+00:00
-ef6582ce79894573aff029862e7418af,DukmigAlt,,1080,OK Updated (Match),2025-06-17T03:56:42.595462+00:00
+ef6582ce79894573aff029862e7418af,DukmigAlt,,1080,OK Scraped (Match),2025-06-17T04:41:57.384629+00:00
 ef6ce7773b98429fb51cedd839cb32d5,ThinkLess1024,,,OK,
 ef74a9fe12bb4874ad59babc52445868,Gp0_,,,OK,
 ef756664bd8f41d8ac9dd85209f837c9,HuddyPow,,1048,OK Scraped (Match),2025-06-04T13:03:34.930135+00:00
@@ -11469,7 +11469,7 @@ ef809bf26b98487486765fd88482a812,Riftoo,Riiftoo,,OK,
 ef8741ff382f421fb1519c4a005cdc63,Lord_Game,,,OK,
 ef88b3b6828d4dcc94caf8f056946150,Retri2D,,876,OK Scraped (Match),2025-05-18T18:38:36.731307+00:00
 ef891b5376f243078ccd46cea798c089,JohanYawns,,,OK,
-ef968769914f498e9ff469060662ed5c,Wilnaut,,1066,OK Scraped (Match),2025-06-17T03:58:32.475798+00:00
+ef968769914f498e9ff469060662ed5c,Wilnaut,,1066,OK Scraped (Match),2025-06-17T04:45:01.310479+00:00
 ef973a39d42b46d4a950af26f25bff31,chefshouse,,,OK,
 ef97cc84051e4b9d8d202b34aa23a7d6,siebeman,,,OK,
 ef9a85195226457091306836aed9d98f,ChuzzCraft,,,OK,
@@ -11511,7 +11511,7 @@ f042d899adbe4892bf2a63f6b47072e2,ZetrixMC,,,OK Scraped (Match),2025-06-15T13:01:
 f0446308bd004695b8d455a9c42aad41,Lexie9076,,,OK,
 f04ec20b29c54e39b8e0b41aaa4ed193,Tharve,,,OK Scraped (Match),2025-06-14T23:30:07.330054+00:00
 f061c95efba948c382f4a09ab6761bd3,keloxolek,,,OK,
-f06c2f08676242fca8a32df9efda6c44,Taodai1337,,991,OK Scraped (Match),2025-06-17T03:58:55.756657+00:00
+f06c2f08676242fca8a32df9efda6c44,Taodai1337,,991,OK Scraped (Match),2025-06-17T04:39:07.376981+00:00
 f06d9fbdc0f64979bb47511f0a7bcb30,EpicLion_,,,OK,
 f06e3092749447448cb2bcb6d3073b14,itisHerosaa,,1125,OK Scraped (Match),2025-06-12T14:37:09.328436+00:00
 f0704528bd334f579818c6e0aaea103c,CyberFett,,,OK,
@@ -11563,7 +11563,7 @@ f13e937762784050b653bffdf532a42a,trewalco84,,1104,OK Scraped (Match),2025-06-15T
 f146ffc199dd409daffb196dca863571,Matteezo,,,OK,
 f14d2152e1964314bf330af69848c808,M1ghtyDavid,,,OK,
 f14e24655eca4fbf94fc7a534a3deea3,TurtlesLuke,,,OK,
-f15460dbeb5b4903bc8d76bcd38cba18,PoofferPedro,,918,OK Updated (Match),2025-06-17T03:58:07.747840+00:00
+f15460dbeb5b4903bc8d76bcd38cba18,PoofferPedro,,898,OK Updated (Match),2025-06-17T04:43:35.458666+00:00
 f155660176c64dfeb792b04f86f60c36,impie30,,,OK,
 f1569ef2ab37479f844a663cab38788a,Edwarddss,,,OK,
 f157d0979dee4f3290416c3eed08983b,minecrafter34876,,,OK,
@@ -11581,7 +11581,7 @@ f183a3ba18f74516a92fb1030cf6c485,square_1_,,,OK,
 f189fdd669ac4d6ea19b34cd49a73190,Lapca5,,,OK,
 f18e1942cb004c0087d0ab6304fb0d92,B0Bject,,,OK,
 f18ed6ce96e8493d8c3df6ef09016c33,Josephxbox102,,,OK,
-f192eeea591445b9a091da74a2c9669a,NoHaxJustHasAura,,,OK Scraped (Match),2025-06-17T04:00:01.162208+00:00
+f192eeea591445b9a091da74a2c9669a,NoHaxJustHasAura,,,OK Scraped (Match),2025-06-17T04:40:52.569468+00:00
 f19544a946694770b4c2f55f86eb520a,zyl_01,,592,OK Scraped (Match),2025-05-04T09:35:21.055723+00:00
 f1c5e922f65740d4b4bba88b3955dc83,TacoCat2_,,1029,OK Scraped (Match),2025-05-29T20:38:59.401649+00:00
 f1c62ba7ce80481e9513eb570fc1e901,UnlimitedH2O,,,OK,
@@ -11612,7 +11612,7 @@ f216c7eaed1c4faf85a9c3b3ac8d4bf9,Incursio5,,,OK,
 f221f3c4712d467791fbe1ae94644526,vawzen_,,604,OK Scraped (Match),2025-06-16T08:42:52.071204+00:00
 f224c8358a9649b7b4d2750c5f672337,RogerCookALP,,,OK,
 f225a37ca5f14185ad4fab4f6e165c83,MemeBashameMC,,,OK Scraped (Match),2025-05-20T23:28:57.575513+00:00
-f229d94ed1b2468ea4a37b66dd180813,Ghoko,,1097,OK Scraped (Match),2025-06-17T03:57:16.686906+00:00
+f229d94ed1b2468ea4a37b66dd180813,Ghoko,,1097,OK Scraped (Match),2025-06-17T04:46:56.850627+00:00
 f22c77fe2e0b47358865fdadf6fc86fb,BroWo9,,,OK Scraped (Match),2025-06-16T14:36:22.978767+00:00
 f22d5756b3d44b5e89bf9cfbc140c406,Alexki727,,,OK,
 f2378ee55d5049fd99f83a90f15f61ce,Frank_lol_,,1115,OK Scraped (Match),2025-05-29T23:29:07.562752+00:00
@@ -11665,7 +11665,7 @@ f315ec13d622411e8ab91f22b426b109,FLYNI_OWNS_MMC,,,OK,
 f317e60909334cbdbc5640b0ee2c525a,karthusjungl,,,OK,
 f31a7f36a2924be989f907256ac15749,s1imey_,s1imeyld,,OK Scraped (Match),2025-06-12T16:38:33.486111+00:00
 f31b7e3370ef4e0390a16c7e2badc818,Hu9o_B0ss,,,OK,
-f324330493a94868a5c1cf8945d0fa7d,CarterID,,1160,OK Scraped (Match),2025-06-17T03:57:56.932060+00:00
+f324330493a94868a5c1cf8945d0fa7d,CarterID,,1180,OK Updated (Match),2025-06-17T04:39:30.257627+00:00
 f32963d56bb242a19f6895054f1b622c,GreenWhisper342,,,OK,
 f32fca587a844ed78acc164b14d2983d,Thoneq,,,OK,
 f332b3bfd6654b7a99322e3369ca09fc,Nicraft_11010,,,OK,
@@ -11790,11 +11790,11 @@ f59796cc309b48329a5986018ad606a6,Galog,,912,OK Scraped (Match),2025-06-16T22:33:
 f5a3cf00b7bd491a9c37324177769e71,qascar,,,OK,
 f5a96992296745e8a94793a15adebdc9,Neverified,,,OK,
 f5bc899b0c6c40c099bb743c8e8c6c19,xenersaudi,,,OK,
-f5c355c6bbb940fa90a79a39eb2e6e7d,KinneX_,,1040,OK Scraped (Match),2025-06-17T04:00:32.360162+00:00
+f5c355c6bbb940fa90a79a39eb2e6e7d,KinneX_,,1040,OK Scraped (Match),2025-06-17T04:39:16.258874+00:00
 f5c8c38c0f764fe4b321651f59fdd6fa,Vako1,,,OK,
 f5d22da880374ea1893dd70d1f5378dd,Angel__Y,,826,OK Scraped (Match),2025-06-15T07:30:27.926998+00:00
 f5d383e72b84433f8c2df66720c70645,UltraFrog22,,,OK,
-f5d6ec71f23748b3bf2f5aa4c68bfdbe,LaaCarpe,,,OK Scraped (Match),2025-06-17T03:59:08.142699+00:00
+f5d6ec71f23748b3bf2f5aa4c68bfdbe,LaaCarpe,,,OK Scraped (Match),2025-06-17T04:40:47.316897+00:00
 f5e10400fcef493583a8817eae6c387d,ddvid,,,OK,
 f5e3eeee7fda42aea0c61f18db942483,Wandyhp,,1014,OK Scraped (Match),2025-06-16T16:45:03.998913+00:00
 f5e448ae1ea44841be0503f5d2836e18,AwesomeAxel8576,,974,OK Scraped (Match),2025-06-09T09:35:38.011275+00:00
@@ -11827,7 +11827,7 @@ f667c6fda16241d49adf65259f99126b,itsdxrk,itsdxrkLIVE,1361,OK Scraped (Match),202
 f66ed64d14914f1f8fd716f6ee286d2f,pizzapat717750,,,OK,
 f684514fef93429da94437d82edb69a9,Hyeoya,,,OK,
 f68701518e414ddb8cf483eea8418481,PatoxMC,,,OK,
-f6917477326f4789a00d27bfc6cab612,Rinnne0246,Rinnne0246,1258,OK Updated (Match),2025-06-17T03:56:10.058013+00:00
+f6917477326f4789a00d27bfc6cab612,Rinnne0246,Rinnne0246,1258,OK Scraped (Match),2025-06-17T04:41:39.871980+00:00
 f696103e7ad444d0848c6aa20ff0caa9,Pyrobeam_xD,,,OK,
 f697676eb2574b16ac8bcd0c65c9e8ad,Bunnies_SpeciaL,,,OK,
 f6a0c034f094468d8e696cf417e144b6,ItsKagu,,,OK Scraped (Match),2025-05-05T18:35:32.779713+00:00
@@ -11863,7 +11863,7 @@ f754a415fe554df48449601db7c1da8d,sketchedtacos,,,OK,
 f754b871fa114f11b8177f48abec61ab,DeadlyFarts,deadlyfarts_,1373,OK Scraped (Match),2025-06-14T23:29:59.512747+00:00
 f75ff07d6a98479f9bf9964710dc18fb,lonewolf_alfa,,,OK Scraped (Match),2025-05-17T23:30:04.913210+00:00
 f763d121fe3245c39f8649b06a8fac88,sobabobak,,,OK,
-f765d84ed63043d1b92256432bfbfce4,D1ANAsdog,,1289,OK Scraped (Match),2025-06-14T14:32:50.129292+00:00
+f765d84ed63043d1b92256432bfbfce4,D1ANAsdog,,1311,OK Updated (Match),2025-06-17T04:46:37.595969+00:00
 f7663d1349e04af69fb995e3dac3c46f,PotatoChipSquire,,,OK,
 f768059cf3a447d29199dc859a1bf34f,Timberwolf922,,,OK,
 f76a0ffa0d1b423e864b72563b6150d3,alepou465714,,,OK,
@@ -11880,7 +11880,7 @@ f79391b468434c4ba393f7b1e79422d8,Da_KiD_WiZeyt,Da_KiD_WizZe,,OK,
 f793d0fb4b2b4f089074f32f8deb17eb,Jakwicc,jakwicc,1260,OK Scraped (Match),2025-06-15T19:22:37.383939+00:00
 f798f48a45634dc4b26f469b9226c345,holdntwodix,,,OK,
 f79e47c771e949ffa641f73c69dd3af7,DJGL,,,OK,
-f7a543d491fe46dc9f3571e1bbeefedd,philip_trout,,1131,OK Updated (Match),2025-06-17T03:57:42.956354+00:00
+f7a543d491fe46dc9f3571e1bbeefedd,philip_trout,,1131,OK Scraped (Match),2025-06-17T04:45:50.325871+00:00
 f7a5741e969a4267b52465120481cbeb,Prashfly,,770,OK Scraped (Match),2025-06-16T15:35:32.624223+00:00
 f7af0092722443d78fa348e3a4c2f162,DefinitionSaurus,,,OK Scraped (Match),2025-06-15T17:31:07.950863+00:00
 f7b3553d26d74f58ada9883ce8d43765,Dip_Ilias6,,,OK,
@@ -11954,7 +11954,7 @@ f8e129729b234e3490f5c4f0c7ce8ad3,wparr,,,OK,
 f8e1e544a6304b5fb0ee0aebbaca5032,inksuki,,888,OK Scraped (Match),2025-06-15T22:32:32.260991+00:00
 f8f47b81d9714584a7baf36d04508613,Noetis_,,,OK,
 f8f53cf76c0442edbba094fe4f6b06dc,Jay31101,,,OK,
-f8fae1e017c442fd82d4817ab813ad1b,Vekp,dummytransgirl,1602,OK Updated (Match),2025-06-17T03:55:54.592526+00:00
+f8fae1e017c442fd82d4817ab813ad1b,Vekp,dummytransgirl,1581,OK Updated (Match),2025-06-17T04:42:18.387935+00:00
 f8fe31cbb3094048beabb58a55a94a49,jziemniaky1,,936,OK,
 f8fe47373f58419d9a7e565f4267f7ac,TechnoBlade34261,,572,OK Scraped (Match),2025-06-12T17:35:30.165678+00:00
 f8feca0880d1466da76396955a995d54,NoahNoah_,,907,OK Scraped (Match),2025-05-05T07:35:17.171857+00:00
@@ -12005,7 +12005,7 @@ f9e5ef03752f40ffb1d285de8c56fd06,jr212,,924,OK Scraped (Match),2025-05-31T19:22:
 f9e6db01c0ee4728907b8458a4a7aef1,miroxed,,,OK,
 f9eba5701a884e7ca6fea5e2a514933a,slender_man14514,,,OK,
 f9f026791a2740898fd2f8ade7335d85,Bweve,,,OK,
-f9f8f527bb9740749cb44210b57425d1,Aleeksk,,1017,OK Updated (Match),2025-06-17T03:57:36.779952+00:00
+f9f8f527bb9740749cb44210b57425d1,Aleeksk,,1017,OK Scraped (Match),2025-06-17T04:44:14.021961+00:00
 f9f910e57b4146c99eef5dc577c43976,Elt10o,,,OK,
 f9fac1d15f5f44f5903f40e57b9703ca,VerdantLandscape,,,OK,
 f9fc465f6e2d4a55bfdf7c822b935fe7,SebaLes2009,,,OK,
@@ -12061,7 +12061,7 @@ fb09880031604b2c858b9ac56490308f,Speed_Demon_Mc,,,OK,
 fb0b2b1cfb4147f6bf3e4bda95c86a75,samlol_,,,OK Scraped (Match),2025-05-04T17:34:27.251339+00:00
 fb0d28f1ab79484894d5787ebaed41c4,Jekie,,,OK,
 fb12c6b04f1944ad844b9f274ffb20bb,Gruttle,gruttle5000,1305,OK Scraped (Match),2025-06-16T23:29:16.279452+00:00
-fb182993b6a543d6a73865eceff5d2e2,cmproo,,1051,OK Updated (Match),2025-06-17T03:55:08.124598+00:00
+fb182993b6a543d6a73865eceff5d2e2,cmproo,,1051,OK Scraped (Match),2025-06-17T04:40:45.566755+00:00
 fb187869ab5e484e977768803087b5b4,200T_oneZ,,,OK,
 fb2bd99d6f664e7b96cc6a24834b9a76,tucrack,TuCarta,1687,OK Scraped (Match),2025-06-16T23:35:22.138527+00:00
 fb2f9954083e4f3ab437625e60f99180,MaxiZibbi,,,OK,
@@ -12153,7 +12153,7 @@ fd3259259c0947f1b3416f96ff6582fa,uposigiemka,,,OK,
 fd3505fce272473d99170375a20753c1,adjacents,,697,OK Scraped (Match),2025-05-01T23:37:14.262734+00:00
 fd3aa5d750a54062b077cd6152473c73,mcsrPig,,,OK,
 fd414fae84c74765b403aa2ac01d1c35,hang_xie,,1228,OK Scraped (Match),2025-06-16T09:37:00.162790+00:00
-fd41b995cbef4fa392d833a6f2596797,JIANZHANGgl,,1033,OK Updated (Match),2025-06-17T03:54:49.511582+00:00
+fd41b995cbef4fa392d833a6f2596797,JIANZHANGgl,,995,OK Updated (Match),2025-06-17T04:45:25.822288+00:00
 fd4d1802ae6140ea9ba37eb9cafa98ba,rany142,,928,OK Scraped (Match),2025-05-25T18:36:36.531883+00:00
 fd4d6b53581d4e77baf53e033bc8c3c0,wind2earth,,990,OK Scraped (Match),2025-06-14T05:36:03.543189+00:00
 fd5adb8dcb2d41208c7b37f16b3bede9,byebysa,,,OK,
@@ -12170,14 +12170,14 @@ fd853202501c4d4aaa8aeb5c12784f82,Bwastyy,,,OK,
 fd8e06667a84423c949fb669292f8bd5,DBombDude,,,OK,
 fd95305a62904524b75a51d349a9a477,KeremavL,,1136,OK Scraped (Match),2025-06-04T18:44:57.926996+00:00
 fd97d4abbce34b71865296b2e683bbef,caicai02,ccaicai2020,692,OK Scraped (Match),2025-06-13T17:35:27.453157+00:00
-fd9e2c9cd9c444deb8abd7423a5735f3,Yamoukady,,1034,OK Scraped (Match),2025-06-17T04:00:58.773696+00:00
+fd9e2c9cd9c444deb8abd7423a5735f3,Yamoukady,,1034,OK Scraped (Match),2025-06-17T04:41:55.626895+00:00
 fda9108c4ccb4f59bce9618ab1322794,bjmiller22,,936,OK,
 fdaf5874378646d0aa4a325aeb0bece6,Sapriston,,,OK,
 fdb48bb2cd8d4a8486898486cb14446f,I300seqwe,,,OK Scraped (Match),2025-06-15T13:42:20.933799+00:00
-fdbee69c6ec04aa2b9612b6a5ea10bc9,Adgie,,,OK Scraped (Match),2025-06-17T03:59:14.400577+00:00
+fdbee69c6ec04aa2b9612b6a5ea10bc9,Adgie,,,OK Scraped (Match),2025-06-17T04:40:36.813366+00:00
 fdbf32f9720e4d7e8df361b2877ff0fb,Jayden_m05,,835,OK Scraped (Match),2025-05-04T21:33:28.429518+00:00
 fdbf51f55dcb4a3abb495f6b18589886,SCHWARZER_RABE97,,,OK Scraped (Match),2025-06-04T23:29:37.100223+00:00
-fdc2d4b6c1e24f70b14d9b39d692060a,angie_0129,,1054,OK Scraped (Match),2025-06-17T03:58:15.476518+00:00
+fdc2d4b6c1e24f70b14d9b39d692060a,angie_0129,,1054,OK Scraped (Match),2025-06-17T04:46:51.603997+00:00
 fdc9365fd7d148c9ac0caae4bfb4f259,awzu,,,OK,
 fdcbd738ce1b4df5829d56f9a0758d57,HaydCarterPookie,,987,OK Scraped (Match),2025-06-17T03:59:59.618807+00:00
 fdd0040e14314217bf8f7f6579a50f13,Fhruh,fhruh_,,OK,
@@ -12259,7 +12259,7 @@ ff96e31760b2465e9dd3ed2f81c07c49,_SkyBlitz_,,,OK,
 ff97fb4e263d4ba197fd82f2c9486c87,NoHaxJustChair,,,OK,
 ff99c30edc1b40738758c3ca890f410f,ichika_hoshino39,,1052,OK Scraped (Match),2025-06-15T02:30:32.105040+00:00
 ffa255e49e814b44b7d36c5bdf77f630,shaharola,,302,OK Scraped (Match),2025-05-03T16:37:07.652468+00:00
-ffa2f97312314112baead140c009eadb,_Jacrispy,,842,OK Updated (Match),2025-06-17T03:58:24.748268+00:00
+ffa2f97312314112baead140c009eadb,_Jacrispy,,842,OK Scraped (Match),2025-06-17T04:43:28.447224+00:00
 ffab95b5723f4fb0910b390dfad61949,KaziLowkeyGoated,,,OK,
 ffb8d4f5aa2d4344b0c98a3e7d340260,kolonoubo123,,,OK,
 ffb9ee778ad14ae0bcf1005750ba2e90,BubLblckZ,,1296,OK Scraped (Match),2025-06-16T13:01:18.741326+00:00
@@ -12282,5 +12282,5 @@ ffeaa032391e4122b408717dc39195be,MushyMeow,,,OK,
 fff69cf1250d4857a5175bce919311ac,Katatyo,,,OK,
 fff6d68d6cfc4ce2bac77494cc5934f7,ZeothernLMAO,,887,OK Scraped (Match),2025-05-08T17:37:51.340086+00:00
 fff7fb0f504f4fa78132555a5a24da2c,alsabala,,,OK Scraped (Match),2025-05-02T20:37:28.917905+00:00
-fffc8feeef124e53b32c52278a381707,defcnd,,708,OK Scraped (Match),2025-06-17T03:55:57.682124+00:00
+fffc8feeef124e53b32c52278a381707,defcnd,,708,OK Scraped (Match),2025-06-17T04:41:29.354065+00:00
 15c68cc463hb43j480k11l64o9637b24,lb,shorttimesub,1,OK Scraped (Match),2025-05-06T23:35:46.841300+00:00
