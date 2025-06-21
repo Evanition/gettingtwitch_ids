@@ -33,7 +33,7 @@ MATCHES_PER_PAGE = 100                   # Max allowed by API
 
 # Update Logic for Existing Users
 # Don't update user's full profile if scraped within this interval
-UPDATE_INTERVAL_MINUTES = 60
+UPDATE_INTERVAL_MINUTES = 30
 # --- End Configuration ---
 
 
