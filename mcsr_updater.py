@@ -11,7 +11,7 @@ import math
 USER_API_URL_TEMPLATE = "https://mcsrranked.com/api/users/{}"
 MATCHES_API_URL = "https://mcsrranked.com/api/matches"
 DATA_CSV_PATH = 'mcsr_user_data.csv'       # Path for main user data CSV
-# NEW: File to store the ID of the newest match seen
+# File to store the ID of the newest match seen
 LAST_MATCH_ID_FILE = 'last_match_id.txt'
 
 # API Request Delays
@@ -27,13 +27,14 @@ RETRY_WAIT_SECONDS = 60                  # How long to wait after a 429 error
 CONSECUTIVE_API_ERROR_LIMIT = 5
 
 # Fetching Logic
-# NEW NAME: How many recent matches to try and fetch in THIS run
+# Max number of *new* recent matches to attempt to fetch in THIS run.
+# The script will stop if it fetches this many, OR if it hits matches already seen.
 MAX_RECENT_MATCHES_TO_FETCH_PER_RUN = 10000
 MATCHES_PER_PAGE = 100                   # Max allowed by API
 
 # Update Logic for Existing Users
 # Don't update user's full profile if scraped within this interval
-UPDATE_INTERVAL_MINUTES = 30
+UPDATE_INTERVAL_MINUTES = 10
 # --- End Configuration ---
 
 
@@ -72,7 +73,7 @@ def get_api_data(url, params=None):
     while retries < MAX_RETRIES:
         try:
             # Updated user agent version
-            headers = {'User-Agent': 'MCSRRankedDataUpdaterScript/1.3'}
+            headers = {'User-Agent': 'MCSRRankedDataUpdaterScript/1.4'}
             response = requests.get(
                 url, params=params, headers=headers, timeout=25)
 
@@ -198,7 +199,7 @@ processed_match_players = 0
 # UUIDs that need a full profile fetch (for Twitch etc.)
 uuids_to_fetch_full_profile = set()
 
-# NEW: Variables for tracking newest match for next run
+# Variables for tracking newest match for next run
 first_match_id_in_run = None  # Stores the ID of the newest match found in THIS run
 last_run_match_id = None     # Stores the ID of the newest match from the PREVIOUS run
 
@@ -209,7 +210,6 @@ try:
         f"Last match ID from previous run: {last_run_match_id if last_run_match_id else 'None (first run or file error)'}")
 
     # --- 1. Read existing user data OR create new CSV with headers ---
-    # If the CSV file does not exist, create it with the baseline headers
     if not os.path.exists(DATA_CSV_PATH):
         print(
             f"Data file '{DATA_CSV_PATH}' not found. Creating a new one with baseline headers.")
@@ -223,22 +223,16 @@ try:
                 f"Error creating new CSV file '{DATA_CSV_PATH}': {e}. Exiting.", file=sys.stderr)
             sys.exit(1)
 
-    # Now, DATA_CSV_PATH is guaranteed to exist (even if just created empty)
     print(f"Reading existing data from {DATA_CSV_PATH}...")
     try:
         with open(DATA_CSV_PATH, 'r', newline='', encoding='utf-8-sig') as infile:
             reader = csv.DictReader(infile)
 
-            # If the CSV has no actual data rows (just headers or empty), use baseline headers
             if not reader.fieldnames:
                 print(
                     f"CSV file '{DATA_CSV_PATH}' has no content. Using baseline headers.")
-                # original_headers is already set to the baseline
             else:
-                # If file has headers, use them and ensure all required/optional ones are present
                 current_file_headers = list(reader.fieldnames)
-
-                # Ensure all *required* headers are present
                 required_cols = ['uuid', 'eloRate', 'nickname']
                 missing_req = [
                     col for col in required_cols if col not in current_file_headers]
@@ -247,22 +241,17 @@ try:
                         f"Error: CSV must contain required columns: {', '.join(missing_req)}. Exiting.", file=sys.stderr)
                     sys.exit(1)
 
-                # Add any *optional* headers if they are missing from the file's current headers
                 for col in ['status', 'last_scraped_at', 'twitch_name']:
                     if col not in current_file_headers:
                         current_file_headers.append(col)
-                # Update the global headers list based on file + additions
                 original_headers = current_file_headers
 
-            # Read rows and populate user_data_map
-            # Keep original order and rows with missing UUIDs for now
             all_rows_from_csv = list(reader)
             temp_map = {}
             rows_with_missing_uuid = 0
             for i, user_row in enumerate(all_rows_from_csv):
                 uuid = user_row.get('uuid')
                 if uuid:
-                    # Ensure all cells for existing rows are initialized for all original_headers
                     for col in original_headers:
                         user_row.setdefault(col, '')
                     temp_map[uuid] = user_row
@@ -270,10 +259,9 @@ try:
                     rows_with_missing_uuid += 1
                     for col in original_headers:
                         user_row.setdefault(col, '')
-                    # Mark rows that can't be processed
                     user_row['status'] = "Skipped (Missing UUID)"
 
-            user_data_map = temp_map  # This map only contains valid UUIDs
+            user_data_map = temp_map
             if rows_with_missing_uuid > 0:
                 print(
                     f"Warning: {rows_with_missing_uuid} row(s) in CSV have missing UUID and will be excluded from updates.", file=sys.stderr)
@@ -293,35 +281,37 @@ try:
 
     # --- 2. Update/Add Users from Recent Matches (Phase 1 - PAGINATED) ---
     print(f"Fetching matches (in pages of {MATCHES_PER_PAGE})...")
-    matches_data_aggregated = []  # Store all matches here
-    # Used for the 'before' cursor within this run
+    matches_data_aggregated = []
     last_match_id_for_pagination = None
     fetch_match_error = None
     pages_fetched = 0
     consecutive_match_api_errors = 0
 
-    # Loop to fetch new matches using 'after' and paginate if needed
-    while len(matches_data_aggregated) < MAX_RECENT_MATCHES_TO_FETCH_PER_RUN:
+    # NEW: Flag to stop fetching if we've found matches older than last_run_match_id
+    reached_old_matches = False
+
+    while len(matches_data_aggregated) < MAX_RECENT_MATCHES_TO_FETCH_PER_RUN and not reached_old_matches:
         pages_fetched += 1
         current_params = {'count': MATCHES_PER_PAGE}
 
-        # If this is the first page of matches for THIS run, use 'after' to get new matches
-        # Otherwise, use 'before' to paginate further back for more matches in this run
         if pages_fetched == 1 and last_run_match_id:
+            # First request, use 'after' to get matches newer than last_run_match_id
             current_params['after'] = last_run_match_id
             print(
                 f"\rFetching match page {pages_fetched} (after ID: {last_run_match_id})...", end='', file=sys.stderr)
         elif last_match_id_for_pagination:
+            # Subsequent requests for this run, paginate 'before' the last seen ID in this run
             current_params['before'] = last_match_id_for_pagination
             print(
                 f"\rFetching match page {pages_fetched} (before ID: {last_match_id_for_pagination})...", end='', file=sys.stderr)
-        else:  # First run, no previous ID to start after, and no 'before' yet
+        else:
+            # First run or no last_run_match_id, get latest matches without 'after'
             print(
                 f"\rFetching match page {pages_fetched} (latest matches)...", end='', file=sys.stderr)
 
         sys.stderr.flush()
 
-        time.sleep(DELAY_MATCHES_SECONDS)  # Delay before each page request
+        time.sleep(DELAY_MATCHES_SECONDS)
         current_batch, match_error = get_api_data(
             MATCHES_API_URL, params=current_params)
 
@@ -334,31 +324,61 @@ try:
                     "Too many consecutive match API errors. Stopping match fetch.", file=sys.stderr)
                 fetch_match_error = match_error
                 break
-            continue  # Retry the same page
+            continue
 
         consecutive_match_api_errors = 0  # Reset error count on success
 
-        if not current_batch:  # API returned empty list (no more matches)
+        if not current_batch:
             print("\nNo more matches found (or no new matches after the last known ID).")
-            break  # Stop if API returns no more data
+            break
 
         # NEW: Capture the newest match ID from the first successful batch
-        if first_match_id_in_run is None:
-            first_match_id_in_run = current_batch[0].get(
-                'id') if current_batch else None
+        if first_match_id_in_run is None and current_batch:
+            first_match_id_in_run = current_batch[0].get('id')
             if first_match_id_in_run:
                 print(
                     f"\nNewest match ID found in this run: {first_match_id_in_run}")
 
-        matches_data_aggregated.extend(current_batch)
+        # Track how many matches from current_batch were actually new and added
+        matches_added_this_batch = 0
 
-        # Get the ID of the last match in this batch for the next 'before' cursor (to get older matches in the current run)
-        if current_batch and current_batch[-1].get('id'):
-            last_match_id_for_pagination = current_batch[-1]['id']
+        for match in current_batch:
+            match_id = match.get('id')
+            if match_id is None:
+                print(
+                    f"\nWarning: Match data missing 'id'. Skipping this match.", file=sys.stderr)
+                continue
+
+            # NEW STOPPING CONDITION: If current match ID is <= the last ID from the previous run
+            if last_run_match_id is not None and match_id <= last_run_match_id:
+                print(
+                    f"\nReached match ID {match_id} (<= last run's {last_run_match_id}). Stopping match fetching early.")
+                reached_old_matches = True
+                break  # Break from inner loop (processing current_batch)
+
+            # If we haven't reached old matches and haven't hit our target yet, add this match
+            if len(matches_data_aggregated) < MAX_RECENT_MATCHES_TO_FETCH_PER_RUN:
+                matches_data_aggregated.append(match)
+                matches_added_this_batch += 1
+            else:
+                # We've hit the target count within this batch
+                print(
+                    f"\nReached target of {MAX_RECENT_MATCHES_TO_FETCH_PER_RUN} matches. Stopping early.")
+                reached_old_matches = True
+                break  # Break from inner loop
+
+        if reached_old_matches:  # If the inner loop broke due to hitting old matches or target
+            break  # Break from outer `while` loop (fetching pages)
+
+        # Update last_match_id_for_pagination based on the *last* match that was actually added
+        if matches_data_aggregated:
+            last_match_id_for_pagination = matches_data_aggregated[-1].get(
+                'id')
+        # No matches were added from this batch (e.g., all were too old or invalid)
         else:
             print(
-                f"\nWarning: Last match in batch {pages_fetched} missing 'id'. Cannot paginate further.", file=sys.stderr)
-            break  # Stop pagination if ID is missing
+                "\nNo new matches were added from the last batch. Stopping match fetch.")
+            break  # Stop if no new data is being collected
 
         # Stop if the API returned fewer matches than requested (indicates end of history)
         if len(current_batch) < MATCHES_PER_PAGE:
@@ -366,9 +386,8 @@ try:
                 f"\nReached end of available match history (received {len(current_batch)} matches in last batch).")
             break
 
-    # --- End of pagination loop ---
     print(
-        f"\nFetched a total of {len(matches_data_aggregated)} matches across {pages_fetched} page(s).")
+        f"\nFetched a total of {len(matches_data_aggregated)} NEW matches across {pages_fetched} page(s).")
 
     # --- Process the aggregated matches ---
     if matches_data_aggregated:
@@ -392,9 +411,8 @@ try:
                 player_elo = player.get('eloRate')
                 player_nick = player.get('nickname')
 
-                if player_uuid:  # Only proceed if a valid UUID is present
+                if player_uuid:
                     if player_uuid in user_data_map:
-                        # --- Existing User Logic ---
                         user_row = user_data_map[player_uuid]
                         last_scraped_str = user_row.get('last_scraped_at', '')
                         processed_match_players += 1
@@ -402,7 +420,7 @@ try:
                         if should_update_user(last_scraped_str, UPDATE_INTERVAL_MINUTES):
                             update_made_in_match = False
                             new_elo_str = '' if player_elo is None else str(
-                                player_elo)  # Handle null eloRate
+                                player_elo)
                             if user_row.get('eloRate') != new_elo_str:
                                 user_row['eloRate'] = new_elo_str
                                 update_made_in_match = True
@@ -416,37 +434,29 @@ try:
                             else:
                                 user_row['status'] = "OK Scraped (Match)"
 
-                            # Mark for full profile fetch
                             uuids_to_fetch_full_profile.add(player_uuid)
-                            # Update timestamp
                             user_row['last_scraped_at'] = now_utc_iso_match_phase
 
                         else:
-                            # User recently scraped, just mark as skipped if no active status
                             if "OK" not in user_row.get('status', ''):
                                 user_row['status'] = "OK (Skipped - Recent)"
                             skipped_recent_count += 1
                     else:
-                        # --- NEW User Logic ---
                         new_user_row = {
                             'uuid': player_uuid,
                             'nickname': player_nick,
                             'eloRate': '' if player_elo is None else str(player_elo),
-                            'twitch_name': '',  # Initialize empty, will be filled in next phase
-                            # Mark as newly added from match
+                            'twitch_name': '',
                             'status': 'New (Match)',
                             'last_scraped_at': now_utc_iso_match_phase,
                         }
-                        # Ensure all baseline/original_headers are present for the new row, even if empty
                         for header in original_headers:
                             new_user_row.setdefault(header, '')
 
-                        # Add to our in-memory map
                         user_data_map[player_uuid] = new_user_row
-                        # Mark for full profile fetch
                         uuids_to_fetch_full_profile.add(player_uuid)
-                        processed_match_players += 1  # Count this new user as processed
-                        new_users_added_count += 1  # Increment new user counter
+                        processed_match_players += 1
+                        new_users_added_count += 1
 
         print(
             f"\nFinished processing matches. Identified {len(uuids_to_fetch_full_profile)} users for Twitch update.")
@@ -498,7 +508,6 @@ try:
                     twitch_updated = True
                     update_count_twitch += 1
 
-                # Update status based on what happened
                 current_status = user_row.get('status', '')
                 if "New" in current_status:
                     user_row['status'] = "New (Match + Twitch)" if twitch_updated else "New (Match)"
@@ -572,7 +581,6 @@ try:
 
 except KeyboardInterrupt:
     print("\n--- Process interrupted by user. Saving current progress... ---", file=sys.stderr)
-    # Perform a quick save if interrupted
     final_data_list = list(user_data_map.values())
     if final_data_list:
         try:
