@@ -20,7 +20,7 @@ RETRY_WAIT_SECONDS = 60               # How long to wait after a 429 error
 TARGET_MATCH_COUNT = 10000              # <<< GOAL: How many recent matches to fetch
 MATCHES_PER_PAGE = 100                # <<< Based on API constraints (max 100)
 # Don't update if scraped within this interval
-UPDATE_INTERVAL_MINUTES = 60
+UPDATE_INTERVAL_MINUTES = 120
 # --- End Configuration ---
 
 
