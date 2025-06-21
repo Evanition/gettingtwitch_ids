@@ -13,11 +13,11 @@ MATCHES_API_URL = "https://mcsrranked.com/api/matches"
 DATA_CSV_PATH = 'mcsr_user_data.csv'  # Assumed to be in the same directory
 
 # Increased slightly for pagination politeness
-DELAY_MATCHES_SECONDS = 1.5
+DELAY_MATCHES_SECONDS = 1.22
 DELAY_USER_SECONDS = 1.22              # Delay between individual user API requests
 MAX_RETRIES = 3                       # Max retries for errors (like 429)
 RETRY_WAIT_SECONDS = 60               # How long to wait after a 429 error
-TARGET_MATCH_COUNT = 5000              # <<< GOAL: How many recent matches to fetch
+TARGET_MATCH_COUNT = 50000              # <<< GOAL: How many recent matches to fetch
 MATCHES_PER_PAGE = 100                # <<< Based on API constraints (max 100)
 # Don't update if scraped within this interval
 UPDATE_INTERVAL_MINUTES = 60
