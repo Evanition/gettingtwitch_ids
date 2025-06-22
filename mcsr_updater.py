@@ -11,30 +11,26 @@ import math
 USER_API_URL_TEMPLATE = "https://mcsrranked.com/api/users/{}"
 MATCHES_API_URL = "https://mcsrranked.com/api/matches"
 DATA_CSV_PATH = 'mcsr_user_data.csv'       # Path for main user data CSV
-# File to store the ID of the newest match seen
-LAST_MATCH_ID_FILE = 'last_match_id.txt'
+LAST_MATCH_ID_FILE = 'last_match_id.txt' # File to store the ID of the newest match seen
 
 # API Request Delays
-DELAY_MATCHES_SECONDS = 1.21              # Delay between match list API requests
-# Delay between individual user API requests
-DELAY_USER_SECONDS = 1.21
+DELAY_MATCHES_SECONDS = 1.5              # Delay between match list API requests
+DELAY_USER_SECONDS = 1.3                 # Delay between individual user API requests
 
 # Retry Mechanism
-# Max retries for API errors (like 429, timeouts)
-MAX_RETRIES = 3
+MAX_RETRIES = 3                          # Max retries for API errors (like 429, timeouts)
 RETRY_WAIT_SECONDS = 60                  # How long to wait after a 429 error
-# Stop phase if this many consecutive API errors occur
-CONSECUTIVE_API_ERROR_LIMIT = 5
+CONSECUTIVE_API_ERROR_LIMIT = 5          # Stop phase if this many consecutive API errors occur
 
 # Fetching Logic
 # Max number of *new* recent matches to attempt to fetch in THIS run.
 # The script will stop if it fetches this many, OR if it hits matches already seen.
-MAX_RECENT_MATCHES_TO_FETCH_PER_RUN = 10000
+MAX_RECENT_MATCHES_TO_FETCH_PER_RUN = 1000
 MATCHES_PER_PAGE = 100                   # Max allowed by API
+MATCH_TYPE_FILTER = 2                    # NEW: Filter for Ranked Matches (2 = Ranked Match)
 
 # Update Logic for Existing Users
-# Don't update user's full profile if scraped within this interval
-UPDATE_INTERVAL_MINUTES = 10
+UPDATE_INTERVAL_MINUTES = 10             # Don't update user's full profile if scraped within this interval
 # --- End Configuration ---
 
 
@@ -72,21 +68,17 @@ def get_api_data(url, params=None):
     retries = 0
     while retries < MAX_RETRIES:
         try:
-            # Updated user agent version
-            headers = {'User-Agent': 'MCSRRankedDataUpdaterScript/1.4'}
+            headers = {'User-Agent': 'MCSRRankedDataUpdaterScript/1.5'} # Updated user agent version
             response = requests.get(
                 url, params=params, headers=headers, timeout=25)
 
             if response.status_code == 200:
                 try:
                     data = response.json()
-                    # MCSR API /users/{id} returns JSON wrapped in status/data
                     if isinstance(data, dict) and data.get('status') == 'success':
                         return data.get('data'), None
-                    # MCSR API /matches/ returns list directly, not wrapped
                     elif isinstance(data, list):
                         return data, None
-                    # Fallback for unexpected structure but 200 OK
                     else:
                         err_msg = f"Unexpected JSON structure. Status: {data.get('status', 'N/A')}, Data Type: {type(data)}"
                         print(
@@ -98,7 +90,7 @@ def get_api_data(url, params=None):
                     return None, "Invalid JSON Response"
 
             elif response.status_code == 404:
-                return None, 404  # Not found (e.g., user doesn't exist)
+                return None, 404
 
             elif response.status_code == 429:
                 print(
@@ -107,7 +99,6 @@ def get_api_data(url, params=None):
                 retries += 1
                 print(
                     f"Retrying {url} (Attempt {retries}/{MAX_RETRIES})...", file=sys.stderr)
-                # Retry the request (don't increment consecutive errors yet)
                 continue
 
             elif response.status_code == 400:
@@ -120,8 +111,8 @@ def get_api_data(url, params=None):
                             f"  API Error Message: {error_data.get('data')}", file=sys.stderr)
                         return None, f"API Error: {error_data.get('data')}"
                 except requests.exceptions.JSONDecodeError:
-                    pass  # Couldn't parse error JSON, just proceed
-                return None, "HTTP 400"  # Return generic 400 if no specific message
+                    pass
+                return None, "HTTP 400"
 
             else:
                 print(
@@ -134,7 +125,7 @@ def get_api_data(url, params=None):
             if retries < MAX_RETRIES:
                 print(
                     f"Retrying {url} after timeout (Attempt {retries}/{MAX_RETRIES})...", file=sys.stderr)
-                time.sleep(5)  # Short delay before timeout retry
+                time.sleep(5)
                 continue
             else:
                 print(
@@ -143,12 +134,9 @@ def get_api_data(url, params=None):
 
         except requests.exceptions.RequestException as e:
             print(f"\nNetwork/Request Error for {url}: {e}", file=sys.stderr)
-            # This is a broader error, let caller decide if it should count towards consecutive
             return None, "Network Error"
 
-    # If retries exhausted
-    print(
-        f"\nMax retries exhausted for {url}. Giving up on this request.", file=sys.stderr)
+    print(f"\nMax retries exhausted for {url}. Giving up on this request.", file=sys.stderr)
     return None, "Retries Exhausted"
 
 
@@ -161,10 +149,9 @@ def read_last_match_id(filepath):
                 if content:
                     return int(content)
         except (ValueError, IOError) as e:
-            print(
-                f"Warning: Could not read/parse {filepath}: {e}", file=sys.stderr)
+            print(f"Warning: Could not read/parse {filepath}: {e}", file=sys.stderr)
             traceback.print_exc(file=sys.stderr)
-    return None  # No ID found or error
+    return None
 
 
 def write_last_match_id(filepath, match_id):
@@ -183,44 +170,34 @@ print(
     f"--- Starting Update Cycle at {run_start_time.strftime('%Y-%m-%d %H:%M:%S')} ---")
 
 # --- Initialize variables for this run ---
-# Stores UUID -> user_row_dict (for quick lookup and modification)
 user_data_map = {}
-# Define baseline headers for a potentially new/empty CSV.
-# These are the columns we expect to manage.
-original_headers = ['uuid', 'nickname', 'eloRate',
-                    'twitch_name', 'status', 'last_scraped_at']
+original_headers = ['uuid', 'nickname', 'eloRate', 'twitch_name', 'status', 'last_scraped_at']
 
-# Counters for summary
 update_count_match = 0
 update_count_twitch = 0
 skipped_recent_count = 0
 new_users_added_count = 0
 processed_match_players = 0
-# UUIDs that need a full profile fetch (for Twitch etc.)
 uuids_to_fetch_full_profile = set()
 
-# Variables for tracking newest match for next run
-first_match_id_in_run = None  # Stores the ID of the newest match found in THIS run
-last_run_match_id = None     # Stores the ID of the newest match from the PREVIOUS run
+first_match_id_in_run = None
+last_run_match_id = None
 
 try:
     # --- 0. Read the last match ID from previous run ---
     last_run_match_id = read_last_match_id(LAST_MATCH_ID_FILE)
-    print(
-        f"Last match ID from previous run: {last_run_match_id if last_run_match_id else 'None (first run or file error)'}")
+    print(f"Last match ID from previous run: {last_run_match_id if last_run_match_id else 'None (first run or file error)'}")
 
     # --- 1. Read existing user data OR create new CSV with headers ---
     if not os.path.exists(DATA_CSV_PATH):
-        print(
-            f"Data file '{DATA_CSV_PATH}' not found. Creating a new one with baseline headers.")
+        print(f"Data file '{DATA_CSV_PATH}' not found. Creating a new one with baseline headers.")
         try:
             with open(DATA_CSV_PATH, 'w', newline='', encoding='utf-8') as outfile:
                 writer = csv.DictWriter(outfile, fieldnames=original_headers)
                 writer.writeheader()
             print(f"Created new CSV: {DATA_CSV_PATH}")
         except IOError as e:
-            print(
-                f"Error creating new CSV file '{DATA_CSV_PATH}': {e}. Exiting.", file=sys.stderr)
+            print(f"Error creating new CSV file '{DATA_CSV_PATH}': {e}. Exiting.", file=sys.stderr)
             sys.exit(1)
 
     print(f"Reading existing data from {DATA_CSV_PATH}...")
@@ -229,16 +206,13 @@ try:
             reader = csv.DictReader(infile)
 
             if not reader.fieldnames:
-                print(
-                    f"CSV file '{DATA_CSV_PATH}' has no content. Using baseline headers.")
+                print(f"CSV file '{DATA_CSV_PATH}' has no content. Using baseline headers.")
             else:
                 current_file_headers = list(reader.fieldnames)
                 required_cols = ['uuid', 'eloRate', 'nickname']
-                missing_req = [
-                    col for col in required_cols if col not in current_file_headers]
+                missing_req = [col for col in required_cols if col not in current_file_headers]
                 if missing_req:
-                    print(
-                        f"Error: CSV must contain required columns: {', '.join(missing_req)}. Exiting.", file=sys.stderr)
+                    print(f"Error: CSV must contain required columns: {', '.join(missing_req)}. Exiting.", file=sys.stderr)
                     sys.exit(1)
 
                 for col in ['status', 'last_scraped_at', 'twitch_name']:
@@ -263,20 +237,17 @@ try:
 
             user_data_map = temp_map
             if rows_with_missing_uuid > 0:
-                print(
-                    f"Warning: {rows_with_missing_uuid} row(s) in CSV have missing UUID and will be excluded from updates.", file=sys.stderr)
+                print(f"Warning: {rows_with_missing_uuid} row(s) in CSV have missing UUID and will be excluded from updates.", file=sys.stderr)
 
     except Exception as e:
-        print(
-            f"Error reading/initializing CSV: {e}. Exiting.", file=sys.stderr)
+        print(f"Error reading/initializing CSV: {e}. Exiting.", file=sys.stderr)
         traceback.print_exc()
         sys.exit(1)
 
     valid_users_in_map = len(user_data_map)
     print(f"Loaded {valid_users_in_map} users with valid UUIDs from CSV.")
 
-    print(
-        f"Attempting to fetch up to {MAX_RECENT_MATCHES_TO_FETCH_PER_RUN} NEW matches (Elo/Nick) and full profiles (Twitch).")
+    print(f"Attempting to fetch up to {MAX_RECENT_MATCHES_TO_FETCH_PER_RUN} NEW Ranked matches (Elo/Nick) and full profiles (Twitch).")
     print("-" * 30)
 
     # --- 2. Update/Add Users from Recent Matches (Phase 1 - PAGINATED) ---
@@ -286,28 +257,21 @@ try:
     fetch_match_error = None
     pages_fetched = 0
     consecutive_match_api_errors = 0
-
-    # NEW: Flag to stop fetching if we've found matches older than last_run_match_id
-    reached_old_matches = False
+    
+    reached_old_matches = False 
 
     while len(matches_data_aggregated) < MAX_RECENT_MATCHES_TO_FETCH_PER_RUN and not reached_old_matches:
         pages_fetched += 1
-        current_params = {'count': MATCHES_PER_PAGE}
+        current_params = {'count': MATCHES_PER_PAGE, 'type': MATCH_TYPE_FILTER} # <--- ADDED MATCH_TYPE_FILTER HERE
 
         if pages_fetched == 1 and last_run_match_id:
-            # First request, use 'after' to get matches newer than last_run_match_id
             current_params['after'] = last_run_match_id
-            print(
-                f"\rFetching match page {pages_fetched} (after ID: {last_run_match_id})...", end='', file=sys.stderr)
+            print(f"\rFetching match page {pages_fetched} (after ID: {last_run_match_id}, type: {MATCH_TYPE_FILTER})...", end='', file=sys.stderr)
         elif last_match_id_for_pagination:
-            # Subsequent requests for this run, paginate 'before' the last seen ID in this run
             current_params['before'] = last_match_id_for_pagination
-            print(
-                f"\rFetching match page {pages_fetched} (before ID: {last_match_id_for_pagination})...", end='', file=sys.stderr)
+            print(f"\rFetching match page {pages_fetched} (before ID: {last_match_id_for_pagination}, type: {MATCH_TYPE_FILTER})...", end='', file=sys.stderr)
         else:
-            # First run or no last_run_match_id, get latest matches without 'after'
-            print(
-                f"\rFetching match page {pages_fetched} (latest matches)...", end='', file=sys.stderr)
+            print(f"\rFetching match page {pages_fetched} (latest matches, type: {MATCH_TYPE_FILTER})...", end='', file=sys.stderr)
 
         sys.stderr.flush()
 
@@ -317,92 +281,72 @@ try:
 
         if match_error:
             consecutive_match_api_errors += 1
-            print(
-                f"\nError fetching match page {pages_fetched}: {match_error}. Attempting retry.", file=sys.stderr)
+            print(f"\nError fetching match page {pages_fetched}: {match_error}. Attempting retry.", file=sys.stderr)
             if consecutive_match_api_errors >= CONSECUTIVE_API_ERROR_LIMIT:
-                print(
-                    "Too many consecutive match API errors. Stopping match fetch.", file=sys.stderr)
+                print("Too many consecutive match API errors. Stopping match fetch.", file=sys.stderr)
                 fetch_match_error = match_error
                 break
             continue
 
-        consecutive_match_api_errors = 0  # Reset error count on success
+        consecutive_match_api_errors = 0
 
         if not current_batch:
-            print("\nNo more matches found (or no new matches after the last known ID).")
+            print("\nNo more matches found (or no new matches after the last known ID, or no matches of specified type).")
             break
 
-        # NEW: Capture the newest match ID from the first successful batch
         if first_match_id_in_run is None and current_batch:
             first_match_id_in_run = current_batch[0].get('id')
             if first_match_id_in_run:
-                print(
-                    f"\nNewest match ID found in this run: {first_match_id_in_run}")
+                print(f"\nNewest match ID found in this run: {first_match_id_in_run}")
 
-        # Track how many matches from current_batch were actually new and added
         matches_added_this_batch = 0
 
         for match in current_batch:
             match_id = match.get('id')
             if match_id is None:
-                print(
-                    f"\nWarning: Match data missing 'id'. Skipping this match.", file=sys.stderr)
+                print(f"\nWarning: Match data missing 'id'. Skipping this match.", file=sys.stderr)
                 continue
 
-            # NEW STOPPING CONDITION: If current match ID is <= the last ID from the previous run
             if last_run_match_id is not None and match_id <= last_run_match_id:
-                print(
-                    f"\nReached match ID {match_id} (<= last run's {last_run_match_id}). Stopping match fetching early.")
+                print(f"\nReached match ID {match_id} (<= last run's {last_run_match_id}). Stopping match fetching early.")
                 reached_old_matches = True
-                break  # Break from inner loop (processing current_batch)
-
-            # If we haven't reached old matches and haven't hit our target yet, add this match
+                break
+            
             if len(matches_data_aggregated) < MAX_RECENT_MATCHES_TO_FETCH_PER_RUN:
                 matches_data_aggregated.append(match)
                 matches_added_this_batch += 1
             else:
-                # We've hit the target count within this batch
-                print(
-                    f"\nReached target of {MAX_RECENT_MATCHES_TO_FETCH_PER_RUN} matches. Stopping early.")
+                print(f"\nReached target of {MAX_RECENT_MATCHES_TO_FETCH_PER_RUN} matches. Stopping early.")
                 reached_old_matches = True
-                break  # Break from inner loop
+                break
 
-        if reached_old_matches:  # If the inner loop broke due to hitting old matches or target
-            break  # Break from outer `while` loop (fetching pages)
+        if reached_old_matches:
+            break
 
-        # Update last_match_id_for_pagination based on the *last* match that was actually added
         if matches_data_aggregated:
-            last_match_id_for_pagination = matches_data_aggregated[-1].get(
-                'id')
-        # No matches were added from this batch (e.g., all were too old or invalid)
+            last_match_id_for_pagination = matches_data_aggregated[-1].get('id')
         else:
-            print(
-                "\nNo new matches were added from the last batch. Stopping match fetch.")
-            break  # Stop if no new data is being collected
+            print("\nNo new matches were added from the last batch. Stopping match fetch.")
+            break
 
-        # Stop if the API returned fewer matches than requested (indicates end of history)
         if len(current_batch) < MATCHES_PER_PAGE:
             print(
                 f"\nReached end of available match history (received {len(current_batch)} matches in last batch).")
             break
 
-    print(
-        f"\nFetched a total of {len(matches_data_aggregated)} NEW matches across {pages_fetched} page(s).")
+    print(f"\nFetched a total of {len(matches_data_aggregated)} NEW matches across {pages_fetched} page(s).")
 
     # --- Process the aggregated matches ---
     if matches_data_aggregated:
-        print(
-            f"Processing {len(matches_data_aggregated)} matches for Elo/Nickname updates and new users...")
+        print(f"Processing {len(matches_data_aggregated)} matches for Elo/Nickname updates and new users...")
         now_utc_iso_match_phase = datetime.datetime.now(
             datetime.timezone.utc).isoformat()
         match_counter = 0
 
         for match in matches_data_aggregated:
             match_counter += 1
-            progress_percent = (
-                match_counter / len(matches_data_aggregated)) * 100
-            print(
-                f"\rProcessing match {match_counter}/{len(matches_data_aggregated)} ({progress_percent:.1f}%). Total unique users: {len(user_data_map)}...", end='', file=sys.stderr)
+            progress_percent = (match_counter / len(matches_data_aggregated)) * 100
+            print(f"\rProcessing match {match_counter}/{len(matches_data_aggregated)} ({progress_percent:.1f}%). Total unique users: {len(user_data_map)}...", end='', file=sys.stderr)
             sys.stderr.flush()
 
             players = match.get('players', [])
@@ -419,8 +363,7 @@ try:
 
                         if should_update_user(last_scraped_str, UPDATE_INTERVAL_MINUTES):
                             update_made_in_match = False
-                            new_elo_str = '' if player_elo is None else str(
-                                player_elo)
+                            new_elo_str = '' if player_elo is None else str(player_elo)
                             if user_row.get('eloRate') != new_elo_str:
                                 user_row['eloRate'] = new_elo_str
                                 update_made_in_match = True
@@ -433,7 +376,7 @@ try:
                                 update_count_match += 1
                             else:
                                 user_row['status'] = "OK Scraped (Match)"
-
+                            
                             uuids_to_fetch_full_profile.add(player_uuid)
                             user_row['last_scraped_at'] = now_utc_iso_match_phase
 
@@ -484,8 +427,7 @@ try:
             sys.stderr.flush()
 
             if uuid_to_fetch not in user_data_map:
-                print(
-                    f"\nWarning: UUID {uuid_to_fetch} marked for fetch but not found in map. Skipping.", file=sys.stderr)
+                print(f"\nWarning: UUID {uuid_to_fetch} marked for fetch but not found in map. Skipping.", file=sys.stderr)
                 continue
 
             user_api_url = USER_API_URL_TEMPLATE.format(uuid_to_fetch)
@@ -498,10 +440,8 @@ try:
                 consecutive_user_api_errors = 0
                 twitch_updated = False
                 connections = fetched_data.get('connections', {})
-                twitch_info = connections.get(
-                    'twitch') if connections else None
-                new_twitch_name = twitch_info.get(
-                    'name', '') if twitch_info else ''
+                twitch_info = connections.get('twitch') if connections else None
+                new_twitch_name = twitch_info.get('name', '') if twitch_info else ''
 
                 if user_row.get('twitch_name', '') != new_twitch_name:
                     user_row['twitch_name'] = new_twitch_name
@@ -523,7 +463,7 @@ try:
                 print(
                     f"\nError fetching full profile for {uuid_to_fetch}: {error_code}", file=sys.stderr)
                 if "Err" not in user_row.get('status', ''):
-                    user_row['status'] += f" / Err Twitch ({error_code})"
+                     user_row['status'] += f" / Err Twitch ({error_code})"
                 consecutive_user_api_errors += 1
                 if consecutive_user_api_errors >= CONSECUTIVE_API_ERROR_LIMIT:
                     print(
@@ -543,15 +483,13 @@ try:
     print(f"  New users added: {new_users_added_count}")
     print(f"  Elo/Nick updates from matches: {update_count_match}")
     print(f"  Twitch name updates: {update_count_twitch}")
-    print(
-        f"  Total updates skipped due to recent scrape: {skipped_recent_count}")
+    print(f"  Total updates skipped due to recent scrape: {skipped_recent_count}")
     print(f"  Total unique users in CSV after run: {len(user_data_map)}")
 
     final_data_list = list(user_data_map.values())
 
     if final_data_list:
-        print(
-            f"Saving {len(final_data_list)} updated user records back to {DATA_CSV_PATH}...")
+        print(f"Saving {len(final_data_list)} updated user records back to {DATA_CSV_PATH}...")
         try:
             with open(DATA_CSV_PATH, 'w', newline='', encoding='utf-8') as outfile:
                 writer = csv.DictWriter(
@@ -574,8 +512,7 @@ try:
     # --- 5. Save the newest match ID for the next run ---
     if first_match_id_in_run is not None:
         write_last_match_id(LAST_MATCH_ID_FILE, first_match_id_in_run)
-        print(
-            f"Saved newest match ID ({first_match_id_in_run}) to {LAST_MATCH_ID_FILE} for next run.")
+        print(f"Saved newest match ID ({first_match_id_in_run}) to {LAST_MATCH_ID_FILE} for next run.")
     else:
         print("No new matches found in this run to update the 'last_match_id.txt' file.")
 
@@ -585,18 +522,15 @@ except KeyboardInterrupt:
     if final_data_list:
         try:
             with open(DATA_CSV_PATH, 'w', newline='', encoding='utf-8') as outfile:
-                writer = csv.DictWriter(
-                    outfile, fieldnames=original_headers, extrasaction='ignore')
+                writer = csv.DictWriter(outfile, fieldnames=original_headers, extrasaction='ignore')
                 writer.writeheader()
                 writer.writerows(final_data_list)
-            print("Successfully saved current data after interruption.",
-                  file=sys.stderr)
+            print("Successfully saved current data after interruption.", file=sys.stderr)
         except IOError as e:
             print(f"Error saving data on interruption: {e}", file=sys.stderr)
     if first_match_id_in_run is not None:
         write_last_match_id(LAST_MATCH_ID_FILE, first_match_id_in_run)
-        print(
-            f"Saved newest match ID ({first_match_id_in_run}) to {LAST_MATCH_ID_FILE} on interruption.", file=sys.stderr)
+        print(f"Saved newest match ID ({first_match_id_in_run}) to {LAST_MATCH_ID_FILE} on interruption.", file=sys.stderr)
 
 except Exception as e:
     print(
