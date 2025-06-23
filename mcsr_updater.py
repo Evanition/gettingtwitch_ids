@@ -29,7 +29,7 @@ CONSECUTIVE_API_ERROR_LIMIT = 5
 # Fetching Logic
 # Max number of *new* recent matches to attempt to fetch in THIS run.
 # The script will stop if it fetches this many, OR if it hits matches already seen.
-MAX_RECENT_MATCHES_TO_FETCH_PER_RUN = 15000
+MAX_RECENT_MATCHES_TO_FETCH_PER_RUN = 300000
 MATCHES_PER_PAGE = 100                   # Max allowed by API
 # NEW: Filter for Ranked Matches (2 = Ranked Match)
 MATCH_TYPE_FILTER = 2
